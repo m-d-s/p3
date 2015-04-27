@@ -20,9 +20,9 @@ code Main
 
 
 ------------------------- Sleeping Barber -----------------------------
-enum ENTER, SIT, BEGIN, FINISH, LEAVE, START, END
+enum ENTER, SIT, BEGIN, FINISH, LEAVE, START, END      -- For display purposes
 var
-    bennys: BarberShop
+    bennys: BarberShop          
     customers: array[20] of Thread = new array of Thread { 5 of new Thread }
 
 function SeepingBarber ()
@@ -31,7 +31,7 @@ function SeepingBarber ()
       j: int
    
     bennys = new BarberShop
-    bennys.Init ()
+    bennys.Init ()                  -- Initialize the shop
    
     for i = 0 to 19
         customer[i].Init ("C" + i)  --Initialize all customers

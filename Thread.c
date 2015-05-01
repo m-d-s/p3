@@ -312,8 +312,8 @@ code Thread
                 FatalError ("In Yield, self != currentThread")
               endIf
           oldIntStat = SetInterruptsTo (DISABLED)
-          -- print ("Yielding ")
-          -- print (name)
+          --  print ("Yielding ")
+          --  print (name)
           -- print ("\n")
           nextTh = readyList.Remove ()
           if nextTh

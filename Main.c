@@ -8,8 +8,8 @@ code Main
 -----------------------------  Main  ---------------------------------
 
   function main ()
-      print ("          CS333 Project 3")
-      print ("More Classic Synchronization Problems")
+      print ("          CS333 Project 3\n")
+      print ("More Classic Synchronization Problems\n")
       InitializeScheduler ()
 
       SleepingBarber ()
@@ -20,6 +20,7 @@ code Main
 
 
 ------------------------- Sleeping Barber -----------------------------
+enum ENTER, SIT, LEAVE, BEGIN, FINISH, START, END, DEFAULT
 const 
     CHAIRS = 5
 var
@@ -29,6 +30,7 @@ var
    barberAvail: Semaphore = new Semaphore
    lock: Mutex = new Mutex
    waiting: int
+   status: array[21] of int = new array of int {21 of DEFAULT}
 function SleepingBarber ()
  var
     i: int
@@ -40,12 +42,12 @@ function SleepingBarber ()
     chairs.Init(0)
     barberAvail.Init(0)
     lock.Init()
-    waiting = 0
-    
-    barber.Fork(SetUpShop, -1)                    -- Fork the barber to open the barber shop
-    
-    for i = 0 to 19
-           customers[i].Fork ( MultipleCuts, i )  -- Fork each customer thread to get their haircuts
+    waiting = 0    
+     print("   chairs     B 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20\n")
+ 
+    barber.Fork(SetUpShop, 0)                    -- Fork the barber to open the barber shop
+       for i = 0 to 19
+           customers[i].Fork ( MultipleCuts, i+1 )  -- Fork each customer thread to get their haircuts
        endFor
   endFunction
 
@@ -58,41 +60,46 @@ function MultipleCuts (id: int)
       endFor
   endFunction
 
-function SetUpShop ()
+function SetUpShop (id: int)
     while true
         chairs.Down ()               -- If no customers are waiting go to sleep
         lock.Lock ()                 
         waiting = waiting - 1        -- Decrement waiting to serve next customer
         barberAvail.Up ()             -- Indicate that barber is busy
         lock.Unlock ()               
-        CutHair ()                    -- Begin haircut
+        CutHair (id)                    -- Begin haircut
     endWhile
   endFunction
 
-function CutHair ()
+function CutHair (id: int)
     var 
       i: int
-    lock.Lock ()                   
-    Pstart ()                      -- Print haircut start message
+    lock.Lock ()
+    status[id] = START                   
+    Print (id)                      -- Print haircut start message
     for i = 0 to 99
         currentThread.Yield ()     -- Simulate haircut by looping but also allow other threads to operate by yielding
       endFor
-    Pend ()                        -- Print haircut end message
+    status[id] = END
+    Print (id)                        -- Print haircut end message
     lock.Unlock ()
   endFunction
 
 function GoIntoTheShop (id: int)
-    lock.Lock ()                   
-    Penter (id)
+    lock.Lock () 
+    status[id] = ENTER                  
+    Print (id)
     if waiting < CHAIRS              -- See if there is space available to wait
-        Psit (id)
+        status[id] = SIT
+        Print (id)
         waiting = waiting + 1        -- Increment waiting to let barber know you are there
         chairs.Up ()                 -- Wake the barber
         lock.Unlock ()              
         barberAvail.Down ()          -- Sleep if there is no free barber
         GetHaircut (id)              -- Get your hair did
     else
-        Pleave (id)                   
+        status[id] = LEAVE
+        Print (id)                   
         lock.Unlock ()               -- If there were no seats available, go home
     endIf
 
@@ -102,44 +109,67 @@ function GetHaircut (id: int)
     var
       i: int
     lock.Lock ()
-    Pbegin (id)
+    status[id] = BEGIN
+    Print (id)
     for i = 0 to 99
         currentThread.Yield ()
       endFor
-    Pfin (id)
+    status[id] = FINISH
+    Print (id)
     lock.Unlock ()
   endFunction
 
-function Penter (id: int)
-  print("hello")    
+function Print (id: int)
+    var
+      i: int
+      buff: int
+    PrintChairs(id)
+    buff = ((id*2)+1)   
+    for i = 0 to buff 
+        print(" ")
+        --if i > 9
+         --   print(" ")
+        --endIf
+    endFor
+    switch status[id]
+        case ENTER:
+            print("E")
+          break
+        case SIT:
+            print("S")
+          break
+        case LEAVE:
+            print("L")
+          break
+        case START:
+            print("I")
+          break
+        case END:
+            print("C")
+          break
+        case BEGIN:
+            print("B")
+          break
+        case FINISH:
+            print("F")
+          break
+        default:          
+      endSwitch
+      nl ()
+
   endFunction
 
-function Psit (id: int)
-    
+function PrintChairs(id: int)
+    var
+      i: int
+
+    for i = 0 to CHAIRS
+	if i > waiting
+	    print("_ ")
+	else
+	    print("X ")
+	endIf
+     endFor              
   endFunction
-
-function Pbegin (id: int)
-    
-  endFunction
-
-function Pfin (id: int)
-    
-  endFunction
-
-function Pleave (id: int)
-    
-  endFunction
-
-function Pstart ()
-    
-  endFunction
-
-function Pend ()
-    
-  endFunction
-
-
-
-
 
 endCode

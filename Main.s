@@ -21714,6 +21714,7 @@ _Global_frontDesk:
 	.word	0
 	.word	0
 	.word	0
+	.word	0
 _Global_gamers:
 ! Static array
 	.word	8		! number of elements
@@ -29912,181 +29913,109 @@ _Global_gamers:
 	.align
 	.align
 ! String constants
-_StringConst_46:
-	.word	2			! length
-	.ascii	"G8"
-	.align
-_StringConst_45:
-	.word	2			! length
-	.ascii	"G7"
-	.align
-_StringConst_44:
-	.word	2			! length
-	.ascii	"G6"
-	.align
-_StringConst_43:
-	.word	2			! length
-	.ascii	"G5"
-	.align
-_StringConst_42:
-	.word	2			! length
-	.ascii	"G4"
-	.align
-_StringConst_41:
-	.word	2			! length
-	.ascii	"G3"
-	.align
-_StringConst_40:
-	.word	2			! length
-	.ascii	"G2"
-	.align
-_StringConst_39:
-	.word	2			! length
-	.ascii	"G1"
-	.align
-_StringConst_38:
-	.word	2			! length
-	.ascii	"  "
-	.align
-_StringConst_37:
-	.word	2			! length
-	.ascii	"X "
-	.align
-_StringConst_36:
-	.word	2			! length
-	.ascii	"_ "
-	.align
-_StringConst_35:
-	.word	1			! length
-	.ascii	"F"
-	.align
-_StringConst_34:
-	.word	1			! length
-	.ascii	"B"
-	.align
-_StringConst_33:
-	.word	1			! length
-	.ascii	"C"
-	.align
-_StringConst_32:
-	.word	1			! length
-	.ascii	"I"
-	.align
-_StringConst_31:
-	.word	1			! length
-	.ascii	"L"
-	.align
-_StringConst_30:
-	.word	1			! length
-	.ascii	"S"
-	.align
-_StringConst_29:
-	.word	1			! length
-	.ascii	"E"
-	.align
 _StringConst_28:
+	.word	57			! length
+	.ascii	"------------------------------Number of dice now avail = "
+	.align
+_StringConst_27:
 	.word	1			! length
 	.ascii	" "
 	.align
-_StringConst_27:
-	.word	3			! length
-	.ascii	"C20"
-	.align
 _StringConst_26:
-	.word	3			! length
-	.ascii	"C19"
+	.word	1			! length
+	.ascii	" "
 	.align
 _StringConst_25:
-	.word	3			! length
-	.ascii	"C18"
+	.word	1			! length
+	.ascii	"H"
 	.align
 _StringConst_24:
-	.word	3			! length
-	.ascii	"C17"
+	.word	1			! length
+	.ascii	"G"
 	.align
 _StringConst_23:
-	.word	3			! length
-	.ascii	"C17"
+	.word	1			! length
+	.ascii	"F"
 	.align
 _StringConst_22:
-	.word	3			! length
-	.ascii	"C16"
+	.word	1			! length
+	.ascii	"E"
 	.align
 _StringConst_21:
-	.word	3			! length
-	.ascii	"C15"
+	.word	1			! length
+	.ascii	"D"
 	.align
 _StringConst_20:
-	.word	3			! length
-	.ascii	"C14"
+	.word	1			! length
+	.ascii	"C"
 	.align
 _StringConst_19:
-	.word	3			! length
-	.ascii	"C13"
+	.word	1			! length
+	.ascii	"B"
 	.align
 _StringConst_18:
-	.word	3			! length
-	.ascii	"C12"
+	.word	1			! length
+	.ascii	"A"
 	.align
 _StringConst_17:
-	.word	3			! length
-	.ascii	"C11"
+	.word	2			! length
+	.ascii	"  "
 	.align
 _StringConst_16:
-	.word	3			! length
-	.ascii	"C10"
+	.word	2			! length
+	.ascii	"X "
 	.align
 _StringConst_15:
 	.word	2			! length
-	.ascii	"C9"
+	.ascii	"_ "
 	.align
 _StringConst_14:
-	.word	2			! length
-	.ascii	"C8"
+	.word	1			! length
+	.ascii	"F"
 	.align
 _StringConst_13:
-	.word	2			! length
-	.ascii	"C7"
+	.word	1			! length
+	.ascii	"B"
 	.align
 _StringConst_12:
-	.word	2			! length
-	.ascii	"C6"
+	.word	1			! length
+	.ascii	"C"
 	.align
 _StringConst_11:
-	.word	2			! length
-	.ascii	"C5"
+	.word	1			! length
+	.ascii	"I"
 	.align
 _StringConst_10:
-	.word	2			! length
-	.ascii	"C4"
+	.word	1			! length
+	.ascii	"L"
 	.align
 _StringConst_9:
-	.word	2			! length
-	.ascii	"C3"
+	.word	1			! length
+	.ascii	"S"
 	.align
 _StringConst_8:
-	.word	2			! length
-	.ascii	"C2"
+	.word	1			! length
+	.ascii	"E"
 	.align
 _StringConst_7:
-	.word	2			! length
-	.ascii	"C1"
+	.word	1			! length
+	.ascii	" "
 	.align
 _StringConst_6:
-	.word	6			! length
-	.ascii	"Barber"
-	.align
-_StringConst_5:
 	.word	66			! length
 	.ascii	"____________|_|_|_|_|_|_|_|_|_|_|__|__|__|__|__|__|__|__|__|__|__\n"
 	.align
-_StringConst_4:
+_StringConst_5:
 	.word	66			! length
 	.ascii	"_________________________________________________________________\n"
 	.align
-_StringConst_3:
+_StringConst_4:
 	.word	66			! length
 	.ascii	"   chairs    B 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20\n"
+	.align
+_StringConst_3:
+	.word	1			! length
+	.ascii	"T"
 	.align
 _StringConst_2:
 	.word	38			! length
@@ -30105,9 +30034,9 @@ _mainEntry:
 	set	0x51ebedfe,r3		! .  hashVal = 1374416382
 	call	_CheckVersion_P_Main_	! .
 	cmp	r1,0			! .
-	be	_Label_49		! .
+	be	_Label_31		! .
 	ret				! .
-_Label_49:				! .
+_Label_31:				! .
 	call	_heapInitialize
 	jmp	main
 ! 
@@ -30136,7 +30065,7 @@ _CheckVersion_P_Main_:
 	.export	_CheckVersion_P_Main_
 	set	0x51ebedfe,r4		! myHashVal = 1374416382
 	cmp	r3,r4
-	be	_Label_50
+	be	_Label_32
 	set	_CVMess1,r1
 	call	_putString
 	mov	r2,r1			! print using package
@@ -30161,7 +30090,7 @@ _CheckVersion_P_Main_:
 	call	_putString
 	mov	1,r1
 	ret	
-_Label_50:
+_Label_32:
 	mov	0,r1
 ! Make sure _P_System_ has hash value 0xfe42cccc (decimal -29176628)
 	set	_packageName,r2
@@ -30169,29 +30098,29 @@ _Label_50:
 	call	_CheckVersion_P_System_
 	.import	_CheckVersion_P_System_
 	cmp	r1,0
-	bne	_Label_51
+	bne	_Label_33
 ! Make sure _P_List_ has hash value 0xafebcabb (decimal -1343501637)
 	set	_packageName,r2
 	set	0xafebcabb,r3
 	call	_CheckVersion_P_List_
 	.import	_CheckVersion_P_List_
 	cmp	r1,0
-	bne	_Label_51
+	bne	_Label_33
 ! Make sure _P_Thread_ has hash value 0xd98e6cc5 (decimal -644977467)
 	set	_packageName,r2
 	set	0xd98e6cc5,r3
 	call	_CheckVersion_P_Thread_
 	.import	_CheckVersion_P_Thread_
 	cmp	r1,0
-	bne	_Label_51
+	bne	_Label_33
 ! Make sure _P_Synch_ has hash value 0x8e356f6d (decimal -1909100691)
 	set	_packageName,r2
 	set	0x8e356f6d,r3
 	call	_CheckVersion_P_Synch_
 	.import	_CheckVersion_P_Synch_
 	cmp	r1,0
-	bne	_Label_51
-_Label_51:
+	bne	_Label_33
+_Label_33:
 	ret
 _CVMess1:	.ascii	"\nVERSION CONSISTENCY ERROR: Package '\0"
 _CVMess2:	.ascii	"' uses package '\0"
@@ -30210,18 +30139,18 @@ main:
 	set	_RoutineDescriptor_main,r1
 	push	r1
 	mov	3,r1
-_Label_645:
+_Label_428:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_645
+	bne	_Label_428
 	mov	10,r13		! source line 10
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! CALL STATEMENT...
-!   _temp_52 = _StringConst_1
+!   _temp_34 = _StringConst_1
 	set	_StringConst_1,r1
 	store	r1,[r14+-16]
-!   Prepare Argument: offset=8  value=_temp_52  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_34  sizeInBytes=4
 	load	[r14+-16],r1
 	store	r1,[r15+0]
 !   Call the function
@@ -30229,10 +30158,10 @@ _Label_645:
 	mov	"\0\0CE",r10
 	call	print
 ! CALL STATEMENT...
-!   _temp_53 = _StringConst_2
+!   _temp_35 = _StringConst_2
 	set	_StringConst_2,r1
 	store	r1,[r14+-12]
-!   Prepare Argument: offset=8  value=_temp_53  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_35  sizeInBytes=4
 	load	[r14+-12],r1
 	store	r1,[r15+0]
 !   Call the function
@@ -30266,26 +30195,26 @@ _Label_645:
 ! 
 _RoutineDescriptor_main:
 	.word	_sourceFileName
-	.word	_Label_54
+	.word	_Label_36
 	.word	0		! total size of parameters
 	.word	12		! frame size = 12
-	.word	_Label_55
+	.word	_Label_37
 	.word	-12
 	.word	4
-	.word	_Label_56
+	.word	_Label_38
 	.word	-16
 	.word	4
 	.word	0
-_Label_54:
+_Label_36:
 	.ascii	"main\0"
 	.align
-_Label_55:
+_Label_37:
 	.byte	'?'
-	.ascii	"_temp_53\0"
+	.ascii	"_temp_35\0"
 	.align
-_Label_56:
+_Label_38:
 	.byte	'?'
-	.ascii	"_temp_52\0"
+	.ascii	"_temp_34\0"
 	.align
 ! 
 ! ===============  FUNCTION SleepingBarber  ===============
@@ -30296,25 +30225,106 @@ _P_Main_SleepingBarber:
 	push	r13
 	set	_RoutineDescriptor__P_Main_SleepingBarber,r1
 	push	r1
-	mov	141,r1
-_Label_646:
+	mov	24,r1
+_Label_429:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_646
+	bne	_Label_429
 	mov	33,r13		! source line 33
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
+! FOR STATEMENT...
+	mov	37,r13		! source line 37
+	mov	"\0\0FO",r10
+!   Calculate and save the FOR-LOOP starting value
+!   _temp_43 = 0		(4 bytes)
+	mov	0,r1
+	store	r1,[r14+-88]
+!   Calculate and save the FOR-LOOP ending value
+!   _temp_44 = 20		(4 bytes)
+	mov	20,r1
+	store	r1,[r14+-84]
+!   Initialize FOR-LOOP index variable
+!   Data Move: i = _temp_43  (sizeInBytes=4)
+	load	[r14+-88],r1
+	store	r1,[r14+-92]
+_Label_39:
+!   Perform the FOR-LOOP termination test
+!   if i > _temp_44 then goto _Label_42		
+	load	[r14+-92],r1
+	load	[r14+-84],r2
+	cmp	r1,r2
+	bvs	_runtimeErrorOverflow
+	bg	_Label_42
+_Label_40:
+	mov	37,r13		! source line 37
+	mov	"\0\0FB",r10
+! SEND STATEMENT...
+	mov	38,r13		! source line 38
+	mov	"\0\0SE",r10
+!   _temp_46 = _StringConst_3
+	set	_StringConst_3,r1
+	store	r1,[r14+-76]
+!   _temp_45 = _temp_46 + i		(int)
+	load	[r14+-76],r1
+	load	[r14+-92],r2
+	add	r1,r2,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-80]
+!   _temp_47 = &_Global_threads
+	set	_Global_threads,r1
+	store	r1,[r14+-72]
+!   Move address of _temp_47 [i ] into _temp_48
+!     make sure index expr is >= 0
+	load	[r14+-92],r2
+	cmp	r2,0
+	bl	_runtimeErrorBadArrayIndex
+!     make sure index expr is < array size
+	load	[r14+-72],r1
+	load	[r1],r3
+	cmp	r3,0
+	ble	_runtimeErrorUninitializedArray
+	cmp	r2,r3
+	bvs	_runtimeErrorOverflow
+	bge	_runtimeErrorBadArrayIndex
+!     compute address of array element
+	set	4092,r3
+	mul	r2,r3,r2
+	add	r2,4,r2
+	add	r2,r1,r2
+	store	r2,[r14+-68]
+!   Prepare Argument: offset=12  value=_temp_45  sizeInBytes=4
+	load	[r14+-80],r1
+	store	r1,[r15+4]
+!   Send message Init
+	load	[r14+-68],r1
+	load	[r1],r2
+	cmp	r2,0
+	be	 _runtimeErrorUninitializedObject
+	store	r1,[r15]
+	add	r2,4,r2
+	call	r2
+!   Increment the FOR-LOOP index variable and jump back
+_Label_41:
+!   i = i + 1
+	load	[r14+-92],r1
+	add	r1,1,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-92]
+	jmp	_Label_39
+! END FOR
+_Label_42:
 ! SEND STATEMENT...
 	mov	40,r13		! source line 40
 	mov	"\0\0SE",r10
-!   _temp_57 = &_Global_customers
+!   _temp_49 = &_Global_customers
 	set	_Global_customers,r1
-	store	r1,[r14+-560]
+	store	r1,[r14+-64]
 !   Prepare Argument: offset=12  value=0  sizeInBytes=4
 	mov	0,r1
 	store	r1,[r15+4]
 !   Send message Init
-	load	[r14+-560],r1
+	load	[r14+-64],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
@@ -30324,14 +30334,14 @@ _Label_646:
 ! SEND STATEMENT...
 	mov	41,r13		! source line 41
 	mov	"\0\0SE",r10
-!   _temp_58 = &_Global_barber
+!   _temp_50 = &_Global_barber
 	set	_Global_barber,r1
-	store	r1,[r14+-556]
+	store	r1,[r14+-60]
 !   Prepare Argument: offset=12  value=0  sizeInBytes=4
 	mov	0,r1
 	store	r1,[r15+4]
 !   Send message Init
-	load	[r14+-556],r1
+	load	[r14+-60],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
@@ -30341,11 +30351,11 @@ _Label_646:
 ! SEND STATEMENT...
 	mov	42,r13		! source line 42
 	mov	"\0\0SE",r10
-!   _temp_59 = &_Global_lock
+!   _temp_51 = &_Global_lock
 	set	_Global_lock,r1
-	store	r1,[r14+-552]
+	store	r1,[r14+-56]
 !   Send message Init
-	load	[r14+-552],r1
+	load	[r14+-56],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
@@ -30360,93 +30370,54 @@ _Label_646:
 	set	_Global_waiting,r2
 	store	r1,[r2]
 ! CALL STATEMENT...
-!   _temp_60 = _StringConst_3
-	set	_StringConst_3,r1
-	store	r1,[r14+-548]
-!   Prepare Argument: offset=8  value=_temp_60  sizeInBytes=4
-	load	[r14+-548],r1
+!   _temp_52 = _StringConst_4
+	set	_StringConst_4,r1
+	store	r1,[r14+-52]
+!   Prepare Argument: offset=8  value=_temp_52  sizeInBytes=4
+	load	[r14+-52],r1
 	store	r1,[r15+0]
 !   Call the function
 	mov	44,r13		! source line 44
 	mov	"\0\0CE",r10
 	call	print
 ! CALL STATEMENT...
-!   _temp_61 = _StringConst_4
-	set	_StringConst_4,r1
-	store	r1,[r14+-544]
-!   Prepare Argument: offset=8  value=_temp_61  sizeInBytes=4
-	load	[r14+-544],r1
+!   _temp_53 = _StringConst_5
+	set	_StringConst_5,r1
+	store	r1,[r14+-48]
+!   Prepare Argument: offset=8  value=_temp_53  sizeInBytes=4
+	load	[r14+-48],r1
 	store	r1,[r15+0]
 !   Call the function
 	mov	45,r13		! source line 45
 	mov	"\0\0CE",r10
 	call	print
 ! CALL STATEMENT...
-!   _temp_62 = _StringConst_5
-	set	_StringConst_5,r1
-	store	r1,[r14+-540]
-!   Prepare Argument: offset=8  value=_temp_62  sizeInBytes=4
-	load	[r14+-540],r1
+!   _temp_54 = _StringConst_6
+	set	_StringConst_6,r1
+	store	r1,[r14+-44]
+!   Prepare Argument: offset=8  value=_temp_54  sizeInBytes=4
+	load	[r14+-44],r1
 	store	r1,[r15+0]
 !   Call the function
 	mov	46,r13		! source line 46
 	mov	"\0\0CE",r10
 	call	print
 ! SEND STATEMENT...
-	mov	52,r13		! source line 52
+	mov	47,r13		! source line 47
 	mov	"\0\0SE",r10
-!   _temp_63 = _StringConst_6
-	set	_StringConst_6,r1
-	store	r1,[r14+-536]
-!   _temp_64 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-532]
-!   Move address of _temp_64 [0 ] into _temp_65
-!     make sure index expr is >= 0
-	mov	0,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-532],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-528]
-!   Prepare Argument: offset=12  value=_temp_63  sizeInBytes=4
-	load	[r14+-536],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-528],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	53,r13		! source line 53
-	mov	"\0\0SE",r10
-!   _temp_66 = _P_Main_SetUpShop
+!   _temp_55 = _P_Main_SetUpShop
 	set	_P_Main_SetUpShop,r1
-	store	r1,[r14+-524]
-!   _temp_67 = &_Global_threads
+	store	r1,[r14+-40]
+!   _temp_56 = &_Global_threads
 	set	_Global_threads,r1
-	store	r1,[r14+-520]
-!   Move address of _temp_67 [0 ] into _temp_68
+	store	r1,[r14+-36]
+!   Move address of _temp_56 [0 ] into _temp_57
 !     make sure index expr is >= 0
 	mov	0,r2
 	cmp	r2,0
 	bl	_runtimeErrorBadArrayIndex
 !     make sure index expr is < array size
-	load	[r14+-520],r1
+	load	[r14+-36],r1
 	load	[r1],r3
 	cmp	r3,0
 	ble	_runtimeErrorUninitializedArray
@@ -30458,1692 +30429,59 @@ _Label_646:
 	mul	r2,r3,r2
 	add	r2,4,r2
 	add	r2,r1,r2
-	store	r2,[r14+-516]
-!   Prepare Argument: offset=12  value=_temp_66  sizeInBytes=4
-	load	[r14+-524],r1
+	store	r2,[r14+-32]
+!   Prepare Argument: offset=12  value=_temp_55  sizeInBytes=4
+	load	[r14+-40],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=0  sizeInBytes=4
 	mov	0,r1
 	store	r1,[r15+8]
 !   Send message Fork
-	load	[r14+-516],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	55,r13		! source line 55
-	mov	"\0\0SE",r10
-!   _temp_69 = _StringConst_7
-	set	_StringConst_7,r1
-	store	r1,[r14+-512]
-!   _temp_70 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-508]
-!   Move address of _temp_70 [1 ] into _temp_71
-!     make sure index expr is >= 0
-	mov	1,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-508],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-504]
-!   Prepare Argument: offset=12  value=_temp_69  sizeInBytes=4
-	load	[r14+-512],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-504],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	56,r13		! source line 56
-	mov	"\0\0SE",r10
-!   _temp_72 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-500]
-!   _temp_73 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-496]
-!   Move address of _temp_73 [1 ] into _temp_74
-!     make sure index expr is >= 0
-	mov	1,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-496],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-492]
-!   Prepare Argument: offset=12  value=_temp_72  sizeInBytes=4
-	load	[r14+-500],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=1  sizeInBytes=4
-	mov	1,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-492],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	58,r13		! source line 58
-	mov	"\0\0SE",r10
-!   _temp_75 = _StringConst_8
-	set	_StringConst_8,r1
-	store	r1,[r14+-488]
-!   _temp_76 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-484]
-!   Move address of _temp_76 [2 ] into _temp_77
-!     make sure index expr is >= 0
-	mov	2,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-484],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-480]
-!   Prepare Argument: offset=12  value=_temp_75  sizeInBytes=4
-	load	[r14+-488],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-480],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	59,r13		! source line 59
-	mov	"\0\0SE",r10
-!   _temp_78 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-476]
-!   _temp_79 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-472]
-!   Move address of _temp_79 [2 ] into _temp_80
-!     make sure index expr is >= 0
-	mov	2,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-472],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-468]
-!   Prepare Argument: offset=12  value=_temp_78  sizeInBytes=4
-	load	[r14+-476],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=2  sizeInBytes=4
-	mov	2,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-468],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	61,r13		! source line 61
-	mov	"\0\0SE",r10
-!   _temp_81 = _StringConst_9
-	set	_StringConst_9,r1
-	store	r1,[r14+-464]
-!   _temp_82 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-460]
-!   Move address of _temp_82 [3 ] into _temp_83
-!     make sure index expr is >= 0
-	mov	3,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-460],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-456]
-!   Prepare Argument: offset=12  value=_temp_81  sizeInBytes=4
-	load	[r14+-464],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-456],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	62,r13		! source line 62
-	mov	"\0\0SE",r10
-!   _temp_84 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-452]
-!   _temp_85 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-448]
-!   Move address of _temp_85 [3 ] into _temp_86
-!     make sure index expr is >= 0
-	mov	3,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-448],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-444]
-!   Prepare Argument: offset=12  value=_temp_84  sizeInBytes=4
-	load	[r14+-452],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=3  sizeInBytes=4
-	mov	3,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-444],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	65,r13		! source line 65
-	mov	"\0\0SE",r10
-!   _temp_87 = _StringConst_10
-	set	_StringConst_10,r1
-	store	r1,[r14+-440]
-!   _temp_88 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-436]
-!   Move address of _temp_88 [4 ] into _temp_89
-!     make sure index expr is >= 0
-	mov	4,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-436],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-432]
-!   Prepare Argument: offset=12  value=_temp_87  sizeInBytes=4
-	load	[r14+-440],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-432],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	66,r13		! source line 66
-	mov	"\0\0SE",r10
-!   _temp_90 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-428]
-!   _temp_91 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-424]
-!   Move address of _temp_91 [4 ] into _temp_92
-!     make sure index expr is >= 0
-	mov	4,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-424],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-420]
-!   Prepare Argument: offset=12  value=_temp_90  sizeInBytes=4
-	load	[r14+-428],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=4  sizeInBytes=4
-	mov	4,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-420],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	68,r13		! source line 68
-	mov	"\0\0SE",r10
-!   _temp_93 = _StringConst_11
-	set	_StringConst_11,r1
-	store	r1,[r14+-416]
-!   _temp_94 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-412]
-!   Move address of _temp_94 [5 ] into _temp_95
-!     make sure index expr is >= 0
-	mov	5,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-412],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-408]
-!   Prepare Argument: offset=12  value=_temp_93  sizeInBytes=4
-	load	[r14+-416],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-408],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	69,r13		! source line 69
-	mov	"\0\0SE",r10
-!   _temp_96 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-404]
-!   _temp_97 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-400]
-!   Move address of _temp_97 [5 ] into _temp_98
-!     make sure index expr is >= 0
-	mov	5,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-400],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-396]
-!   Prepare Argument: offset=12  value=_temp_96  sizeInBytes=4
-	load	[r14+-404],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=5  sizeInBytes=4
-	mov	5,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-396],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	71,r13		! source line 71
-	mov	"\0\0SE",r10
-!   _temp_99 = _StringConst_12
-	set	_StringConst_12,r1
-	store	r1,[r14+-392]
-!   _temp_100 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-388]
-!   Move address of _temp_100 [6 ] into _temp_101
-!     make sure index expr is >= 0
-	mov	6,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-388],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-384]
-!   Prepare Argument: offset=12  value=_temp_99  sizeInBytes=4
-	load	[r14+-392],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-384],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	72,r13		! source line 72
-	mov	"\0\0SE",r10
-!   _temp_102 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-380]
-!   _temp_103 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-376]
-!   Move address of _temp_103 [6 ] into _temp_104
-!     make sure index expr is >= 0
-	mov	6,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-376],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-372]
-!   Prepare Argument: offset=12  value=_temp_102  sizeInBytes=4
-	load	[r14+-380],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=6  sizeInBytes=4
-	mov	6,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-372],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	74,r13		! source line 74
-	mov	"\0\0SE",r10
-!   _temp_105 = _StringConst_13
-	set	_StringConst_13,r1
-	store	r1,[r14+-368]
-!   _temp_106 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-364]
-!   Move address of _temp_106 [7 ] into _temp_107
-!     make sure index expr is >= 0
-	mov	7,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-364],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-360]
-!   Prepare Argument: offset=12  value=_temp_105  sizeInBytes=4
-	load	[r14+-368],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-360],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	75,r13		! source line 75
-	mov	"\0\0SE",r10
-!   _temp_108 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-356]
-!   _temp_109 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-352]
-!   Move address of _temp_109 [7 ] into _temp_110
-!     make sure index expr is >= 0
-	mov	7,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-352],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-348]
-!   Prepare Argument: offset=12  value=_temp_108  sizeInBytes=4
-	load	[r14+-356],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=7  sizeInBytes=4
-	mov	7,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-348],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	77,r13		! source line 77
-	mov	"\0\0SE",r10
-!   _temp_111 = _StringConst_14
-	set	_StringConst_14,r1
-	store	r1,[r14+-344]
-!   _temp_112 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-340]
-!   Move address of _temp_112 [8 ] into _temp_113
-!     make sure index expr is >= 0
-	mov	8,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-340],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-336]
-!   Prepare Argument: offset=12  value=_temp_111  sizeInBytes=4
-	load	[r14+-344],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-336],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	78,r13		! source line 78
-	mov	"\0\0SE",r10
-!   _temp_114 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-332]
-!   _temp_115 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-328]
-!   Move address of _temp_115 [8 ] into _temp_116
-!     make sure index expr is >= 0
-	mov	8,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-328],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-324]
-!   Prepare Argument: offset=12  value=_temp_114  sizeInBytes=4
-	load	[r14+-332],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=8  sizeInBytes=4
-	mov	8,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-324],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	80,r13		! source line 80
-	mov	"\0\0SE",r10
-!   _temp_117 = _StringConst_15
-	set	_StringConst_15,r1
-	store	r1,[r14+-320]
-!   _temp_118 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-316]
-!   Move address of _temp_118 [9 ] into _temp_119
-!     make sure index expr is >= 0
-	mov	9,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-316],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-312]
-!   Prepare Argument: offset=12  value=_temp_117  sizeInBytes=4
-	load	[r14+-320],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-312],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	81,r13		! source line 81
-	mov	"\0\0SE",r10
-!   _temp_120 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-308]
-!   _temp_121 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-304]
-!   Move address of _temp_121 [9 ] into _temp_122
-!     make sure index expr is >= 0
-	mov	9,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-304],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-300]
-!   Prepare Argument: offset=12  value=_temp_120  sizeInBytes=4
-	load	[r14+-308],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=9  sizeInBytes=4
-	mov	9,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-300],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	83,r13		! source line 83
-	mov	"\0\0SE",r10
-!   _temp_123 = _StringConst_16
-	set	_StringConst_16,r1
-	store	r1,[r14+-296]
-!   _temp_124 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-292]
-!   Move address of _temp_124 [10 ] into _temp_125
-!     make sure index expr is >= 0
-	mov	10,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-292],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-288]
-!   Prepare Argument: offset=12  value=_temp_123  sizeInBytes=4
-	load	[r14+-296],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-288],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	84,r13		! source line 84
-	mov	"\0\0SE",r10
-!   _temp_126 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-284]
-!   _temp_127 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-280]
-!   Move address of _temp_127 [10 ] into _temp_128
-!     make sure index expr is >= 0
-	mov	10,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-280],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-276]
-!   Prepare Argument: offset=12  value=_temp_126  sizeInBytes=4
-	load	[r14+-284],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=10  sizeInBytes=4
-	mov	10,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-276],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	86,r13		! source line 86
-	mov	"\0\0SE",r10
-!   _temp_129 = _StringConst_17
-	set	_StringConst_17,r1
-	store	r1,[r14+-272]
-!   _temp_130 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-268]
-!   Move address of _temp_130 [11 ] into _temp_131
-!     make sure index expr is >= 0
-	mov	11,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-268],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-264]
-!   Prepare Argument: offset=12  value=_temp_129  sizeInBytes=4
-	load	[r14+-272],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-264],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	87,r13		! source line 87
-	mov	"\0\0SE",r10
-!   _temp_132 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-260]
-!   _temp_133 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-256]
-!   Move address of _temp_133 [11 ] into _temp_134
-!     make sure index expr is >= 0
-	mov	11,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-256],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-252]
-!   Prepare Argument: offset=12  value=_temp_132  sizeInBytes=4
-	load	[r14+-260],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=11  sizeInBytes=4
-	mov	11,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-252],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	90,r13		! source line 90
-	mov	"\0\0SE",r10
-!   _temp_135 = _StringConst_18
-	set	_StringConst_18,r1
-	store	r1,[r14+-248]
-!   _temp_136 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-244]
-!   Move address of _temp_136 [12 ] into _temp_137
-!     make sure index expr is >= 0
-	mov	12,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-244],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-240]
-!   Prepare Argument: offset=12  value=_temp_135  sizeInBytes=4
-	load	[r14+-248],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-240],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	91,r13		! source line 91
-	mov	"\0\0SE",r10
-!   _temp_138 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-236]
-!   _temp_139 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-232]
-!   Move address of _temp_139 [12 ] into _temp_140
-!     make sure index expr is >= 0
-	mov	12,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-232],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-228]
-!   Prepare Argument: offset=12  value=_temp_138  sizeInBytes=4
-	load	[r14+-236],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=12  sizeInBytes=4
-	mov	12,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-228],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	93,r13		! source line 93
-	mov	"\0\0SE",r10
-!   _temp_141 = _StringConst_19
-	set	_StringConst_19,r1
-	store	r1,[r14+-224]
-!   _temp_142 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-220]
-!   Move address of _temp_142 [13 ] into _temp_143
-!     make sure index expr is >= 0
-	mov	13,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-220],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-216]
-!   Prepare Argument: offset=12  value=_temp_141  sizeInBytes=4
-	load	[r14+-224],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-216],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	94,r13		! source line 94
-	mov	"\0\0SE",r10
-!   _temp_144 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-212]
-!   _temp_145 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-208]
-!   Move address of _temp_145 [13 ] into _temp_146
-!     make sure index expr is >= 0
-	mov	13,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-208],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-204]
-!   Prepare Argument: offset=12  value=_temp_144  sizeInBytes=4
-	load	[r14+-212],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=13  sizeInBytes=4
-	mov	13,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-204],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	96,r13		! source line 96
-	mov	"\0\0SE",r10
-!   _temp_147 = _StringConst_20
-	set	_StringConst_20,r1
-	store	r1,[r14+-200]
-!   _temp_148 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-196]
-!   Move address of _temp_148 [14 ] into _temp_149
-!     make sure index expr is >= 0
-	mov	14,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-196],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-192]
-!   Prepare Argument: offset=12  value=_temp_147  sizeInBytes=4
-	load	[r14+-200],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-192],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	97,r13		! source line 97
-	mov	"\0\0SE",r10
-!   _temp_150 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-188]
-!   _temp_151 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-184]
-!   Move address of _temp_151 [14 ] into _temp_152
-!     make sure index expr is >= 0
-	mov	14,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-184],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-180]
-!   Prepare Argument: offset=12  value=_temp_150  sizeInBytes=4
-	load	[r14+-188],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=14  sizeInBytes=4
-	mov	14,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-180],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	99,r13		! source line 99
-	mov	"\0\0SE",r10
-!   _temp_153 = _StringConst_21
-	set	_StringConst_21,r1
-	store	r1,[r14+-176]
-!   _temp_154 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-172]
-!   Move address of _temp_154 [15 ] into _temp_155
-!     make sure index expr is >= 0
-	mov	15,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-172],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-168]
-!   Prepare Argument: offset=12  value=_temp_153  sizeInBytes=4
-	load	[r14+-176],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-168],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	100,r13		! source line 100
-	mov	"\0\0SE",r10
-!   _temp_156 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-164]
-!   _temp_157 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-160]
-!   Move address of _temp_157 [15 ] into _temp_158
-!     make sure index expr is >= 0
-	mov	15,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-160],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-156]
-!   Prepare Argument: offset=12  value=_temp_156  sizeInBytes=4
-	load	[r14+-164],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=15  sizeInBytes=4
-	mov	15,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-156],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	103,r13		! source line 103
-	mov	"\0\0SE",r10
-!   _temp_159 = _StringConst_22
-	set	_StringConst_22,r1
-	store	r1,[r14+-152]
-!   _temp_160 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-148]
-!   Move address of _temp_160 [16 ] into _temp_161
-!     make sure index expr is >= 0
-	mov	16,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-148],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-144]
-!   Prepare Argument: offset=12  value=_temp_159  sizeInBytes=4
-	load	[r14+-152],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-144],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	104,r13		! source line 104
-	mov	"\0\0SE",r10
-!   _temp_162 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-140]
-!   _temp_163 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-136]
-!   Move address of _temp_163 [16 ] into _temp_164
-!     make sure index expr is >= 0
-	mov	16,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-136],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-132]
-!   Prepare Argument: offset=12  value=_temp_162  sizeInBytes=4
-	load	[r14+-140],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=16  sizeInBytes=4
-	mov	16,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-132],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	106,r13		! source line 106
-	mov	"\0\0SE",r10
-!   _temp_165 = _StringConst_23
-	set	_StringConst_23,r1
-	store	r1,[r14+-128]
-!   _temp_166 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-124]
-!   Move address of _temp_166 [17 ] into _temp_167
-!     make sure index expr is >= 0
-	mov	17,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-124],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-120]
-!   Prepare Argument: offset=12  value=_temp_165  sizeInBytes=4
-	load	[r14+-128],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-120],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	107,r13		! source line 107
-	mov	"\0\0SE",r10
-!   _temp_168 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-116]
-!   _temp_169 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-112]
-!   Move address of _temp_169 [17 ] into _temp_170
-!     make sure index expr is >= 0
-	mov	17,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-112],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-108]
-!   Prepare Argument: offset=12  value=_temp_168  sizeInBytes=4
-	load	[r14+-116],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=17  sizeInBytes=4
-	mov	17,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-108],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	110,r13		! source line 110
-	mov	"\0\0SE",r10
-!   _temp_171 = _StringConst_24
-	set	_StringConst_24,r1
-	store	r1,[r14+-104]
-!   _temp_172 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-100]
-!   Move address of _temp_172 [17 ] into _temp_173
-!     make sure index expr is >= 0
-	mov	17,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-100],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-96]
-!   Prepare Argument: offset=12  value=_temp_171  sizeInBytes=4
-	load	[r14+-104],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-96],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	111,r13		! source line 111
-	mov	"\0\0SE",r10
-!   _temp_174 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-92]
-!   _temp_175 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-88]
-!   Move address of _temp_175 [17 ] into _temp_176
-!     make sure index expr is >= 0
-	mov	17,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-88],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-84]
-!   Prepare Argument: offset=12  value=_temp_174  sizeInBytes=4
-	load	[r14+-92],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=17  sizeInBytes=4
-	mov	17,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-84],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	113,r13		! source line 113
-	mov	"\0\0SE",r10
-!   _temp_177 = _StringConst_25
-	set	_StringConst_25,r1
-	store	r1,[r14+-80]
-!   _temp_178 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-76]
-!   Move address of _temp_178 [18 ] into _temp_179
-!     make sure index expr is >= 0
-	mov	18,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-76],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-72]
-!   Prepare Argument: offset=12  value=_temp_177  sizeInBytes=4
-	load	[r14+-80],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-72],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	114,r13		! source line 114
-	mov	"\0\0SE",r10
-!   _temp_180 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-68]
-!   _temp_181 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-64]
-!   Move address of _temp_181 [18 ] into _temp_182
-!     make sure index expr is >= 0
-	mov	18,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-64],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-60]
-!   Prepare Argument: offset=12  value=_temp_180  sizeInBytes=4
-	load	[r14+-68],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=18  sizeInBytes=4
-	mov	18,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-60],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	116,r13		! source line 116
-	mov	"\0\0SE",r10
-!   _temp_183 = _StringConst_26
-	set	_StringConst_26,r1
-	store	r1,[r14+-56]
-!   _temp_184 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-52]
-!   Move address of _temp_184 [19 ] into _temp_185
-!     make sure index expr is >= 0
-	mov	19,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-52],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-48]
-!   Prepare Argument: offset=12  value=_temp_183  sizeInBytes=4
-	load	[r14+-56],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-48],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,4,r2
-	call	r2
-! SEND STATEMENT...
-	mov	117,r13		! source line 117
-	mov	"\0\0SE",r10
-!   _temp_186 = _P_Main_MultipleCuts
-	set	_P_Main_MultipleCuts,r1
-	store	r1,[r14+-44]
-!   _temp_187 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-40]
-!   Move address of _temp_187 [19 ] into _temp_188
-!     make sure index expr is >= 0
-	mov	19,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-40],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-36]
-!   Prepare Argument: offset=12  value=_temp_186  sizeInBytes=4
-	load	[r14+-44],r1
-	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=19  sizeInBytes=4
-	mov	19,r1
-	store	r1,[r15+8]
-!   Send message Fork
-	load	[r14+-36],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,8,r2
-	call	r2
-! SEND STATEMENT...
-	mov	119,r13		! source line 119
-	mov	"\0\0SE",r10
-!   _temp_189 = _StringConst_27
-	set	_StringConst_27,r1
-	store	r1,[r14+-32]
-!   _temp_190 = &_Global_threads
-	set	_Global_threads,r1
-	store	r1,[r14+-28]
-!   Move address of _temp_190 [20 ] into _temp_191
-!     make sure index expr is >= 0
-	mov	20,r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-28],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4092,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-24]
-!   Prepare Argument: offset=12  value=_temp_189  sizeInBytes=4
 	load	[r14+-32],r1
-	store	r1,[r15+4]
-!   Send message Init
-	load	[r14+-24],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
 	store	r1,[r15]
-	add	r2,4,r2
+	add	r2,8,r2
 	call	r2
+! FOR STATEMENT...
+	mov	48,r13		! source line 48
+	mov	"\0\0FO",r10
+!   Calculate and save the FOR-LOOP starting value
+!   _temp_62 = 1		(4 bytes)
+	mov	1,r1
+	store	r1,[r14+-28]
+!   Calculate and save the FOR-LOOP ending value
+!   _temp_63 = 20		(4 bytes)
+	mov	20,r1
+	store	r1,[r14+-24]
+!   Initialize FOR-LOOP index variable
+!   Data Move: i = _temp_62  (sizeInBytes=4)
+	load	[r14+-28],r1
+	store	r1,[r14+-92]
+_Label_58:
+!   Perform the FOR-LOOP termination test
+!   if i > _temp_63 then goto _Label_61		
+	load	[r14+-92],r1
+	load	[r14+-24],r2
+	cmp	r1,r2
+	bvs	_runtimeErrorOverflow
+	bg	_Label_61
+_Label_59:
+	mov	48,r13		! source line 48
+	mov	"\0\0FB",r10
 ! SEND STATEMENT...
-	mov	120,r13		! source line 120
+	mov	49,r13		! source line 49
 	mov	"\0\0SE",r10
-!   _temp_192 = _P_Main_MultipleCuts
+!   _temp_64 = _P_Main_MultipleCuts
 	set	_P_Main_MultipleCuts,r1
 	store	r1,[r14+-20]
-!   _temp_193 = &_Global_threads
+!   _temp_65 = &_Global_threads
 	set	_Global_threads,r1
 	store	r1,[r14+-16]
-!   Move address of _temp_193 [20 ] into _temp_194
+!   Move address of _temp_65 [i ] into _temp_66
 !     make sure index expr is >= 0
-	mov	20,r2
+	load	[r14+-92],r2
 	cmp	r2,0
 	bl	_runtimeErrorBadArrayIndex
 !     make sure index expr is < array size
@@ -32160,11 +30498,11 @@ _Label_646:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-12]
-!   Prepare Argument: offset=12  value=_temp_192  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_64  sizeInBytes=4
 	load	[r14+-20],r1
 	store	r1,[r15+4]
-!   Prepare Argument: offset=16  value=20  sizeInBytes=4
-	mov	20,r1
+!   Prepare Argument: offset=16  value=i  sizeInBytes=4
+	load	[r14+-92],r1
 	store	r1,[r15+8]
 !   Send message Fork
 	load	[r14+-12],r1
@@ -32174,10 +30512,20 @@ _Label_646:
 	store	r1,[r15]
 	add	r2,8,r2
 	call	r2
+!   Increment the FOR-LOOP index variable and jump back
+_Label_60:
+!   i = i + 1
+	load	[r14+-92],r1
+	add	r1,1,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-92]
+	jmp	_Label_58
+! END FOR
+_Label_61:
 ! RETURN STATEMENT...
-	mov	120,r13		! source line 120
+	mov	48,r13		! source line 48
 	mov	"\0\0RE",r10
-	add	r15,568,r15
+	add	r15,100,r15
 	pop	r13
 	pop	r14
 	ret
@@ -32186,978 +30534,159 @@ _Label_646:
 ! 
 _RoutineDescriptor__P_Main_SleepingBarber:
 	.word	_sourceFileName
-	.word	_Label_195
+	.word	_Label_67
 	.word	0		! total size of parameters
-	.word	564		! frame size = 564
-	.word	_Label_196
+	.word	96		! frame size = 96
+	.word	_Label_68
 	.word	-12
 	.word	4
-	.word	_Label_197
+	.word	_Label_69
 	.word	-16
 	.word	4
-	.word	_Label_198
+	.word	_Label_70
 	.word	-20
 	.word	4
-	.word	_Label_199
+	.word	_Label_71
 	.word	-24
 	.word	4
-	.word	_Label_200
+	.word	_Label_72
 	.word	-28
 	.word	4
-	.word	_Label_201
+	.word	_Label_73
 	.word	-32
 	.word	4
-	.word	_Label_202
+	.word	_Label_74
 	.word	-36
 	.word	4
-	.word	_Label_203
+	.word	_Label_75
 	.word	-40
 	.word	4
-	.word	_Label_204
+	.word	_Label_76
 	.word	-44
 	.word	4
-	.word	_Label_205
+	.word	_Label_77
 	.word	-48
 	.word	4
-	.word	_Label_206
+	.word	_Label_78
 	.word	-52
 	.word	4
-	.word	_Label_207
+	.word	_Label_79
 	.word	-56
 	.word	4
-	.word	_Label_208
+	.word	_Label_80
 	.word	-60
 	.word	4
-	.word	_Label_209
+	.word	_Label_81
 	.word	-64
 	.word	4
-	.word	_Label_210
+	.word	_Label_82
 	.word	-68
 	.word	4
-	.word	_Label_211
+	.word	_Label_83
 	.word	-72
 	.word	4
-	.word	_Label_212
+	.word	_Label_84
 	.word	-76
 	.word	4
-	.word	_Label_213
+	.word	_Label_85
 	.word	-80
 	.word	4
-	.word	_Label_214
+	.word	_Label_86
 	.word	-84
 	.word	4
-	.word	_Label_215
+	.word	_Label_87
 	.word	-88
 	.word	4
-	.word	_Label_216
+	.word	_Label_88
 	.word	-92
 	.word	4
-	.word	_Label_217
-	.word	-96
-	.word	4
-	.word	_Label_218
-	.word	-100
-	.word	4
-	.word	_Label_219
-	.word	-104
-	.word	4
-	.word	_Label_220
-	.word	-108
-	.word	4
-	.word	_Label_221
-	.word	-112
-	.word	4
-	.word	_Label_222
-	.word	-116
-	.word	4
-	.word	_Label_223
-	.word	-120
-	.word	4
-	.word	_Label_224
-	.word	-124
-	.word	4
-	.word	_Label_225
-	.word	-128
-	.word	4
-	.word	_Label_226
-	.word	-132
-	.word	4
-	.word	_Label_227
-	.word	-136
-	.word	4
-	.word	_Label_228
-	.word	-140
-	.word	4
-	.word	_Label_229
-	.word	-144
-	.word	4
-	.word	_Label_230
-	.word	-148
-	.word	4
-	.word	_Label_231
-	.word	-152
-	.word	4
-	.word	_Label_232
-	.word	-156
-	.word	4
-	.word	_Label_233
-	.word	-160
-	.word	4
-	.word	_Label_234
-	.word	-164
-	.word	4
-	.word	_Label_235
-	.word	-168
-	.word	4
-	.word	_Label_236
-	.word	-172
-	.word	4
-	.word	_Label_237
-	.word	-176
-	.word	4
-	.word	_Label_238
-	.word	-180
-	.word	4
-	.word	_Label_239
-	.word	-184
-	.word	4
-	.word	_Label_240
-	.word	-188
-	.word	4
-	.word	_Label_241
-	.word	-192
-	.word	4
-	.word	_Label_242
-	.word	-196
-	.word	4
-	.word	_Label_243
-	.word	-200
-	.word	4
-	.word	_Label_244
-	.word	-204
-	.word	4
-	.word	_Label_245
-	.word	-208
-	.word	4
-	.word	_Label_246
-	.word	-212
-	.word	4
-	.word	_Label_247
-	.word	-216
-	.word	4
-	.word	_Label_248
-	.word	-220
-	.word	4
-	.word	_Label_249
-	.word	-224
-	.word	4
-	.word	_Label_250
-	.word	-228
-	.word	4
-	.word	_Label_251
-	.word	-232
-	.word	4
-	.word	_Label_252
-	.word	-236
-	.word	4
-	.word	_Label_253
-	.word	-240
-	.word	4
-	.word	_Label_254
-	.word	-244
-	.word	4
-	.word	_Label_255
-	.word	-248
-	.word	4
-	.word	_Label_256
-	.word	-252
-	.word	4
-	.word	_Label_257
-	.word	-256
-	.word	4
-	.word	_Label_258
-	.word	-260
-	.word	4
-	.word	_Label_259
-	.word	-264
-	.word	4
-	.word	_Label_260
-	.word	-268
-	.word	4
-	.word	_Label_261
-	.word	-272
-	.word	4
-	.word	_Label_262
-	.word	-276
-	.word	4
-	.word	_Label_263
-	.word	-280
-	.word	4
-	.word	_Label_264
-	.word	-284
-	.word	4
-	.word	_Label_265
-	.word	-288
-	.word	4
-	.word	_Label_266
-	.word	-292
-	.word	4
-	.word	_Label_267
-	.word	-296
-	.word	4
-	.word	_Label_268
-	.word	-300
-	.word	4
-	.word	_Label_269
-	.word	-304
-	.word	4
-	.word	_Label_270
-	.word	-308
-	.word	4
-	.word	_Label_271
-	.word	-312
-	.word	4
-	.word	_Label_272
-	.word	-316
-	.word	4
-	.word	_Label_273
-	.word	-320
-	.word	4
-	.word	_Label_274
-	.word	-324
-	.word	4
-	.word	_Label_275
-	.word	-328
-	.word	4
-	.word	_Label_276
-	.word	-332
-	.word	4
-	.word	_Label_277
-	.word	-336
-	.word	4
-	.word	_Label_278
-	.word	-340
-	.word	4
-	.word	_Label_279
-	.word	-344
-	.word	4
-	.word	_Label_280
-	.word	-348
-	.word	4
-	.word	_Label_281
-	.word	-352
-	.word	4
-	.word	_Label_282
-	.word	-356
-	.word	4
-	.word	_Label_283
-	.word	-360
-	.word	4
-	.word	_Label_284
-	.word	-364
-	.word	4
-	.word	_Label_285
-	.word	-368
-	.word	4
-	.word	_Label_286
-	.word	-372
-	.word	4
-	.word	_Label_287
-	.word	-376
-	.word	4
-	.word	_Label_288
-	.word	-380
-	.word	4
-	.word	_Label_289
-	.word	-384
-	.word	4
-	.word	_Label_290
-	.word	-388
-	.word	4
-	.word	_Label_291
-	.word	-392
-	.word	4
-	.word	_Label_292
-	.word	-396
-	.word	4
-	.word	_Label_293
-	.word	-400
-	.word	4
-	.word	_Label_294
-	.word	-404
-	.word	4
-	.word	_Label_295
-	.word	-408
-	.word	4
-	.word	_Label_296
-	.word	-412
-	.word	4
-	.word	_Label_297
-	.word	-416
-	.word	4
-	.word	_Label_298
-	.word	-420
-	.word	4
-	.word	_Label_299
-	.word	-424
-	.word	4
-	.word	_Label_300
-	.word	-428
-	.word	4
-	.word	_Label_301
-	.word	-432
-	.word	4
-	.word	_Label_302
-	.word	-436
-	.word	4
-	.word	_Label_303
-	.word	-440
-	.word	4
-	.word	_Label_304
-	.word	-444
-	.word	4
-	.word	_Label_305
-	.word	-448
-	.word	4
-	.word	_Label_306
-	.word	-452
-	.word	4
-	.word	_Label_307
-	.word	-456
-	.word	4
-	.word	_Label_308
-	.word	-460
-	.word	4
-	.word	_Label_309
-	.word	-464
-	.word	4
-	.word	_Label_310
-	.word	-468
-	.word	4
-	.word	_Label_311
-	.word	-472
-	.word	4
-	.word	_Label_312
-	.word	-476
-	.word	4
-	.word	_Label_313
-	.word	-480
-	.word	4
-	.word	_Label_314
-	.word	-484
-	.word	4
-	.word	_Label_315
-	.word	-488
-	.word	4
-	.word	_Label_316
-	.word	-492
-	.word	4
-	.word	_Label_317
-	.word	-496
-	.word	4
-	.word	_Label_318
-	.word	-500
-	.word	4
-	.word	_Label_319
-	.word	-504
-	.word	4
-	.word	_Label_320
-	.word	-508
-	.word	4
-	.word	_Label_321
-	.word	-512
-	.word	4
-	.word	_Label_322
-	.word	-516
-	.word	4
-	.word	_Label_323
-	.word	-520
-	.word	4
-	.word	_Label_324
-	.word	-524
-	.word	4
-	.word	_Label_325
-	.word	-528
-	.word	4
-	.word	_Label_326
-	.word	-532
-	.word	4
-	.word	_Label_327
-	.word	-536
-	.word	4
-	.word	_Label_328
-	.word	-540
-	.word	4
-	.word	_Label_329
-	.word	-544
-	.word	4
-	.word	_Label_330
-	.word	-548
-	.word	4
-	.word	_Label_331
-	.word	-552
-	.word	4
-	.word	_Label_332
-	.word	-556
-	.word	4
-	.word	_Label_333
-	.word	-560
-	.word	4
 	.word	0
-_Label_195:
+_Label_67:
 	.ascii	"SleepingBarber\0"
 	.align
-_Label_196:
-	.byte	'?'
-	.ascii	"_temp_194\0"
-	.align
-_Label_197:
-	.byte	'?'
-	.ascii	"_temp_193\0"
-	.align
-_Label_198:
-	.byte	'?'
-	.ascii	"_temp_192\0"
-	.align
-_Label_199:
-	.byte	'?'
-	.ascii	"_temp_191\0"
-	.align
-_Label_200:
-	.byte	'?'
-	.ascii	"_temp_190\0"
-	.align
-_Label_201:
-	.byte	'?'
-	.ascii	"_temp_189\0"
-	.align
-_Label_202:
-	.byte	'?'
-	.ascii	"_temp_188\0"
-	.align
-_Label_203:
-	.byte	'?'
-	.ascii	"_temp_187\0"
-	.align
-_Label_204:
-	.byte	'?'
-	.ascii	"_temp_186\0"
-	.align
-_Label_205:
-	.byte	'?'
-	.ascii	"_temp_185\0"
-	.align
-_Label_206:
-	.byte	'?'
-	.ascii	"_temp_184\0"
-	.align
-_Label_207:
-	.byte	'?'
-	.ascii	"_temp_183\0"
-	.align
-_Label_208:
-	.byte	'?'
-	.ascii	"_temp_182\0"
-	.align
-_Label_209:
-	.byte	'?'
-	.ascii	"_temp_181\0"
-	.align
-_Label_210:
-	.byte	'?'
-	.ascii	"_temp_180\0"
-	.align
-_Label_211:
-	.byte	'?'
-	.ascii	"_temp_179\0"
-	.align
-_Label_212:
-	.byte	'?'
-	.ascii	"_temp_178\0"
-	.align
-_Label_213:
-	.byte	'?'
-	.ascii	"_temp_177\0"
-	.align
-_Label_214:
-	.byte	'?'
-	.ascii	"_temp_176\0"
-	.align
-_Label_215:
-	.byte	'?'
-	.ascii	"_temp_175\0"
-	.align
-_Label_216:
-	.byte	'?'
-	.ascii	"_temp_174\0"
-	.align
-_Label_217:
-	.byte	'?'
-	.ascii	"_temp_173\0"
-	.align
-_Label_218:
-	.byte	'?'
-	.ascii	"_temp_172\0"
-	.align
-_Label_219:
-	.byte	'?'
-	.ascii	"_temp_171\0"
-	.align
-_Label_220:
-	.byte	'?'
-	.ascii	"_temp_170\0"
-	.align
-_Label_221:
-	.byte	'?'
-	.ascii	"_temp_169\0"
-	.align
-_Label_222:
-	.byte	'?'
-	.ascii	"_temp_168\0"
-	.align
-_Label_223:
-	.byte	'?'
-	.ascii	"_temp_167\0"
-	.align
-_Label_224:
-	.byte	'?'
-	.ascii	"_temp_166\0"
-	.align
-_Label_225:
-	.byte	'?'
-	.ascii	"_temp_165\0"
-	.align
-_Label_226:
-	.byte	'?'
-	.ascii	"_temp_164\0"
-	.align
-_Label_227:
-	.byte	'?'
-	.ascii	"_temp_163\0"
-	.align
-_Label_228:
-	.byte	'?'
-	.ascii	"_temp_162\0"
-	.align
-_Label_229:
-	.byte	'?'
-	.ascii	"_temp_161\0"
-	.align
-_Label_230:
-	.byte	'?'
-	.ascii	"_temp_160\0"
-	.align
-_Label_231:
-	.byte	'?'
-	.ascii	"_temp_159\0"
-	.align
-_Label_232:
-	.byte	'?'
-	.ascii	"_temp_158\0"
-	.align
-_Label_233:
-	.byte	'?'
-	.ascii	"_temp_157\0"
-	.align
-_Label_234:
-	.byte	'?'
-	.ascii	"_temp_156\0"
-	.align
-_Label_235:
-	.byte	'?'
-	.ascii	"_temp_155\0"
-	.align
-_Label_236:
-	.byte	'?'
-	.ascii	"_temp_154\0"
-	.align
-_Label_237:
-	.byte	'?'
-	.ascii	"_temp_153\0"
-	.align
-_Label_238:
-	.byte	'?'
-	.ascii	"_temp_152\0"
-	.align
-_Label_239:
-	.byte	'?'
-	.ascii	"_temp_151\0"
-	.align
-_Label_240:
-	.byte	'?'
-	.ascii	"_temp_150\0"
-	.align
-_Label_241:
-	.byte	'?'
-	.ascii	"_temp_149\0"
-	.align
-_Label_242:
-	.byte	'?'
-	.ascii	"_temp_148\0"
-	.align
-_Label_243:
-	.byte	'?'
-	.ascii	"_temp_147\0"
-	.align
-_Label_244:
-	.byte	'?'
-	.ascii	"_temp_146\0"
-	.align
-_Label_245:
-	.byte	'?'
-	.ascii	"_temp_145\0"
-	.align
-_Label_246:
-	.byte	'?'
-	.ascii	"_temp_144\0"
-	.align
-_Label_247:
-	.byte	'?'
-	.ascii	"_temp_143\0"
-	.align
-_Label_248:
-	.byte	'?'
-	.ascii	"_temp_142\0"
-	.align
-_Label_249:
-	.byte	'?'
-	.ascii	"_temp_141\0"
-	.align
-_Label_250:
-	.byte	'?'
-	.ascii	"_temp_140\0"
-	.align
-_Label_251:
-	.byte	'?'
-	.ascii	"_temp_139\0"
-	.align
-_Label_252:
-	.byte	'?'
-	.ascii	"_temp_138\0"
-	.align
-_Label_253:
-	.byte	'?'
-	.ascii	"_temp_137\0"
-	.align
-_Label_254:
-	.byte	'?'
-	.ascii	"_temp_136\0"
-	.align
-_Label_255:
-	.byte	'?'
-	.ascii	"_temp_135\0"
-	.align
-_Label_256:
-	.byte	'?'
-	.ascii	"_temp_134\0"
-	.align
-_Label_257:
-	.byte	'?'
-	.ascii	"_temp_133\0"
-	.align
-_Label_258:
-	.byte	'?'
-	.ascii	"_temp_132\0"
-	.align
-_Label_259:
-	.byte	'?'
-	.ascii	"_temp_131\0"
-	.align
-_Label_260:
-	.byte	'?'
-	.ascii	"_temp_130\0"
-	.align
-_Label_261:
-	.byte	'?'
-	.ascii	"_temp_129\0"
-	.align
-_Label_262:
-	.byte	'?'
-	.ascii	"_temp_128\0"
-	.align
-_Label_263:
-	.byte	'?'
-	.ascii	"_temp_127\0"
-	.align
-_Label_264:
-	.byte	'?'
-	.ascii	"_temp_126\0"
-	.align
-_Label_265:
-	.byte	'?'
-	.ascii	"_temp_125\0"
-	.align
-_Label_266:
-	.byte	'?'
-	.ascii	"_temp_124\0"
-	.align
-_Label_267:
-	.byte	'?'
-	.ascii	"_temp_123\0"
-	.align
-_Label_268:
-	.byte	'?'
-	.ascii	"_temp_122\0"
-	.align
-_Label_269:
-	.byte	'?'
-	.ascii	"_temp_121\0"
-	.align
-_Label_270:
-	.byte	'?'
-	.ascii	"_temp_120\0"
-	.align
-_Label_271:
-	.byte	'?'
-	.ascii	"_temp_119\0"
-	.align
-_Label_272:
-	.byte	'?'
-	.ascii	"_temp_118\0"
-	.align
-_Label_273:
-	.byte	'?'
-	.ascii	"_temp_117\0"
-	.align
-_Label_274:
-	.byte	'?'
-	.ascii	"_temp_116\0"
-	.align
-_Label_275:
-	.byte	'?'
-	.ascii	"_temp_115\0"
-	.align
-_Label_276:
-	.byte	'?'
-	.ascii	"_temp_114\0"
-	.align
-_Label_277:
-	.byte	'?'
-	.ascii	"_temp_113\0"
-	.align
-_Label_278:
-	.byte	'?'
-	.ascii	"_temp_112\0"
-	.align
-_Label_279:
-	.byte	'?'
-	.ascii	"_temp_111\0"
-	.align
-_Label_280:
-	.byte	'?'
-	.ascii	"_temp_110\0"
-	.align
-_Label_281:
-	.byte	'?'
-	.ascii	"_temp_109\0"
-	.align
-_Label_282:
-	.byte	'?'
-	.ascii	"_temp_108\0"
-	.align
-_Label_283:
-	.byte	'?'
-	.ascii	"_temp_107\0"
-	.align
-_Label_284:
-	.byte	'?'
-	.ascii	"_temp_106\0"
-	.align
-_Label_285:
-	.byte	'?'
-	.ascii	"_temp_105\0"
-	.align
-_Label_286:
-	.byte	'?'
-	.ascii	"_temp_104\0"
-	.align
-_Label_287:
-	.byte	'?'
-	.ascii	"_temp_103\0"
-	.align
-_Label_288:
-	.byte	'?'
-	.ascii	"_temp_102\0"
-	.align
-_Label_289:
-	.byte	'?'
-	.ascii	"_temp_101\0"
-	.align
-_Label_290:
-	.byte	'?'
-	.ascii	"_temp_100\0"
-	.align
-_Label_291:
-	.byte	'?'
-	.ascii	"_temp_99\0"
-	.align
-_Label_292:
-	.byte	'?'
-	.ascii	"_temp_98\0"
-	.align
-_Label_293:
-	.byte	'?'
-	.ascii	"_temp_97\0"
-	.align
-_Label_294:
-	.byte	'?'
-	.ascii	"_temp_96\0"
-	.align
-_Label_295:
-	.byte	'?'
-	.ascii	"_temp_95\0"
-	.align
-_Label_296:
-	.byte	'?'
-	.ascii	"_temp_94\0"
-	.align
-_Label_297:
-	.byte	'?'
-	.ascii	"_temp_93\0"
-	.align
-_Label_298:
-	.byte	'?'
-	.ascii	"_temp_92\0"
-	.align
-_Label_299:
-	.byte	'?'
-	.ascii	"_temp_91\0"
-	.align
-_Label_300:
-	.byte	'?'
-	.ascii	"_temp_90\0"
-	.align
-_Label_301:
-	.byte	'?'
-	.ascii	"_temp_89\0"
-	.align
-_Label_302:
-	.byte	'?'
-	.ascii	"_temp_88\0"
-	.align
-_Label_303:
-	.byte	'?'
-	.ascii	"_temp_87\0"
-	.align
-_Label_304:
-	.byte	'?'
-	.ascii	"_temp_86\0"
-	.align
-_Label_305:
-	.byte	'?'
-	.ascii	"_temp_85\0"
-	.align
-_Label_306:
-	.byte	'?'
-	.ascii	"_temp_84\0"
-	.align
-_Label_307:
-	.byte	'?'
-	.ascii	"_temp_83\0"
-	.align
-_Label_308:
-	.byte	'?'
-	.ascii	"_temp_82\0"
-	.align
-_Label_309:
-	.byte	'?'
-	.ascii	"_temp_81\0"
-	.align
-_Label_310:
-	.byte	'?'
-	.ascii	"_temp_80\0"
-	.align
-_Label_311:
-	.byte	'?'
-	.ascii	"_temp_79\0"
-	.align
-_Label_312:
-	.byte	'?'
-	.ascii	"_temp_78\0"
-	.align
-_Label_313:
-	.byte	'?'
-	.ascii	"_temp_77\0"
-	.align
-_Label_314:
-	.byte	'?'
-	.ascii	"_temp_76\0"
-	.align
-_Label_315:
-	.byte	'?'
-	.ascii	"_temp_75\0"
-	.align
-_Label_316:
-	.byte	'?'
-	.ascii	"_temp_74\0"
-	.align
-_Label_317:
-	.byte	'?'
-	.ascii	"_temp_73\0"
-	.align
-_Label_318:
-	.byte	'?'
-	.ascii	"_temp_72\0"
-	.align
-_Label_319:
-	.byte	'?'
-	.ascii	"_temp_71\0"
-	.align
-_Label_320:
-	.byte	'?'
-	.ascii	"_temp_70\0"
-	.align
-_Label_321:
-	.byte	'?'
-	.ascii	"_temp_69\0"
-	.align
-_Label_322:
-	.byte	'?'
-	.ascii	"_temp_68\0"
-	.align
-_Label_323:
-	.byte	'?'
-	.ascii	"_temp_67\0"
-	.align
-_Label_324:
+_Label_68:
 	.byte	'?'
 	.ascii	"_temp_66\0"
 	.align
-_Label_325:
+_Label_69:
 	.byte	'?'
 	.ascii	"_temp_65\0"
 	.align
-_Label_326:
+_Label_70:
 	.byte	'?'
 	.ascii	"_temp_64\0"
 	.align
-_Label_327:
+_Label_71:
 	.byte	'?'
 	.ascii	"_temp_63\0"
 	.align
-_Label_328:
+_Label_72:
 	.byte	'?'
 	.ascii	"_temp_62\0"
 	.align
-_Label_329:
-	.byte	'?'
-	.ascii	"_temp_61\0"
-	.align
-_Label_330:
-	.byte	'?'
-	.ascii	"_temp_60\0"
-	.align
-_Label_331:
-	.byte	'?'
-	.ascii	"_temp_59\0"
-	.align
-_Label_332:
-	.byte	'?'
-	.ascii	"_temp_58\0"
-	.align
-_Label_333:
+_Label_73:
 	.byte	'?'
 	.ascii	"_temp_57\0"
+	.align
+_Label_74:
+	.byte	'?'
+	.ascii	"_temp_56\0"
+	.align
+_Label_75:
+	.byte	'?'
+	.ascii	"_temp_55\0"
+	.align
+_Label_76:
+	.byte	'?'
+	.ascii	"_temp_54\0"
+	.align
+_Label_77:
+	.byte	'?'
+	.ascii	"_temp_53\0"
+	.align
+_Label_78:
+	.byte	'?'
+	.ascii	"_temp_52\0"
+	.align
+_Label_79:
+	.byte	'?'
+	.ascii	"_temp_51\0"
+	.align
+_Label_80:
+	.byte	'?'
+	.ascii	"_temp_50\0"
+	.align
+_Label_81:
+	.byte	'?'
+	.ascii	"_temp_49\0"
+	.align
+_Label_82:
+	.byte	'?'
+	.ascii	"_temp_48\0"
+	.align
+_Label_83:
+	.byte	'?'
+	.ascii	"_temp_47\0"
+	.align
+_Label_84:
+	.byte	'?'
+	.ascii	"_temp_46\0"
+	.align
+_Label_85:
+	.byte	'?'
+	.ascii	"_temp_45\0"
+	.align
+_Label_86:
+	.byte	'?'
+	.ascii	"_temp_44\0"
+	.align
+_Label_87:
+	.byte	'?'
+	.ascii	"_temp_43\0"
+	.align
+_Label_88:
+	.byte	'I'
+	.ascii	"i\0"
 	.align
 ! 
 ! ===============  FUNCTION MultipleCuts  ===============
@@ -33169,59 +30698,59 @@ _P_Main_MultipleCuts:
 	set	_RoutineDescriptor__P_Main_MultipleCuts,r1
 	push	r1
 	mov	4,r1
-_Label_647:
+_Label_430:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_647
-	mov	125,r13		! source line 125
+	bne	_Label_430
+	mov	53,r13		! source line 53
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! FOR STATEMENT...
-	mov	129,r13		! source line 129
+	mov	57,r13		! source line 57
 	mov	"\0\0FO",r10
 !   Calculate and save the FOR-LOOP starting value
-!   _temp_338 = 0		(4 bytes)
+!   _temp_93 = 0		(4 bytes)
 	mov	0,r1
 	store	r1,[r14+-16]
 !   Calculate and save the FOR-LOOP ending value
-!   _temp_339 = 9		(4 bytes)
+!   _temp_94 = 9		(4 bytes)
 	mov	9,r1
 	store	r1,[r14+-12]
 !   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_338  (sizeInBytes=4)
+!   Data Move: i = _temp_93  (sizeInBytes=4)
 	load	[r14+-16],r1
 	store	r1,[r14+-20]
-_Label_334:
+_Label_89:
 !   Perform the FOR-LOOP termination test
-!   if i > _temp_339 then goto _Label_337		
+!   if i > _temp_94 then goto _Label_92		
 	load	[r14+-20],r1
 	load	[r14+-12],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bg	_Label_337
-_Label_335:
-	mov	129,r13		! source line 129
+	bg	_Label_92
+_Label_90:
+	mov	57,r13		! source line 57
 	mov	"\0\0FB",r10
 ! CALL STATEMENT...
 !   Prepare Argument: offset=8  value=id  sizeInBytes=4
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	130,r13		! source line 130
+	mov	58,r13		! source line 58
 	mov	"\0\0CA",r10
 	call	_P_Main_GoIntoTheShop
 !   Increment the FOR-LOOP index variable and jump back
-_Label_336:
+_Label_91:
 !   i = i + 1
 	load	[r14+-20],r1
 	add	r1,1,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-20]
-	jmp	_Label_334
+	jmp	_Label_89
 ! END FOR
-_Label_337:
+_Label_92:
 ! RETURN STATEMENT...
-	mov	129,r13		! source line 129
+	mov	57,r13		! source line 57
 	mov	"\0\0RE",r10
 	add	r15,20,r15
 	pop	r13
@@ -33232,38 +30761,38 @@ _Label_337:
 ! 
 _RoutineDescriptor__P_Main_MultipleCuts:
 	.word	_sourceFileName
-	.word	_Label_340
+	.word	_Label_95
 	.word	4		! total size of parameters
 	.word	16		! frame size = 16
-	.word	_Label_341
+	.word	_Label_96
 	.word	8
 	.word	4
-	.word	_Label_342
+	.word	_Label_97
 	.word	-12
 	.word	4
-	.word	_Label_343
+	.word	_Label_98
 	.word	-16
 	.word	4
-	.word	_Label_344
+	.word	_Label_99
 	.word	-20
 	.word	4
 	.word	0
-_Label_340:
+_Label_95:
 	.ascii	"MultipleCuts\0"
 	.align
-_Label_341:
+_Label_96:
 	.byte	'I'
 	.ascii	"id\0"
 	.align
-_Label_342:
+_Label_97:
 	.byte	'?'
-	.ascii	"_temp_339\0"
+	.ascii	"_temp_94\0"
 	.align
-_Label_343:
+_Label_98:
 	.byte	'?'
-	.ascii	"_temp_338\0"
+	.ascii	"_temp_93\0"
 	.align
-_Label_344:
+_Label_99:
 	.byte	'I'
 	.ascii	"i\0"
 	.align
@@ -33277,25 +30806,25 @@ _P_Main_SetUpShop:
 	set	_RoutineDescriptor__P_Main_SetUpShop,r1
 	push	r1
 	mov	5,r1
-_Label_648:
+_Label_431:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_648
-	mov	134,r13		! source line 134
+	bne	_Label_431
+	mov	62,r13		! source line 62
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! WHILE STATEMENT...
-	mov	135,r13		! source line 135
+	mov	63,r13		! source line 63
 	mov	"\0\0WH",r10
-_Label_345:
-!	jmp	_Label_346
-_Label_346:
-	mov	135,r13		! source line 135
+_Label_100:
+!	jmp	_Label_101
+_Label_101:
+	mov	63,r13		! source line 63
 	mov	"\0\0WB",r10
 ! SEND STATEMENT...
-	mov	136,r13		! source line 136
+	mov	64,r13		! source line 64
 	mov	"\0\0SE",r10
-!   _temp_348 = &_Global_customers
+!   _temp_103 = &_Global_customers
 	set	_Global_customers,r1
 	store	r1,[r14+-24]
 !   Send message Down
@@ -33307,9 +30836,9 @@ _Label_346:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	137,r13		! source line 137
+	mov	65,r13		! source line 65
 	mov	"\0\0SE",r10
-!   _temp_349 = &_Global_lock
+!   _temp_104 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-20]
 !   Send message Lock
@@ -33321,7 +30850,7 @@ _Label_346:
 	add	r2,8,r2
 	call	r2
 ! ASSIGNMENT STATEMENT...
-	mov	138,r13		! source line 138
+	mov	66,r13		! source line 66
 	mov	"\0\0AS",r10
 !   _Global_waiting = _Global_waiting - 1		(int)
 	set	_Global_waiting,r1
@@ -33332,9 +30861,9 @@ _Label_346:
 	set	_Global_waiting,r2
 	store	r1,[r2]
 ! SEND STATEMENT...
-	mov	139,r13		! source line 139
+	mov	67,r13		! source line 67
 	mov	"\0\0SE",r10
-!   _temp_350 = &_Global_barber
+!   _temp_105 = &_Global_barber
 	set	_Global_barber,r1
 	store	r1,[r14+-16]
 !   Send message Up
@@ -33346,9 +30875,9 @@ _Label_346:
 	add	r2,12,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	140,r13		! source line 140
+	mov	68,r13		! source line 68
 	mov	"\0\0SE",r10
-!   _temp_351 = &_Global_lock
+!   _temp_106 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-12]
 !   Send message Unlock
@@ -33364,58 +30893,58 @@ _Label_346:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	141,r13		! source line 141
+	mov	69,r13		! source line 69
 	mov	"\0\0CA",r10
 	call	_P_Main_CutHair
 ! END WHILE...
-	jmp	_Label_345
-_Label_347:
+	jmp	_Label_100
+_Label_102:
 ! 
 ! Routine Descriptor
 ! 
 _RoutineDescriptor__P_Main_SetUpShop:
 	.word	_sourceFileName
-	.word	_Label_352
+	.word	_Label_107
 	.word	4		! total size of parameters
 	.word	20		! frame size = 20
-	.word	_Label_353
+	.word	_Label_108
 	.word	8
 	.word	4
-	.word	_Label_354
+	.word	_Label_109
 	.word	-12
 	.word	4
-	.word	_Label_355
+	.word	_Label_110
 	.word	-16
 	.word	4
-	.word	_Label_356
+	.word	_Label_111
 	.word	-20
 	.word	4
-	.word	_Label_357
+	.word	_Label_112
 	.word	-24
 	.word	4
 	.word	0
-_Label_352:
+_Label_107:
 	.ascii	"SetUpShop\0"
 	.align
-_Label_353:
+_Label_108:
 	.byte	'I'
 	.ascii	"id\0"
 	.align
-_Label_354:
+_Label_109:
 	.byte	'?'
-	.ascii	"_temp_351\0"
+	.ascii	"_temp_106\0"
 	.align
-_Label_355:
+_Label_110:
 	.byte	'?'
-	.ascii	"_temp_350\0"
+	.ascii	"_temp_105\0"
 	.align
-_Label_356:
+_Label_111:
 	.byte	'?'
-	.ascii	"_temp_349\0"
+	.ascii	"_temp_104\0"
 	.align
-_Label_357:
+_Label_112:
 	.byte	'?'
-	.ascii	"_temp_348\0"
+	.ascii	"_temp_103\0"
 	.align
 ! 
 ! ===============  FUNCTION CutHair  ===============
@@ -33427,17 +30956,17 @@ _P_Main_CutHair:
 	set	_RoutineDescriptor__P_Main_CutHair,r1
 	push	r1
 	mov	12,r1
-_Label_649:
+_Label_432:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_649
-	mov	145,r13		! source line 145
+	bne	_Label_432
+	mov	73,r13		! source line 73
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! SEND STATEMENT...
-	mov	148,r13		! source line 148
+	mov	76,r13		! source line 76
 	mov	"\0\0SE",r10
-!   _temp_358 = &_Global_lock
+!   _temp_113 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-48]
 !   Send message Lock
@@ -33449,12 +30978,12 @@ _Label_649:
 	add	r2,8,r2
 	call	r2
 ! ASSIGNMENT STATEMENT...
-	mov	149,r13		! source line 149
+	mov	77,r13		! source line 77
 	mov	"\0\0AS",r10
-!   _temp_359 = &_Global_status
+!   _temp_114 = &_Global_status
 	set	_Global_status,r1
 	store	r1,[r14+-44]
-!   Move address of _temp_359 [id ] into _temp_360
+!   Move address of _temp_114 [id ] into _temp_115
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
@@ -33473,7 +31002,7 @@ _Label_649:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-40]
-!   Data Move: *_temp_360 = 6  (sizeInBytes=4)
+!   Data Move: *_temp_115 = 6  (sizeInBytes=4)
 	mov	6,r1
 	load	[r14+-40],r2
 	store	r1,[r2]
@@ -33482,13 +31011,13 @@ _Label_649:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	150,r13		! source line 150
+	mov	78,r13		! source line 78
 	mov	"\0\0CA",r10
 	call	_P_Main_Print
 ! SEND STATEMENT...
-	mov	151,r13		! source line 151
+	mov	79,r13		! source line 79
 	mov	"\0\0SE",r10
-!   _temp_361 = &_Global_lock
+!   _temp_116 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-36]
 !   Send message Unlock
@@ -33500,33 +31029,33 @@ _Label_649:
 	add	r2,12,r2
 	call	r2
 ! FOR STATEMENT...
-	mov	152,r13		! source line 152
+	mov	80,r13		! source line 80
 	mov	"\0\0FO",r10
 !   Calculate and save the FOR-LOOP starting value
-!   _temp_366 = 0		(4 bytes)
+!   _temp_121 = 0		(4 bytes)
 	mov	0,r1
 	store	r1,[r14+-32]
 !   Calculate and save the FOR-LOOP ending value
-!   _temp_367 = 99		(4 bytes)
+!   _temp_122 = 99		(4 bytes)
 	mov	99,r1
 	store	r1,[r14+-28]
 !   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_366  (sizeInBytes=4)
+!   Data Move: i = _temp_121  (sizeInBytes=4)
 	load	[r14+-32],r1
 	store	r1,[r14+-52]
-_Label_362:
+_Label_117:
 !   Perform the FOR-LOOP termination test
-!   if i > _temp_367 then goto _Label_365		
+!   if i > _temp_122 then goto _Label_120		
 	load	[r14+-52],r1
 	load	[r14+-28],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bg	_Label_365
-_Label_363:
-	mov	152,r13		! source line 152
+	bg	_Label_120
+_Label_118:
+	mov	80,r13		! source line 80
 	mov	"\0\0FB",r10
 ! SEND STATEMENT...
-	mov	153,r13		! source line 153
+	mov	81,r13		! source line 81
 	mov	"\0\0SE",r10
 !   if intIsZero (_P_Thread_currentThread) then goto _runtimeErrorNullPointer
 	set	_P_Thread_currentThread,r1
@@ -33543,19 +31072,19 @@ _Label_363:
 	add	r2,12,r2
 	call	r2
 !   Increment the FOR-LOOP index variable and jump back
-_Label_364:
+_Label_119:
 !   i = i + 1
 	load	[r14+-52],r1
 	add	r1,1,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-52]
-	jmp	_Label_362
+	jmp	_Label_117
 ! END FOR
-_Label_365:
+_Label_120:
 ! SEND STATEMENT...
-	mov	155,r13		! source line 155
+	mov	83,r13		! source line 83
 	mov	"\0\0SE",r10
-!   _temp_368 = &_Global_lock
+!   _temp_123 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-24]
 !   Send message Lock
@@ -33567,12 +31096,12 @@ _Label_365:
 	add	r2,8,r2
 	call	r2
 ! ASSIGNMENT STATEMENT...
-	mov	156,r13		! source line 156
+	mov	84,r13		! source line 84
 	mov	"\0\0AS",r10
-!   _temp_369 = &_Global_status
+!   _temp_124 = &_Global_status
 	set	_Global_status,r1
 	store	r1,[r14+-20]
-!   Move address of _temp_369 [id ] into _temp_370
+!   Move address of _temp_124 [id ] into _temp_125
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
@@ -33591,7 +31120,7 @@ _Label_365:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-16]
-!   Data Move: *_temp_370 = 7  (sizeInBytes=4)
+!   Data Move: *_temp_125 = 7  (sizeInBytes=4)
 	mov	7,r1
 	load	[r14+-16],r2
 	store	r1,[r2]
@@ -33600,13 +31129,13 @@ _Label_365:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	157,r13		! source line 157
+	mov	85,r13		! source line 85
 	mov	"\0\0CA",r10
 	call	_P_Main_Print
 ! SEND STATEMENT...
-	mov	158,r13		! source line 158
+	mov	86,r13		! source line 86
 	mov	"\0\0SE",r10
-!   _temp_371 = &_Global_lock
+!   _temp_126 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-12]
 !   Send message Unlock
@@ -33618,7 +31147,7 @@ _Label_365:
 	add	r2,12,r2
 	call	r2
 ! RETURN STATEMENT...
-	mov	158,r13		! source line 158
+	mov	86,r13		! source line 86
 	mov	"\0\0RE",r10
 	add	r15,52,r15
 	pop	r13
@@ -33629,94 +31158,94 @@ _Label_365:
 ! 
 _RoutineDescriptor__P_Main_CutHair:
 	.word	_sourceFileName
-	.word	_Label_372
+	.word	_Label_127
 	.word	4		! total size of parameters
 	.word	48		! frame size = 48
-	.word	_Label_373
+	.word	_Label_128
 	.word	8
 	.word	4
-	.word	_Label_374
+	.word	_Label_129
 	.word	-12
 	.word	4
-	.word	_Label_375
+	.word	_Label_130
 	.word	-16
 	.word	4
-	.word	_Label_376
+	.word	_Label_131
 	.word	-20
 	.word	4
-	.word	_Label_377
+	.word	_Label_132
 	.word	-24
 	.word	4
-	.word	_Label_378
+	.word	_Label_133
 	.word	-28
 	.word	4
-	.word	_Label_379
+	.word	_Label_134
 	.word	-32
 	.word	4
-	.word	_Label_380
+	.word	_Label_135
 	.word	-36
 	.word	4
-	.word	_Label_381
+	.word	_Label_136
 	.word	-40
 	.word	4
-	.word	_Label_382
+	.word	_Label_137
 	.word	-44
 	.word	4
-	.word	_Label_383
+	.word	_Label_138
 	.word	-48
 	.word	4
-	.word	_Label_384
+	.word	_Label_139
 	.word	-52
 	.word	4
 	.word	0
-_Label_372:
+_Label_127:
 	.ascii	"CutHair\0"
 	.align
-_Label_373:
+_Label_128:
 	.byte	'I'
 	.ascii	"id\0"
 	.align
-_Label_374:
+_Label_129:
 	.byte	'?'
-	.ascii	"_temp_371\0"
+	.ascii	"_temp_126\0"
 	.align
-_Label_375:
+_Label_130:
 	.byte	'?'
-	.ascii	"_temp_370\0"
+	.ascii	"_temp_125\0"
 	.align
-_Label_376:
+_Label_131:
 	.byte	'?'
-	.ascii	"_temp_369\0"
+	.ascii	"_temp_124\0"
 	.align
-_Label_377:
+_Label_132:
 	.byte	'?'
-	.ascii	"_temp_368\0"
+	.ascii	"_temp_123\0"
 	.align
-_Label_378:
+_Label_133:
 	.byte	'?'
-	.ascii	"_temp_367\0"
+	.ascii	"_temp_122\0"
 	.align
-_Label_379:
+_Label_134:
 	.byte	'?'
-	.ascii	"_temp_366\0"
+	.ascii	"_temp_121\0"
 	.align
-_Label_380:
+_Label_135:
 	.byte	'?'
-	.ascii	"_temp_361\0"
+	.ascii	"_temp_116\0"
 	.align
-_Label_381:
+_Label_136:
 	.byte	'?'
-	.ascii	"_temp_360\0"
+	.ascii	"_temp_115\0"
 	.align
-_Label_382:
+_Label_137:
 	.byte	'?'
-	.ascii	"_temp_359\0"
+	.ascii	"_temp_114\0"
 	.align
-_Label_383:
+_Label_138:
 	.byte	'?'
-	.ascii	"_temp_358\0"
+	.ascii	"_temp_113\0"
 	.align
-_Label_384:
+_Label_139:
 	.byte	'I'
 	.ascii	"i\0"
 	.align
@@ -33730,62 +31259,62 @@ _P_Main_GoIntoTheShop:
 	set	_RoutineDescriptor__P_Main_GoIntoTheShop,r1
 	push	r1
 	mov	16,r1
-_Label_650:
+_Label_433:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_650
-	mov	161,r13		! source line 161
+	bne	_Label_433
+	mov	89,r13		! source line 89
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! FOR STATEMENT...
-	mov	164,r13		! source line 164
+	mov	92,r13		! source line 92
 	mov	"\0\0FO",r10
 !   Calculate and save the FOR-LOOP starting value
-!   _temp_389 = 0		(4 bytes)
+!   _temp_144 = 0		(4 bytes)
 	mov	0,r1
 	store	r1,[r14+-64]
 !   Calculate and save the FOR-LOOP ending value
-!   _temp_391 = id * id		(int)
+!   _temp_146 = id * id		(int)
 	load	[r14+8],r1
 	load	[r14+8],r2
 	mul	r1,r2,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-56]
-!   _temp_390 = _temp_391 * 1000		(int)
+!   _temp_145 = _temp_146 * 1000		(int)
 	load	[r14+-56],r1
 	mov	1000,r2
 	mul	r1,r2,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-60]
 !   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_389  (sizeInBytes=4)
+!   Data Move: i = _temp_144  (sizeInBytes=4)
 	load	[r14+-64],r1
 	store	r1,[r14+-68]
-_Label_385:
+_Label_140:
 !   Perform the FOR-LOOP termination test
-!   if i > _temp_390 then goto _Label_388		
+!   if i > _temp_145 then goto _Label_143		
 	load	[r14+-68],r1
 	load	[r14+-60],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bg	_Label_388
-_Label_386:
-	mov	164,r13		! source line 164
+	bg	_Label_143
+_Label_141:
+	mov	92,r13		! source line 92
 	mov	"\0\0FB",r10
 !   Increment the FOR-LOOP index variable and jump back
-_Label_387:
+_Label_142:
 !   i = i + 1
 	load	[r14+-68],r1
 	add	r1,1,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-68]
-	jmp	_Label_385
+	jmp	_Label_140
 ! END FOR
-_Label_388:
+_Label_143:
 ! SEND STATEMENT...
-	mov	166,r13		! source line 166
+	mov	94,r13		! source line 94
 	mov	"\0\0SE",r10
-!   _temp_392 = &_Global_lock
+!   _temp_147 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-52]
 !   Send message Lock
@@ -33797,12 +31326,12 @@ _Label_388:
 	add	r2,8,r2
 	call	r2
 ! ASSIGNMENT STATEMENT...
-	mov	167,r13		! source line 167
+	mov	95,r13		! source line 95
 	mov	"\0\0AS",r10
-!   _temp_393 = &_Global_status
+!   _temp_148 = &_Global_status
 	set	_Global_status,r1
 	store	r1,[r14+-48]
-!   Move address of _temp_393 [id ] into _temp_394
+!   Move address of _temp_148 [id ] into _temp_149
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
@@ -33821,7 +31350,7 @@ _Label_388:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-44]
-!   Data Move: *_temp_394 = 1  (sizeInBytes=4)
+!   Data Move: *_temp_149 = 1  (sizeInBytes=4)
 	mov	1,r1
 	load	[r14+-44],r2
 	store	r1,[r2]
@@ -33830,26 +31359,26 @@ _Label_388:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	168,r13		! source line 168
+	mov	96,r13		! source line 96
 	mov	"\0\0CA",r10
 	call	_P_Main_Print
 ! IF STATEMENT...
-	mov	169,r13		! source line 169
+	mov	97,r13		! source line 97
 	mov	"\0\0IF",r10
-!   if _Global_waiting >= 5 then goto _Label_396		(int)
+!   if _Global_waiting >= 5 then goto _Label_151		(int)
 	set	_Global_waiting,r1
 	load	[r1],r1
 	mov	5,r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bge	_Label_396
-!	jmp	_Label_395
-_Label_395:
+	bge	_Label_151
+!	jmp	_Label_150
+_Label_150:
 ! THEN...
-	mov	170,r13		! source line 170
+	mov	98,r13		! source line 98
 	mov	"\0\0TN",r10
 ! ASSIGNMENT STATEMENT...
-	mov	170,r13		! source line 170
+	mov	98,r13		! source line 98
 	mov	"\0\0AS",r10
 !   _Global_waiting = _Global_waiting + 1		(int)
 	set	_Global_waiting,r1
@@ -33860,12 +31389,12 @@ _Label_395:
 	set	_Global_waiting,r2
 	store	r1,[r2]
 ! ASSIGNMENT STATEMENT...
-	mov	171,r13		! source line 171
+	mov	99,r13		! source line 99
 	mov	"\0\0AS",r10
-!   _temp_397 = &_Global_status
+!   _temp_152 = &_Global_status
 	set	_Global_status,r1
 	store	r1,[r14+-40]
-!   Move address of _temp_397 [id ] into _temp_398
+!   Move address of _temp_152 [id ] into _temp_153
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
@@ -33884,7 +31413,7 @@ _Label_395:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-36]
-!   Data Move: *_temp_398 = 2  (sizeInBytes=4)
+!   Data Move: *_temp_153 = 2  (sizeInBytes=4)
 	mov	2,r1
 	load	[r14+-36],r2
 	store	r1,[r2]
@@ -33893,13 +31422,13 @@ _Label_395:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	172,r13		! source line 172
+	mov	100,r13		! source line 100
 	mov	"\0\0CA",r10
 	call	_P_Main_Print
 ! SEND STATEMENT...
-	mov	173,r13		! source line 173
+	mov	101,r13		! source line 101
 	mov	"\0\0SE",r10
-!   _temp_399 = &_Global_customers
+!   _temp_154 = &_Global_customers
 	set	_Global_customers,r1
 	store	r1,[r14+-32]
 !   Send message Up
@@ -33911,9 +31440,9 @@ _Label_395:
 	add	r2,12,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	174,r13		! source line 174
+	mov	102,r13		! source line 102
 	mov	"\0\0SE",r10
-!   _temp_400 = &_Global_lock
+!   _temp_155 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-28]
 !   Send message Unlock
@@ -33925,9 +31454,9 @@ _Label_395:
 	add	r2,12,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	175,r13		! source line 175
+	mov	103,r13		! source line 103
 	mov	"\0\0SE",r10
-!   _temp_401 = &_Global_barber
+!   _temp_156 = &_Global_barber
 	set	_Global_barber,r1
 	store	r1,[r14+-24]
 !   Send message Down
@@ -33943,21 +31472,21 @@ _Label_395:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	176,r13		! source line 176
+	mov	104,r13		! source line 104
 	mov	"\0\0CA",r10
 	call	_P_Main_GetHaircut
-	jmp	_Label_402
-_Label_396:
+	jmp	_Label_157
+_Label_151:
 ! ELSE...
-	mov	178,r13		! source line 178
+	mov	106,r13		! source line 106
 	mov	"\0\0EL",r10
 ! ASSIGNMENT STATEMENT...
-	mov	178,r13		! source line 178
+	mov	106,r13		! source line 106
 	mov	"\0\0AS",r10
-!   _temp_403 = &_Global_status
+!   _temp_158 = &_Global_status
 	set	_Global_status,r1
 	store	r1,[r14+-20]
-!   Move address of _temp_403 [id ] into _temp_404
+!   Move address of _temp_158 [id ] into _temp_159
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
@@ -33976,7 +31505,7 @@ _Label_396:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-16]
-!   Data Move: *_temp_404 = 3  (sizeInBytes=4)
+!   Data Move: *_temp_159 = 3  (sizeInBytes=4)
 	mov	3,r1
 	load	[r14+-16],r2
 	store	r1,[r2]
@@ -33985,13 +31514,13 @@ _Label_396:
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	179,r13		! source line 179
+	mov	107,r13		! source line 107
 	mov	"\0\0CA",r10
 	call	_P_Main_Print
 ! SEND STATEMENT...
-	mov	180,r13		! source line 180
+	mov	108,r13		! source line 108
 	mov	"\0\0SE",r10
-!   _temp_405 = &_Global_lock
+!   _temp_160 = &_Global_lock
 	set	_Global_lock,r1
 	store	r1,[r14+-12]
 !   Send message Unlock
@@ -34003,9 +31532,9 @@ _Label_396:
 	add	r2,12,r2
 	call	r2
 ! END IF...
-_Label_402:
+_Label_157:
 ! RETURN STATEMENT...
-	mov	169,r13		! source line 169
+	mov	97,r13		! source line 97
 	mov	"\0\0RE",r10
 	add	r15,68,r15
 	pop	r13
@@ -34016,122 +31545,122 @@ _Label_402:
 ! 
 _RoutineDescriptor__P_Main_GoIntoTheShop:
 	.word	_sourceFileName
-	.word	_Label_406
+	.word	_Label_161
 	.word	4		! total size of parameters
 	.word	64		! frame size = 64
-	.word	_Label_407
+	.word	_Label_162
 	.word	8
 	.word	4
-	.word	_Label_408
+	.word	_Label_163
 	.word	-12
 	.word	4
-	.word	_Label_409
+	.word	_Label_164
 	.word	-16
 	.word	4
-	.word	_Label_410
+	.word	_Label_165
 	.word	-20
 	.word	4
-	.word	_Label_411
+	.word	_Label_166
 	.word	-24
 	.word	4
-	.word	_Label_412
+	.word	_Label_167
 	.word	-28
 	.word	4
-	.word	_Label_413
+	.word	_Label_168
 	.word	-32
 	.word	4
-	.word	_Label_414
+	.word	_Label_169
 	.word	-36
 	.word	4
-	.word	_Label_415
+	.word	_Label_170
 	.word	-40
 	.word	4
-	.word	_Label_416
+	.word	_Label_171
 	.word	-44
 	.word	4
-	.word	_Label_417
+	.word	_Label_172
 	.word	-48
 	.word	4
-	.word	_Label_418
+	.word	_Label_173
 	.word	-52
 	.word	4
-	.word	_Label_419
+	.word	_Label_174
 	.word	-56
 	.word	4
-	.word	_Label_420
+	.word	_Label_175
 	.word	-60
 	.word	4
-	.word	_Label_421
+	.word	_Label_176
 	.word	-64
 	.word	4
-	.word	_Label_422
+	.word	_Label_177
 	.word	-68
 	.word	4
 	.word	0
-_Label_406:
+_Label_161:
 	.ascii	"GoIntoTheShop\0"
 	.align
-_Label_407:
+_Label_162:
 	.byte	'I'
 	.ascii	"id\0"
 	.align
-_Label_408:
+_Label_163:
 	.byte	'?'
-	.ascii	"_temp_405\0"
+	.ascii	"_temp_160\0"
 	.align
-_Label_409:
+_Label_164:
 	.byte	'?'
-	.ascii	"_temp_404\0"
+	.ascii	"_temp_159\0"
 	.align
-_Label_410:
+_Label_165:
 	.byte	'?'
-	.ascii	"_temp_403\0"
+	.ascii	"_temp_158\0"
 	.align
-_Label_411:
+_Label_166:
 	.byte	'?'
-	.ascii	"_temp_401\0"
+	.ascii	"_temp_156\0"
 	.align
-_Label_412:
+_Label_167:
 	.byte	'?'
-	.ascii	"_temp_400\0"
+	.ascii	"_temp_155\0"
 	.align
-_Label_413:
+_Label_168:
 	.byte	'?'
-	.ascii	"_temp_399\0"
+	.ascii	"_temp_154\0"
 	.align
-_Label_414:
+_Label_169:
 	.byte	'?'
-	.ascii	"_temp_398\0"
+	.ascii	"_temp_153\0"
 	.align
-_Label_415:
+_Label_170:
 	.byte	'?'
-	.ascii	"_temp_397\0"
+	.ascii	"_temp_152\0"
 	.align
-_Label_416:
+_Label_171:
 	.byte	'?'
-	.ascii	"_temp_394\0"
+	.ascii	"_temp_149\0"
 	.align
-_Label_417:
+_Label_172:
 	.byte	'?'
-	.ascii	"_temp_393\0"
+	.ascii	"_temp_148\0"
 	.align
-_Label_418:
+_Label_173:
 	.byte	'?'
-	.ascii	"_temp_392\0"
+	.ascii	"_temp_147\0"
 	.align
-_Label_419:
+_Label_174:
 	.byte	'?'
-	.ascii	"_temp_391\0"
+	.ascii	"_temp_146\0"
 	.align
-_Label_420:
+_Label_175:
 	.byte	'?'
-	.ascii	"_temp_390\0"
+	.ascii	"_temp_145\0"
 	.align
-_Label_421:
+_Label_176:
 	.byte	'?'
-	.ascii	"_temp_389\0"
+	.ascii	"_temp_144\0"
 	.align
-_Label_422:
+_Label_177:
 	.byte	'I'
 	.ascii	"i\0"
 	.align
@@ -34144,22 +31673,22 @@ _P_Main_GetHaircut:
 	push	r13
 	set	_RoutineDescriptor__P_Main_GetHaircut,r1
 	push	r1
-	mov	12,r1
-_Label_651:
+	mov	18,r1
+_Label_434:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_651
-	mov	185,r13		! source line 185
+	bne	_Label_434
+	mov	113,r13		! source line 113
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! SEND STATEMENT...
-	mov	188,r13		! source line 188
+	mov	116,r13		! source line 116
 	mov	"\0\0SE",r10
-!   _temp_423 = &_Global_lock
+!   _temp_178 = &_Global_lock
 	set	_Global_lock,r1
-	store	r1,[r14+-48]
+	store	r1,[r14+-72]
 !   Send message Lock
-	load	[r14+-48],r1
+	load	[r14+-72],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
@@ -34167,18 +31696,18 @@ _Label_651:
 	add	r2,8,r2
 	call	r2
 ! ASSIGNMENT STATEMENT...
-	mov	189,r13		! source line 189
+	mov	117,r13		! source line 117
 	mov	"\0\0AS",r10
-!   _temp_424 = &_Global_status
+!   _temp_179 = &_Global_status
 	set	_Global_status,r1
-	store	r1,[r14+-44]
-!   Move address of _temp_424 [id ] into _temp_425
+	store	r1,[r14+-68]
+!   Move address of _temp_179 [id ] into _temp_180
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
 	bl	_runtimeErrorBadArrayIndex
 !     make sure index expr is < array size
-	load	[r14+-44],r1
+	load	[r14+-68],r1
 	load	[r1],r3
 	cmp	r3,0
 	ble	_runtimeErrorUninitializedArray
@@ -34190,27 +31719,27 @@ _Label_651:
 	mul	r2,r3,r2
 	add	r2,4,r2
 	add	r2,r1,r2
-	store	r2,[r14+-40]
-!   Data Move: *_temp_425 = 4  (sizeInBytes=4)
+	store	r2,[r14+-64]
+!   Data Move: *_temp_180 = 4  (sizeInBytes=4)
 	mov	4,r1
-	load	[r14+-40],r2
+	load	[r14+-64],r2
 	store	r1,[r2]
 ! CALL STATEMENT...
 !   Prepare Argument: offset=8  value=id  sizeInBytes=4
 	load	[r14+8],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	190,r13		! source line 190
+	mov	118,r13		! source line 118
 	mov	"\0\0CA",r10
 	call	_P_Main_Print
 ! SEND STATEMENT...
-	mov	191,r13		! source line 191
+	mov	119,r13		! source line 119
 	mov	"\0\0SE",r10
-!   _temp_426 = &_Global_lock
+!   _temp_181 = &_Global_lock
 	set	_Global_lock,r1
-	store	r1,[r14+-36]
+	store	r1,[r14+-60]
 !   Send message Unlock
-	load	[r14+-36],r1
+	load	[r14+-60],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
@@ -34218,33 +31747,33 @@ _Label_651:
 	add	r2,12,r2
 	call	r2
 ! FOR STATEMENT...
-	mov	192,r13		! source line 192
+	mov	120,r13		! source line 120
 	mov	"\0\0FO",r10
 !   Calculate and save the FOR-LOOP starting value
-!   _temp_431 = 0		(4 bytes)
+!   _temp_186 = 0		(4 bytes)
 	mov	0,r1
-	store	r1,[r14+-32]
+	store	r1,[r14+-56]
 !   Calculate and save the FOR-LOOP ending value
-!   _temp_432 = 99		(4 bytes)
-	mov	99,r1
-	store	r1,[r14+-28]
-!   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_431  (sizeInBytes=4)
-	load	[r14+-32],r1
+!   _temp_187 = 74		(4 bytes)
+	mov	74,r1
 	store	r1,[r14+-52]
-_Label_427:
+!   Initialize FOR-LOOP index variable
+!   Data Move: i = _temp_186  (sizeInBytes=4)
+	load	[r14+-56],r1
+	store	r1,[r14+-76]
+_Label_182:
 !   Perform the FOR-LOOP termination test
-!   if i > _temp_432 then goto _Label_430		
-	load	[r14+-52],r1
-	load	[r14+-28],r2
+!   if i > _temp_187 then goto _Label_185		
+	load	[r14+-76],r1
+	load	[r14+-52],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bg	_Label_430
-_Label_428:
-	mov	192,r13		! source line 192
+	bg	_Label_185
+_Label_183:
+	mov	120,r13		! source line 120
 	mov	"\0\0FB",r10
 ! SEND STATEMENT...
-	mov	193,r13		! source line 193
+	mov	121,r13		! source line 121
 	mov	"\0\0SE",r10
 !   if intIsZero (_P_Thread_currentThread) then goto _runtimeErrorNullPointer
 	set	_P_Thread_currentThread,r1
@@ -34261,23 +31790,23 @@ _Label_428:
 	add	r2,12,r2
 	call	r2
 !   Increment the FOR-LOOP index variable and jump back
-_Label_429:
+_Label_184:
 !   i = i + 1
-	load	[r14+-52],r1
+	load	[r14+-76],r1
 	add	r1,1,r1
 	bvs	_runtimeErrorOverflow
-	store	r1,[r14+-52]
-	jmp	_Label_427
+	store	r1,[r14+-76]
+	jmp	_Label_182
 ! END FOR
-_Label_430:
+_Label_185:
 ! SEND STATEMENT...
-	mov	195,r13		! source line 195
+	mov	123,r13		! source line 123
 	mov	"\0\0SE",r10
-!   _temp_433 = &_Global_lock
+!   _temp_188 = &_Global_lock
 	set	_Global_lock,r1
-	store	r1,[r14+-24]
+	store	r1,[r14+-48]
 !   Send message Lock
-	load	[r14+-24],r1
+	load	[r14+-48],r1
 	load	[r1],r2
 	cmp	r2,0
 	be	 _runtimeErrorUninitializedObject
@@ -34285,308 +31814,12 @@ _Label_430:
 	add	r2,8,r2
 	call	r2
 ! ASSIGNMENT STATEMENT...
-	mov	196,r13		! source line 196
+	mov	124,r13		! source line 124
 	mov	"\0\0AS",r10
-!   _temp_434 = &_Global_status
-	set	_Global_status,r1
-	store	r1,[r14+-20]
-!   Move address of _temp_434 [id ] into _temp_435
-!     make sure index expr is >= 0
-	load	[r14+8],r2
-	cmp	r2,0
-	bl	_runtimeErrorBadArrayIndex
-!     make sure index expr is < array size
-	load	[r14+-20],r1
-	load	[r1],r3
-	cmp	r3,0
-	ble	_runtimeErrorUninitializedArray
-	cmp	r2,r3
-	bvs	_runtimeErrorOverflow
-	bge	_runtimeErrorBadArrayIndex
-!     compute address of array element
-	set	4,r3
-	mul	r2,r3,r2
-	add	r2,4,r2
-	add	r2,r1,r2
-	store	r2,[r14+-16]
-!   Data Move: *_temp_435 = 5  (sizeInBytes=4)
-	mov	5,r1
-	load	[r14+-16],r2
-	store	r1,[r2]
-! CALL STATEMENT...
-!   Prepare Argument: offset=8  value=id  sizeInBytes=4
-	load	[r14+8],r1
-	store	r1,[r15+0]
-!   Call the function
-	mov	197,r13		! source line 197
-	mov	"\0\0CA",r10
-	call	_P_Main_Print
-! SEND STATEMENT...
-	mov	198,r13		! source line 198
-	mov	"\0\0SE",r10
-!   _temp_436 = &_Global_lock
-	set	_Global_lock,r1
-	store	r1,[r14+-12]
-!   Send message Unlock
-	load	[r14+-12],r1
-	load	[r1],r2
-	cmp	r2,0
-	be	 _runtimeErrorUninitializedObject
-	store	r1,[r15]
-	add	r2,12,r2
-	call	r2
-! RETURN STATEMENT...
-	mov	198,r13		! source line 198
-	mov	"\0\0RE",r10
-	add	r15,52,r15
-	pop	r13
-	pop	r14
-	ret
-! 
-! Routine Descriptor
-! 
-_RoutineDescriptor__P_Main_GetHaircut:
-	.word	_sourceFileName
-	.word	_Label_437
-	.word	4		! total size of parameters
-	.word	48		! frame size = 48
-	.word	_Label_438
-	.word	8
-	.word	4
-	.word	_Label_439
-	.word	-12
-	.word	4
-	.word	_Label_440
-	.word	-16
-	.word	4
-	.word	_Label_441
-	.word	-20
-	.word	4
-	.word	_Label_442
-	.word	-24
-	.word	4
-	.word	_Label_443
-	.word	-28
-	.word	4
-	.word	_Label_444
-	.word	-32
-	.word	4
-	.word	_Label_445
-	.word	-36
-	.word	4
-	.word	_Label_446
-	.word	-40
-	.word	4
-	.word	_Label_447
-	.word	-44
-	.word	4
-	.word	_Label_448
-	.word	-48
-	.word	4
-	.word	_Label_449
-	.word	-52
-	.word	4
-	.word	0
-_Label_437:
-	.ascii	"GetHaircut\0"
-	.align
-_Label_438:
-	.byte	'I'
-	.ascii	"id\0"
-	.align
-_Label_439:
-	.byte	'?'
-	.ascii	"_temp_436\0"
-	.align
-_Label_440:
-	.byte	'?'
-	.ascii	"_temp_435\0"
-	.align
-_Label_441:
-	.byte	'?'
-	.ascii	"_temp_434\0"
-	.align
-_Label_442:
-	.byte	'?'
-	.ascii	"_temp_433\0"
-	.align
-_Label_443:
-	.byte	'?'
-	.ascii	"_temp_432\0"
-	.align
-_Label_444:
-	.byte	'?'
-	.ascii	"_temp_431\0"
-	.align
-_Label_445:
-	.byte	'?'
-	.ascii	"_temp_426\0"
-	.align
-_Label_446:
-	.byte	'?'
-	.ascii	"_temp_425\0"
-	.align
-_Label_447:
-	.byte	'?'
-	.ascii	"_temp_424\0"
-	.align
-_Label_448:
-	.byte	'?'
-	.ascii	"_temp_423\0"
-	.align
-_Label_449:
-	.byte	'I'
-	.ascii	"i\0"
-	.align
-! 
-! ===============  FUNCTION Print  ===============
-! 
-_P_Main_Print:
-	push	r14
-	mov	r15,r14
-	push	r13
-	set	_RoutineDescriptor__P_Main_Print,r1
-	push	r1
-	mov	17,r1
-_Label_652:
-	push	r0
-	sub	r1,1,r1
-	bne	_Label_652
-	mov	201,r13		! source line 201
-	mov	"\0\0FU",r10
-! VARIABLE INITIALIZATION...
-! CALL STATEMENT...
-!   Call the function
-	mov	205,r13		! source line 205
-	mov	"\0\0CA",r10
-	call	_P_Main_PrintChairs
-! ASSIGNMENT STATEMENT...
-	mov	206,r13		! source line 206
-	mov	"\0\0AS",r10
-!   buff = id * 2		(int)
-	load	[r14+8],r1
-	mov	2,r2
-	mul	r1,r2,r1
-	bvs	_runtimeErrorOverflow
-	store	r1,[r14+-72]
-! IF STATEMENT...
-	mov	208,r13		! source line 208
-	mov	"\0\0IF",r10
-!   if id <= 9 then goto _Label_451		(int)
-	load	[r14+8],r1
-	mov	9,r2
-	cmp	r1,r2
-	bvs	_runtimeErrorOverflow
-	ble	_Label_451
-!	jmp	_Label_450
-_Label_450:
-! THEN...
-	mov	209,r13		! source line 209
-	mov	"\0\0TN",r10
-! IF STATEMENT...
-	mov	209,r13		! source line 209
-	mov	"\0\0IF",r10
-!   if id <= 19 then goto _Label_453		(int)
-	load	[r14+8],r1
-	mov	19,r2
-	cmp	r1,r2
-	bvs	_runtimeErrorOverflow
-	ble	_Label_453
-!	jmp	_Label_452
-_Label_452:
-! THEN...
-	mov	210,r13		! source line 210
-	mov	"\0\0TN",r10
-! ASSIGNMENT STATEMENT...
-	mov	210,r13		! source line 210
-	mov	"\0\0AS",r10
-!   buff = buff + 10		(int)
-	load	[r14+-72],r1
-	mov	10,r2
-	add	r1,r2,r1
-	bvs	_runtimeErrorOverflow
-	store	r1,[r14+-72]
-	jmp	_Label_454
-_Label_453:
-! ELSE...
-	mov	212,r13		! source line 212
-	mov	"\0\0EL",r10
-! ASSIGNMENT STATEMENT...
-	mov	212,r13		! source line 212
-	mov	"\0\0AS",r10
-!   _temp_455 = id rem 10		(int)
-	load	[r14+8],r1
-	mov	10,r2
-	cmp	r2,0
-	be	_runtimeErrorZeroDivide
-	rem	r1,r2,r1
-	bvs	_runtimeErrorOverflow
-	store	r1,[r14+-64]
-!   buff = buff + _temp_455		(int)
-	load	[r14+-72],r1
-	load	[r14+-64],r2
-	add	r1,r2,r1
-	bvs	_runtimeErrorOverflow
-	store	r1,[r14+-72]
-! END IF...
-_Label_454:
-! END IF...
-_Label_451:
-! FOR STATEMENT...
-	mov	216,r13		! source line 216
-	mov	"\0\0FO",r10
-!   Calculate and save the FOR-LOOP starting value
-!   _temp_460 = 0		(4 bytes)
-	mov	0,r1
-	store	r1,[r14+-60]
-!   Calculate and save the FOR-LOOP ending value
-!   _temp_461 = buff		(4 bytes)
-	load	[r14+-72],r1
-	store	r1,[r14+-56]
-!   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_460  (sizeInBytes=4)
-	load	[r14+-60],r1
-	store	r1,[r14+-68]
-_Label_456:
-!   Perform the FOR-LOOP termination test
-!   if i > _temp_461 then goto _Label_459		
-	load	[r14+-68],r1
-	load	[r14+-56],r2
-	cmp	r1,r2
-	bvs	_runtimeErrorOverflow
-	bg	_Label_459
-_Label_457:
-	mov	216,r13		! source line 216
-	mov	"\0\0FB",r10
-! CALL STATEMENT...
-!   _temp_462 = _StringConst_28
-	set	_StringConst_28,r1
-	store	r1,[r14+-52]
-!   Prepare Argument: offset=8  value=_temp_462  sizeInBytes=4
-	load	[r14+-52],r1
-	store	r1,[r15+0]
-!   Call the function
-	mov	217,r13		! source line 217
-	mov	"\0\0CE",r10
-	call	print
-!   Increment the FOR-LOOP index variable and jump back
-_Label_458:
-!   i = i + 1
-	load	[r14+-68],r1
-	add	r1,1,r1
-	bvs	_runtimeErrorOverflow
-	store	r1,[r14+-68]
-	jmp	_Label_456
-! END FOR
-_Label_459:
-! SWITCH STATEMENT (using series of tests)...
-	mov	220,r13		! source line 220
-	mov	"\0\0SW",r10
-!   Evaluate the switch expression...
-!   _temp_473 = &_Global_status
+!   _temp_189 = &_Global_status
 	set	_Global_status,r1
 	store	r1,[r14+-44]
-!   Move address of _temp_473 [id ] into _temp_474
+!   Move address of _temp_189 [id ] into _temp_190
 !     make sure index expr is >= 0
 	load	[r14+8],r2
 	cmp	r2,0
@@ -34605,157 +31838,613 @@ _Label_459:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-40]
-!   Data Move: _temp_472 = *_temp_474  (sizeInBytes=4)
+!   Data Move: *_temp_190 = 5  (sizeInBytes=4)
+	mov	5,r1
+	load	[r14+-40],r2
+	store	r1,[r2]
+! CALL STATEMENT...
+!   Prepare Argument: offset=8  value=id  sizeInBytes=4
+	load	[r14+8],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	125,r13		! source line 125
+	mov	"\0\0CA",r10
+	call	_P_Main_Print
+! SEND STATEMENT...
+	mov	126,r13		! source line 126
+	mov	"\0\0SE",r10
+!   _temp_191 = &_Global_lock
+	set	_Global_lock,r1
+	store	r1,[r14+-36]
+!   Send message Unlock
+	load	[r14+-36],r1
+	load	[r1],r2
+	cmp	r2,0
+	be	 _runtimeErrorUninitializedObject
+	store	r1,[r15]
+	add	r2,12,r2
+	call	r2
+! FOR STATEMENT...
+	mov	128,r13		! source line 128
+	mov	"\0\0FO",r10
+!   Calculate and save the FOR-LOOP starting value
+!   _temp_196 = 0		(4 bytes)
+	mov	0,r1
+	store	r1,[r14+-32]
+!   Calculate and save the FOR-LOOP ending value
+!   _temp_197 = 50		(4 bytes)
+	mov	50,r1
+	store	r1,[r14+-28]
+!   Initialize FOR-LOOP index variable
+!   Data Move: i = _temp_196  (sizeInBytes=4)
+	load	[r14+-32],r1
+	store	r1,[r14+-76]
+_Label_192:
+!   Perform the FOR-LOOP termination test
+!   if i > _temp_197 then goto _Label_195		
+	load	[r14+-76],r1
+	load	[r14+-28],r2
+	cmp	r1,r2
+	bvs	_runtimeErrorOverflow
+	bg	_Label_195
+_Label_193:
+	mov	128,r13		! source line 128
+	mov	"\0\0FB",r10
+! SEND STATEMENT...
+	mov	129,r13		! source line 129
+	mov	"\0\0SE",r10
+!   if intIsZero (_P_Thread_currentThread) then goto _runtimeErrorNullPointer
+	set	_P_Thread_currentThread,r1
+	load	[r1],r1
+	cmp	r1,r0
+	be	_runtimeErrorNullPointer
+!   Send message Yield
+	set	_P_Thread_currentThread,r1
+	load	[r1],r1
+	load	[r1],r2
+	cmp	r2,0
+	be	 _runtimeErrorUninitializedObject
+	store	r1,[r15]
+	add	r2,12,r2
+	call	r2
+!   Increment the FOR-LOOP index variable and jump back
+_Label_194:
+!   i = i + 1
+	load	[r14+-76],r1
+	add	r1,1,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-76]
+	jmp	_Label_192
+! END FOR
+_Label_195:
+! SEND STATEMENT...
+	mov	132,r13		! source line 132
+	mov	"\0\0SE",r10
+!   _temp_198 = &_Global_lock
+	set	_Global_lock,r1
+	store	r1,[r14+-24]
+!   Send message Lock
+	load	[r14+-24],r1
+	load	[r1],r2
+	cmp	r2,0
+	be	 _runtimeErrorUninitializedObject
+	store	r1,[r15]
+	add	r2,8,r2
+	call	r2
+! ASSIGNMENT STATEMENT...
+	mov	133,r13		! source line 133
+	mov	"\0\0AS",r10
+!   _temp_199 = &_Global_status
+	set	_Global_status,r1
+	store	r1,[r14+-20]
+!   Move address of _temp_199 [id ] into _temp_200
+!     make sure index expr is >= 0
+	load	[r14+8],r2
+	cmp	r2,0
+	bl	_runtimeErrorBadArrayIndex
+!     make sure index expr is < array size
+	load	[r14+-20],r1
+	load	[r1],r3
+	cmp	r3,0
+	ble	_runtimeErrorUninitializedArray
+	cmp	r2,r3
+	bvs	_runtimeErrorOverflow
+	bge	_runtimeErrorBadArrayIndex
+!     compute address of array element
+	set	4,r3
+	mul	r2,r3,r2
+	add	r2,4,r2
+	add	r2,r1,r2
+	store	r2,[r14+-16]
+!   Data Move: *_temp_200 = 3  (sizeInBytes=4)
+	mov	3,r1
+	load	[r14+-16],r2
+	store	r1,[r2]
+! CALL STATEMENT...
+!   Prepare Argument: offset=8  value=id  sizeInBytes=4
+	load	[r14+8],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	134,r13		! source line 134
+	mov	"\0\0CA",r10
+	call	_P_Main_Print
+! SEND STATEMENT...
+	mov	135,r13		! source line 135
+	mov	"\0\0SE",r10
+!   _temp_201 = &_Global_lock
+	set	_Global_lock,r1
+	store	r1,[r14+-12]
+!   Send message Unlock
+	load	[r14+-12],r1
+	load	[r1],r2
+	cmp	r2,0
+	be	 _runtimeErrorUninitializedObject
+	store	r1,[r15]
+	add	r2,12,r2
+	call	r2
+! RETURN STATEMENT...
+	mov	135,r13		! source line 135
+	mov	"\0\0RE",r10
+	add	r15,76,r15
+	pop	r13
+	pop	r14
+	ret
+! 
+! Routine Descriptor
+! 
+_RoutineDescriptor__P_Main_GetHaircut:
+	.word	_sourceFileName
+	.word	_Label_202
+	.word	4		! total size of parameters
+	.word	72		! frame size = 72
+	.word	_Label_203
+	.word	8
+	.word	4
+	.word	_Label_204
+	.word	-12
+	.word	4
+	.word	_Label_205
+	.word	-16
+	.word	4
+	.word	_Label_206
+	.word	-20
+	.word	4
+	.word	_Label_207
+	.word	-24
+	.word	4
+	.word	_Label_208
+	.word	-28
+	.word	4
+	.word	_Label_209
+	.word	-32
+	.word	4
+	.word	_Label_210
+	.word	-36
+	.word	4
+	.word	_Label_211
+	.word	-40
+	.word	4
+	.word	_Label_212
+	.word	-44
+	.word	4
+	.word	_Label_213
+	.word	-48
+	.word	4
+	.word	_Label_214
+	.word	-52
+	.word	4
+	.word	_Label_215
+	.word	-56
+	.word	4
+	.word	_Label_216
+	.word	-60
+	.word	4
+	.word	_Label_217
+	.word	-64
+	.word	4
+	.word	_Label_218
+	.word	-68
+	.word	4
+	.word	_Label_219
+	.word	-72
+	.word	4
+	.word	_Label_220
+	.word	-76
+	.word	4
+	.word	0
+_Label_202:
+	.ascii	"GetHaircut\0"
+	.align
+_Label_203:
+	.byte	'I'
+	.ascii	"id\0"
+	.align
+_Label_204:
+	.byte	'?'
+	.ascii	"_temp_201\0"
+	.align
+_Label_205:
+	.byte	'?'
+	.ascii	"_temp_200\0"
+	.align
+_Label_206:
+	.byte	'?'
+	.ascii	"_temp_199\0"
+	.align
+_Label_207:
+	.byte	'?'
+	.ascii	"_temp_198\0"
+	.align
+_Label_208:
+	.byte	'?'
+	.ascii	"_temp_197\0"
+	.align
+_Label_209:
+	.byte	'?'
+	.ascii	"_temp_196\0"
+	.align
+_Label_210:
+	.byte	'?'
+	.ascii	"_temp_191\0"
+	.align
+_Label_211:
+	.byte	'?'
+	.ascii	"_temp_190\0"
+	.align
+_Label_212:
+	.byte	'?'
+	.ascii	"_temp_189\0"
+	.align
+_Label_213:
+	.byte	'?'
+	.ascii	"_temp_188\0"
+	.align
+_Label_214:
+	.byte	'?'
+	.ascii	"_temp_187\0"
+	.align
+_Label_215:
+	.byte	'?'
+	.ascii	"_temp_186\0"
+	.align
+_Label_216:
+	.byte	'?'
+	.ascii	"_temp_181\0"
+	.align
+_Label_217:
+	.byte	'?'
+	.ascii	"_temp_180\0"
+	.align
+_Label_218:
+	.byte	'?'
+	.ascii	"_temp_179\0"
+	.align
+_Label_219:
+	.byte	'?'
+	.ascii	"_temp_178\0"
+	.align
+_Label_220:
+	.byte	'I'
+	.ascii	"i\0"
+	.align
+! 
+! ===============  FUNCTION Print  ===============
+! 
+_P_Main_Print:
+	push	r14
+	mov	r15,r14
+	push	r13
+	set	_RoutineDescriptor__P_Main_Print,r1
+	push	r1
+	mov	17,r1
+_Label_435:
+	push	r0
+	sub	r1,1,r1
+	bne	_Label_435
+	mov	138,r13		! source line 138
+	mov	"\0\0FU",r10
+! VARIABLE INITIALIZATION...
+! CALL STATEMENT...
+!   Call the function
+	mov	142,r13		! source line 142
+	mov	"\0\0CA",r10
+	call	_P_Main_PrintChairs
+! ASSIGNMENT STATEMENT...
+	mov	143,r13		! source line 143
+	mov	"\0\0AS",r10
+!   buff = id * 2		(int)
+	load	[r14+8],r1
+	mov	2,r2
+	mul	r1,r2,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-72]
+! IF STATEMENT...
+	mov	145,r13		! source line 145
+	mov	"\0\0IF",r10
+!   if id <= 9 then goto _Label_222		(int)
+	load	[r14+8],r1
+	mov	9,r2
+	cmp	r1,r2
+	bvs	_runtimeErrorOverflow
+	ble	_Label_222
+!	jmp	_Label_221
+_Label_221:
+! THEN...
+	mov	146,r13		! source line 146
+	mov	"\0\0TN",r10
+! IF STATEMENT...
+	mov	146,r13		! source line 146
+	mov	"\0\0IF",r10
+!   if id <= 19 then goto _Label_224		(int)
+	load	[r14+8],r1
+	mov	19,r2
+	cmp	r1,r2
+	bvs	_runtimeErrorOverflow
+	ble	_Label_224
+!	jmp	_Label_223
+_Label_223:
+! THEN...
+	mov	147,r13		! source line 147
+	mov	"\0\0TN",r10
+! ASSIGNMENT STATEMENT...
+	mov	147,r13		! source line 147
+	mov	"\0\0AS",r10
+!   buff = buff + 10		(int)
+	load	[r14+-72],r1
+	mov	10,r2
+	add	r1,r2,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-72]
+	jmp	_Label_225
+_Label_224:
+! ELSE...
+	mov	149,r13		! source line 149
+	mov	"\0\0EL",r10
+! ASSIGNMENT STATEMENT...
+	mov	149,r13		! source line 149
+	mov	"\0\0AS",r10
+!   _temp_226 = id rem 10		(int)
+	load	[r14+8],r1
+	mov	10,r2
+	cmp	r2,0
+	be	_runtimeErrorZeroDivide
+	rem	r1,r2,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-64]
+!   buff = buff + _temp_226		(int)
+	load	[r14+-72],r1
+	load	[r14+-64],r2
+	add	r1,r2,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-72]
+! END IF...
+_Label_225:
+! END IF...
+_Label_222:
+! FOR STATEMENT...
+	mov	153,r13		! source line 153
+	mov	"\0\0FO",r10
+!   Calculate and save the FOR-LOOP starting value
+!   _temp_231 = 0		(4 bytes)
+	mov	0,r1
+	store	r1,[r14+-60]
+!   Calculate and save the FOR-LOOP ending value
+!   _temp_232 = buff		(4 bytes)
+	load	[r14+-72],r1
+	store	r1,[r14+-56]
+!   Initialize FOR-LOOP index variable
+!   Data Move: i = _temp_231  (sizeInBytes=4)
+	load	[r14+-60],r1
+	store	r1,[r14+-68]
+_Label_227:
+!   Perform the FOR-LOOP termination test
+!   if i > _temp_232 then goto _Label_230		
+	load	[r14+-68],r1
+	load	[r14+-56],r2
+	cmp	r1,r2
+	bvs	_runtimeErrorOverflow
+	bg	_Label_230
+_Label_228:
+	mov	153,r13		! source line 153
+	mov	"\0\0FB",r10
+! CALL STATEMENT...
+!   _temp_233 = _StringConst_7
+	set	_StringConst_7,r1
+	store	r1,[r14+-52]
+!   Prepare Argument: offset=8  value=_temp_233  sizeInBytes=4
+	load	[r14+-52],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	154,r13		! source line 154
+	mov	"\0\0CE",r10
+	call	print
+!   Increment the FOR-LOOP index variable and jump back
+_Label_229:
+!   i = i + 1
+	load	[r14+-68],r1
+	add	r1,1,r1
+	bvs	_runtimeErrorOverflow
+	store	r1,[r14+-68]
+	jmp	_Label_227
+! END FOR
+_Label_230:
+! SWITCH STATEMENT (using series of tests)...
+	mov	157,r13		! source line 157
+	mov	"\0\0SW",r10
+!   Evaluate the switch expression...
+!   _temp_244 = &_Global_status
+	set	_Global_status,r1
+	store	r1,[r14+-44]
+!   Move address of _temp_244 [id ] into _temp_245
+!     make sure index expr is >= 0
+	load	[r14+8],r2
+	cmp	r2,0
+	bl	_runtimeErrorBadArrayIndex
+!     make sure index expr is < array size
+	load	[r14+-44],r1
+	load	[r1],r3
+	cmp	r3,0
+	ble	_runtimeErrorUninitializedArray
+	cmp	r2,r3
+	bvs	_runtimeErrorOverflow
+	bge	_runtimeErrorBadArrayIndex
+!     compute address of array element
+	set	4,r3
+	mul	r2,r3,r2
+	add	r2,4,r2
+	add	r2,r1,r2
+	store	r2,[r14+-40]
+!   Data Move: _temp_243 = *_temp_245  (sizeInBytes=4)
 	load	[r14+-40],r1
 	load	[r1],r1
 	store	r1,[r14+-48]
 !   Branch to the right case label
 	load	[r14+-48],r1
 	cmp	r1,1
-	be	_Label_465
+	be	_Label_236
 	cmp	r1,2
-	be	_Label_466
+	be	_Label_237
 	cmp	r1,3
-	be	_Label_467
+	be	_Label_238
 	cmp	r1,6
-	be	_Label_468
+	be	_Label_239
 	cmp	r1,7
-	be	_Label_469
+	be	_Label_240
 	cmp	r1,4
-	be	_Label_470
+	be	_Label_241
 	cmp	r1,5
-	be	_Label_471
-	jmp	_Label_463
+	be	_Label_242
+	jmp	_Label_234
 ! CASE 1...
-_Label_465:
+_Label_236:
 ! CALL STATEMENT...
-!   _temp_475 = _StringConst_29
-	set	_StringConst_29,r1
+!   _temp_246 = _StringConst_8
+	set	_StringConst_8,r1
 	store	r1,[r14+-36]
-!   Prepare Argument: offset=8  value=_temp_475  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_246  sizeInBytes=4
 	load	[r14+-36],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	222,r13		! source line 222
+	mov	159,r13		! source line 159
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	223,r13		! source line 223
+	mov	160,r13		! source line 160
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! CASE 2...
-_Label_466:
+_Label_237:
 ! CALL STATEMENT...
-!   _temp_476 = _StringConst_30
-	set	_StringConst_30,r1
+!   _temp_247 = _StringConst_9
+	set	_StringConst_9,r1
 	store	r1,[r14+-32]
-!   Prepare Argument: offset=8  value=_temp_476  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_247  sizeInBytes=4
 	load	[r14+-32],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	225,r13		! source line 225
+	mov	162,r13		! source line 162
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	226,r13		! source line 226
+	mov	163,r13		! source line 163
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! CASE 3...
-_Label_467:
+_Label_238:
 ! CALL STATEMENT...
-!   _temp_477 = _StringConst_31
-	set	_StringConst_31,r1
+!   _temp_248 = _StringConst_10
+	set	_StringConst_10,r1
 	store	r1,[r14+-28]
-!   Prepare Argument: offset=8  value=_temp_477  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_248  sizeInBytes=4
 	load	[r14+-28],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	228,r13		! source line 228
+	mov	165,r13		! source line 165
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	229,r13		! source line 229
+	mov	166,r13		! source line 166
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! CASE 6...
-_Label_468:
+_Label_239:
 ! CALL STATEMENT...
-!   _temp_478 = _StringConst_32
-	set	_StringConst_32,r1
+!   _temp_249 = _StringConst_11
+	set	_StringConst_11,r1
 	store	r1,[r14+-24]
-!   Prepare Argument: offset=8  value=_temp_478  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_249  sizeInBytes=4
 	load	[r14+-24],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	231,r13		! source line 231
+	mov	168,r13		! source line 168
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	232,r13		! source line 232
+	mov	169,r13		! source line 169
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! CASE 7...
-_Label_469:
+_Label_240:
 ! CALL STATEMENT...
-!   _temp_479 = _StringConst_33
-	set	_StringConst_33,r1
+!   _temp_250 = _StringConst_12
+	set	_StringConst_12,r1
 	store	r1,[r14+-20]
-!   Prepare Argument: offset=8  value=_temp_479  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_250  sizeInBytes=4
 	load	[r14+-20],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	234,r13		! source line 234
+	mov	171,r13		! source line 171
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	235,r13		! source line 235
+	mov	172,r13		! source line 172
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! CASE 4...
-_Label_470:
+_Label_241:
 ! CALL STATEMENT...
-!   _temp_480 = _StringConst_34
-	set	_StringConst_34,r1
+!   _temp_251 = _StringConst_13
+	set	_StringConst_13,r1
 	store	r1,[r14+-16]
-!   Prepare Argument: offset=8  value=_temp_480  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_251  sizeInBytes=4
 	load	[r14+-16],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	237,r13		! source line 237
+	mov	174,r13		! source line 174
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	238,r13		! source line 238
+	mov	175,r13		! source line 175
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! CASE 5...
-_Label_471:
+_Label_242:
 ! CALL STATEMENT...
-!   _temp_481 = _StringConst_35
-	set	_StringConst_35,r1
+!   _temp_252 = _StringConst_14
+	set	_StringConst_14,r1
 	store	r1,[r14+-12]
-!   Prepare Argument: offset=8  value=_temp_481  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_252  sizeInBytes=4
 	load	[r14+-12],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	240,r13		! source line 240
+	mov	177,r13		! source line 177
 	mov	"\0\0CE",r10
 	call	print
 ! BREAK STATEMENT...
-	mov	241,r13		! source line 241
+	mov	178,r13		! source line 178
 	mov	"\0\0BR",r10
-	jmp	_Label_464
+	jmp	_Label_235
 ! DEFAULT CASE...
-_Label_463:
+_Label_234:
 ! END SWITCH...
-_Label_464:
+_Label_235:
 ! CALL STATEMENT...
 !   Call the function
-	mov	244,r13		! source line 244
+	mov	181,r13		! source line 181
 	mov	"\0\0CA",r10
 	call	_P_System_nl
 ! RETURN STATEMENT...
-	mov	244,r13		! source line 244
+	mov	181,r13		! source line 181
 	mov	"\0\0RE",r10
 	add	r15,72,r15
 	pop	r13
@@ -34766,129 +32455,129 @@ _Label_464:
 ! 
 _RoutineDescriptor__P_Main_Print:
 	.word	_sourceFileName
-	.word	_Label_482
+	.word	_Label_253
 	.word	4		! total size of parameters
 	.word	68		! frame size = 68
-	.word	_Label_483
+	.word	_Label_254
 	.word	8
 	.word	4
-	.word	_Label_484
+	.word	_Label_255
 	.word	-12
 	.word	4
-	.word	_Label_485
+	.word	_Label_256
 	.word	-16
 	.word	4
-	.word	_Label_486
+	.word	_Label_257
 	.word	-20
 	.word	4
-	.word	_Label_487
+	.word	_Label_258
 	.word	-24
 	.word	4
-	.word	_Label_488
+	.word	_Label_259
 	.word	-28
 	.word	4
-	.word	_Label_489
+	.word	_Label_260
 	.word	-32
 	.word	4
-	.word	_Label_490
+	.word	_Label_261
 	.word	-36
 	.word	4
-	.word	_Label_491
+	.word	_Label_262
 	.word	-40
 	.word	4
-	.word	_Label_492
+	.word	_Label_263
 	.word	-44
 	.word	4
-	.word	_Label_493
+	.word	_Label_264
 	.word	-48
 	.word	4
-	.word	_Label_494
+	.word	_Label_265
 	.word	-52
 	.word	4
-	.word	_Label_495
+	.word	_Label_266
 	.word	-56
 	.word	4
-	.word	_Label_496
+	.word	_Label_267
 	.word	-60
 	.word	4
-	.word	_Label_497
+	.word	_Label_268
 	.word	-64
 	.word	4
-	.word	_Label_498
+	.word	_Label_269
 	.word	-68
 	.word	4
-	.word	_Label_499
+	.word	_Label_270
 	.word	-72
 	.word	4
 	.word	0
-_Label_482:
+_Label_253:
 	.ascii	"Print\0"
 	.align
-_Label_483:
+_Label_254:
 	.byte	'I'
 	.ascii	"id\0"
 	.align
-_Label_484:
+_Label_255:
 	.byte	'?'
-	.ascii	"_temp_481\0"
+	.ascii	"_temp_252\0"
 	.align
-_Label_485:
+_Label_256:
 	.byte	'?'
-	.ascii	"_temp_480\0"
+	.ascii	"_temp_251\0"
 	.align
-_Label_486:
+_Label_257:
 	.byte	'?'
-	.ascii	"_temp_479\0"
+	.ascii	"_temp_250\0"
 	.align
-_Label_487:
+_Label_258:
 	.byte	'?'
-	.ascii	"_temp_478\0"
+	.ascii	"_temp_249\0"
 	.align
-_Label_488:
+_Label_259:
 	.byte	'?'
-	.ascii	"_temp_477\0"
+	.ascii	"_temp_248\0"
 	.align
-_Label_489:
+_Label_260:
 	.byte	'?'
-	.ascii	"_temp_476\0"
+	.ascii	"_temp_247\0"
 	.align
-_Label_490:
+_Label_261:
 	.byte	'?'
-	.ascii	"_temp_475\0"
+	.ascii	"_temp_246\0"
 	.align
-_Label_491:
+_Label_262:
 	.byte	'?'
-	.ascii	"_temp_474\0"
+	.ascii	"_temp_245\0"
 	.align
-_Label_492:
+_Label_263:
 	.byte	'?'
-	.ascii	"_temp_473\0"
+	.ascii	"_temp_244\0"
 	.align
-_Label_493:
+_Label_264:
 	.byte	'?'
-	.ascii	"_temp_472\0"
+	.ascii	"_temp_243\0"
 	.align
-_Label_494:
+_Label_265:
 	.byte	'?'
-	.ascii	"_temp_462\0"
+	.ascii	"_temp_233\0"
 	.align
-_Label_495:
+_Label_266:
 	.byte	'?'
-	.ascii	"_temp_461\0"
+	.ascii	"_temp_232\0"
 	.align
-_Label_496:
+_Label_267:
 	.byte	'?'
-	.ascii	"_temp_460\0"
+	.ascii	"_temp_231\0"
 	.align
-_Label_497:
+_Label_268:
 	.byte	'?'
-	.ascii	"_temp_455\0"
+	.ascii	"_temp_226\0"
 	.align
-_Label_498:
+_Label_269:
 	.byte	'I'
 	.ascii	"i\0"
 	.align
-_Label_499:
+_Label_270:
 	.byte	'I'
 	.ascii	"buff\0"
 	.align
@@ -34902,106 +32591,106 @@ _P_Main_PrintChairs:
 	set	_RoutineDescriptor__P_Main_PrintChairs,r1
 	push	r1
 	mov	7,r1
-_Label_653:
+_Label_436:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_653
-	mov	248,r13		! source line 248
+	bne	_Label_436
+	mov	185,r13		! source line 185
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! FOR STATEMENT...
-	mov	252,r13		! source line 252
+	mov	189,r13		! source line 189
 	mov	"\0\0FO",r10
 !   Calculate and save the FOR-LOOP starting value
-!   _temp_504 = 1		(4 bytes)
+!   _temp_275 = 1		(4 bytes)
 	mov	1,r1
 	store	r1,[r14+-28]
 !   Calculate and save the FOR-LOOP ending value
-!   _temp_505 = 5		(4 bytes)
+!   _temp_276 = 5		(4 bytes)
 	mov	5,r1
 	store	r1,[r14+-24]
 !   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_504  (sizeInBytes=4)
+!   Data Move: i = _temp_275  (sizeInBytes=4)
 	load	[r14+-28],r1
 	store	r1,[r14+-32]
-_Label_500:
+_Label_271:
 !   Perform the FOR-LOOP termination test
-!   if i > _temp_505 then goto _Label_503		
+!   if i > _temp_276 then goto _Label_274		
 	load	[r14+-32],r1
 	load	[r14+-24],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bg	_Label_503
-_Label_501:
-	mov	252,r13		! source line 252
+	bg	_Label_274
+_Label_272:
+	mov	189,r13		! source line 189
 	mov	"\0\0FB",r10
 ! IF STATEMENT...
-	mov	253,r13		! source line 253
+	mov	190,r13		! source line 190
 	mov	"\0\0IF",r10
-!   if i <= _Global_waiting then goto _Label_507		(int)
+!   if i <= _Global_waiting then goto _Label_278		(int)
 	load	[r14+-32],r1
 	set	_Global_waiting,r2
 	load	[r2],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	ble	_Label_507
-!	jmp	_Label_506
-_Label_506:
+	ble	_Label_278
+!	jmp	_Label_277
+_Label_277:
 ! THEN...
-	mov	254,r13		! source line 254
+	mov	191,r13		! source line 191
 	mov	"\0\0TN",r10
 ! CALL STATEMENT...
-!   _temp_508 = _StringConst_36
-	set	_StringConst_36,r1
+!   _temp_279 = _StringConst_15
+	set	_StringConst_15,r1
 	store	r1,[r14+-20]
-!   Prepare Argument: offset=8  value=_temp_508  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_279  sizeInBytes=4
 	load	[r14+-20],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	254,r13		! source line 254
+	mov	191,r13		! source line 191
 	mov	"\0\0CE",r10
 	call	print
-	jmp	_Label_509
-_Label_507:
+	jmp	_Label_280
+_Label_278:
 ! ELSE...
-	mov	256,r13		! source line 256
+	mov	193,r13		! source line 193
 	mov	"\0\0EL",r10
 ! CALL STATEMENT...
-!   _temp_510 = _StringConst_37
-	set	_StringConst_37,r1
+!   _temp_281 = _StringConst_16
+	set	_StringConst_16,r1
 	store	r1,[r14+-16]
-!   Prepare Argument: offset=8  value=_temp_510  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_281  sizeInBytes=4
 	load	[r14+-16],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	256,r13		! source line 256
+	mov	193,r13		! source line 193
 	mov	"\0\0CE",r10
 	call	print
 ! END IF...
-_Label_509:
+_Label_280:
 !   Increment the FOR-LOOP index variable and jump back
-_Label_502:
+_Label_273:
 !   i = i + 1
 	load	[r14+-32],r1
 	add	r1,1,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-32]
-	jmp	_Label_500
+	jmp	_Label_271
 ! END FOR
-_Label_503:
+_Label_274:
 ! CALL STATEMENT...
-!   _temp_511 = _StringConst_38
-	set	_StringConst_38,r1
+!   _temp_282 = _StringConst_17
+	set	_StringConst_17,r1
 	store	r1,[r14+-12]
-!   Prepare Argument: offset=8  value=_temp_511  sizeInBytes=4
+!   Prepare Argument: offset=8  value=_temp_282  sizeInBytes=4
 	load	[r14+-12],r1
 	store	r1,[r15+0]
 !   Call the function
-	mov	259,r13		! source line 259
+	mov	196,r13		! source line 196
 	mov	"\0\0CE",r10
 	call	print
 ! RETURN STATEMENT...
-	mov	259,r13		! source line 259
+	mov	196,r13		! source line 196
 	mov	"\0\0RE",r10
 	add	r15,32,r15
 	pop	r13
@@ -35012,76 +32701,76 @@ _Label_503:
 ! 
 _RoutineDescriptor__P_Main_PrintChairs:
 	.word	_sourceFileName
-	.word	_Label_512
+	.word	_Label_283
 	.word	0		! total size of parameters
 	.word	28		! frame size = 28
-	.word	_Label_513
+	.word	_Label_284
 	.word	-12
 	.word	4
-	.word	_Label_514
+	.word	_Label_285
 	.word	-16
 	.word	4
-	.word	_Label_515
+	.word	_Label_286
 	.word	-20
 	.word	4
-	.word	_Label_516
+	.word	_Label_287
 	.word	-24
 	.word	4
-	.word	_Label_517
+	.word	_Label_288
 	.word	-28
 	.word	4
-	.word	_Label_518
+	.word	_Label_289
 	.word	-32
 	.word	4
 	.word	0
-_Label_512:
+_Label_283:
 	.ascii	"PrintChairs\0"
 	.align
-_Label_513:
+_Label_284:
 	.byte	'?'
-	.ascii	"_temp_511\0"
+	.ascii	"_temp_282\0"
 	.align
-_Label_514:
+_Label_285:
 	.byte	'?'
-	.ascii	"_temp_510\0"
+	.ascii	"_temp_281\0"
 	.align
-_Label_515:
+_Label_286:
 	.byte	'?'
-	.ascii	"_temp_508\0"
+	.ascii	"_temp_279\0"
 	.align
-_Label_516:
+_Label_287:
 	.byte	'?'
-	.ascii	"_temp_505\0"
+	.ascii	"_temp_276\0"
 	.align
-_Label_517:
+_Label_288:
 	.byte	'?'
-	.ascii	"_temp_504\0"
+	.ascii	"_temp_275\0"
 	.align
-_Label_518:
+_Label_289:
 	.byte	'I'
 	.ascii	"i\0"
 	.align
 ! 
 ! ===============  FUNCTION GamingParlor  ===============
 ! 
-_function_48_GamingParlor:
+_function_30_GamingParlor:
 	push	r14
 	mov	r15,r14
 	push	r13
-	set	_RoutineDescriptor__function_48_GamingParlor,r1
+	set	_RoutineDescriptor__function_30_GamingParlor,r1
 	push	r1
 	mov	52,r1
-_Label_654:
+_Label_437:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_654
-	mov	271,r13		! source line 271
+	bne	_Label_437
+	mov	208,r13		! source line 208
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! SEND STATEMENT...
-	mov	273,r13		! source line 273
+	mov	210,r13		! source line 210
 	mov	"\0\0SE",r10
-!   _temp_519 = &_Global_frontDesk
+!   _temp_290 = &_Global_frontDesk
 	set	_Global_frontDesk,r1
 	store	r1,[r14+-204]
 !   Send message Init
@@ -35093,15 +32782,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	275,r13		! source line 275
+	mov	212,r13		! source line 212
 	mov	"\0\0SE",r10
-!   _temp_520 = _StringConst_39
-	set	_StringConst_39,r1
+!   _temp_291 = _StringConst_18
+	set	_StringConst_18,r1
 	store	r1,[r14+-200]
-!   _temp_521 = &_Global_gamers
+!   _temp_292 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-196]
-!   Move address of _temp_521 [0 ] into _temp_522
+!   Move address of _temp_292 [0 ] into _temp_293
 !     make sure index expr is >= 0
 	mov	0,r2
 	cmp	r2,0
@@ -35120,7 +32809,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-192]
-!   Prepare Argument: offset=12  value=_temp_520  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_291  sizeInBytes=4
 	load	[r14+-200],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35132,15 +32821,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	276,r13		! source line 276
+	mov	213,r13		! source line 213
 	mov	"\0\0SE",r10
-!   _temp_523 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_294 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-188]
-!   _temp_524 = &_Global_gamers
+!   _temp_295 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-184]
-!   Move address of _temp_524 [0 ] into _temp_525
+!   Move address of _temp_295 [0 ] into _temp_296
 !     make sure index expr is >= 0
 	mov	0,r2
 	cmp	r2,0
@@ -35159,7 +32848,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-180]
-!   Prepare Argument: offset=12  value=_temp_523  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_294  sizeInBytes=4
 	load	[r14+-188],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=4  sizeInBytes=4
@@ -35174,15 +32863,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	278,r13		! source line 278
+	mov	215,r13		! source line 215
 	mov	"\0\0SE",r10
-!   _temp_526 = _StringConst_40
-	set	_StringConst_40,r1
+!   _temp_297 = _StringConst_19
+	set	_StringConst_19,r1
 	store	r1,[r14+-176]
-!   _temp_527 = &_Global_gamers
+!   _temp_298 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-172]
-!   Move address of _temp_527 [1 ] into _temp_528
+!   Move address of _temp_298 [1 ] into _temp_299
 !     make sure index expr is >= 0
 	mov	1,r2
 	cmp	r2,0
@@ -35201,7 +32890,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-168]
-!   Prepare Argument: offset=12  value=_temp_526  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_297  sizeInBytes=4
 	load	[r14+-176],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35213,15 +32902,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	279,r13		! source line 279
+	mov	216,r13		! source line 216
 	mov	"\0\0SE",r10
-!   _temp_529 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_300 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-164]
-!   _temp_530 = &_Global_gamers
+!   _temp_301 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-160]
-!   Move address of _temp_530 [1 ] into _temp_531
+!   Move address of _temp_301 [1 ] into _temp_302
 !     make sure index expr is >= 0
 	mov	1,r2
 	cmp	r2,0
@@ -35240,7 +32929,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-156]
-!   Prepare Argument: offset=12  value=_temp_529  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_300  sizeInBytes=4
 	load	[r14+-164],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=4  sizeInBytes=4
@@ -35255,15 +32944,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	281,r13		! source line 281
+	mov	218,r13		! source line 218
 	mov	"\0\0SE",r10
-!   _temp_532 = _StringConst_41
-	set	_StringConst_41,r1
+!   _temp_303 = _StringConst_20
+	set	_StringConst_20,r1
 	store	r1,[r14+-152]
-!   _temp_533 = &_Global_gamers
+!   _temp_304 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-148]
-!   Move address of _temp_533 [2 ] into _temp_534
+!   Move address of _temp_304 [2 ] into _temp_305
 !     make sure index expr is >= 0
 	mov	2,r2
 	cmp	r2,0
@@ -35282,7 +32971,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-144]
-!   Prepare Argument: offset=12  value=_temp_532  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_303  sizeInBytes=4
 	load	[r14+-152],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35294,15 +32983,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	282,r13		! source line 282
+	mov	219,r13		! source line 219
 	mov	"\0\0SE",r10
-!   _temp_535 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_306 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-140]
-!   _temp_536 = &_Global_gamers
+!   _temp_307 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-136]
-!   Move address of _temp_536 [2 ] into _temp_537
+!   Move address of _temp_307 [2 ] into _temp_308
 !     make sure index expr is >= 0
 	mov	2,r2
 	cmp	r2,0
@@ -35321,7 +33010,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-132]
-!   Prepare Argument: offset=12  value=_temp_535  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_306  sizeInBytes=4
 	load	[r14+-140],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=5  sizeInBytes=4
@@ -35336,15 +33025,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	284,r13		! source line 284
+	mov	221,r13		! source line 221
 	mov	"\0\0SE",r10
-!   _temp_538 = _StringConst_42
-	set	_StringConst_42,r1
+!   _temp_309 = _StringConst_21
+	set	_StringConst_21,r1
 	store	r1,[r14+-128]
-!   _temp_539 = &_Global_gamers
+!   _temp_310 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-124]
-!   Move address of _temp_539 [3 ] into _temp_540
+!   Move address of _temp_310 [3 ] into _temp_311
 !     make sure index expr is >= 0
 	mov	3,r2
 	cmp	r2,0
@@ -35363,7 +33052,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-120]
-!   Prepare Argument: offset=12  value=_temp_538  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_309  sizeInBytes=4
 	load	[r14+-128],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35375,15 +33064,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	285,r13		! source line 285
+	mov	222,r13		! source line 222
 	mov	"\0\0SE",r10
-!   _temp_541 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_312 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-116]
-!   _temp_542 = &_Global_gamers
+!   _temp_313 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-112]
-!   Move address of _temp_542 [3 ] into _temp_543
+!   Move address of _temp_313 [3 ] into _temp_314
 !     make sure index expr is >= 0
 	mov	3,r2
 	cmp	r2,0
@@ -35402,7 +33091,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-108]
-!   Prepare Argument: offset=12  value=_temp_541  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_312  sizeInBytes=4
 	load	[r14+-116],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=5  sizeInBytes=4
@@ -35417,15 +33106,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	287,r13		! source line 287
+	mov	224,r13		! source line 224
 	mov	"\0\0SE",r10
-!   _temp_544 = _StringConst_43
-	set	_StringConst_43,r1
+!   _temp_315 = _StringConst_22
+	set	_StringConst_22,r1
 	store	r1,[r14+-104]
-!   _temp_545 = &_Global_gamers
+!   _temp_316 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-100]
-!   Move address of _temp_545 [4 ] into _temp_546
+!   Move address of _temp_316 [4 ] into _temp_317
 !     make sure index expr is >= 0
 	mov	4,r2
 	cmp	r2,0
@@ -35444,7 +33133,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-96]
-!   Prepare Argument: offset=12  value=_temp_544  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_315  sizeInBytes=4
 	load	[r14+-104],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35456,15 +33145,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	288,r13		! source line 288
+	mov	225,r13		! source line 225
 	mov	"\0\0SE",r10
-!   _temp_547 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_318 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-92]
-!   _temp_548 = &_Global_gamers
+!   _temp_319 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-88]
-!   Move address of _temp_548 [4 ] into _temp_549
+!   Move address of _temp_319 [4 ] into _temp_320
 !     make sure index expr is >= 0
 	mov	4,r2
 	cmp	r2,0
@@ -35483,7 +33172,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-84]
-!   Prepare Argument: offset=12  value=_temp_547  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_318  sizeInBytes=4
 	load	[r14+-92],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=2  sizeInBytes=4
@@ -35498,15 +33187,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	290,r13		! source line 290
+	mov	227,r13		! source line 227
 	mov	"\0\0SE",r10
-!   _temp_550 = _StringConst_44
-	set	_StringConst_44,r1
+!   _temp_321 = _StringConst_23
+	set	_StringConst_23,r1
 	store	r1,[r14+-80]
-!   _temp_551 = &_Global_gamers
+!   _temp_322 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-76]
-!   Move address of _temp_551 [5 ] into _temp_552
+!   Move address of _temp_322 [5 ] into _temp_323
 !     make sure index expr is >= 0
 	mov	5,r2
 	cmp	r2,0
@@ -35525,7 +33214,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-72]
-!   Prepare Argument: offset=12  value=_temp_550  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_321  sizeInBytes=4
 	load	[r14+-80],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35537,15 +33226,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	291,r13		! source line 291
+	mov	228,r13		! source line 228
 	mov	"\0\0SE",r10
-!   _temp_553 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_324 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-68]
-!   _temp_554 = &_Global_gamers
+!   _temp_325 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-64]
-!   Move address of _temp_554 [5 ] into _temp_555
+!   Move address of _temp_325 [5 ] into _temp_326
 !     make sure index expr is >= 0
 	mov	5,r2
 	cmp	r2,0
@@ -35564,7 +33253,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-60]
-!   Prepare Argument: offset=12  value=_temp_553  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_324  sizeInBytes=4
 	load	[r14+-68],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=2  sizeInBytes=4
@@ -35579,15 +33268,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	293,r13		! source line 293
+	mov	230,r13		! source line 230
 	mov	"\0\0SE",r10
-!   _temp_556 = _StringConst_45
-	set	_StringConst_45,r1
+!   _temp_327 = _StringConst_24
+	set	_StringConst_24,r1
 	store	r1,[r14+-56]
-!   _temp_557 = &_Global_gamers
+!   _temp_328 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-52]
-!   Move address of _temp_557 [6 ] into _temp_558
+!   Move address of _temp_328 [6 ] into _temp_329
 !     make sure index expr is >= 0
 	mov	6,r2
 	cmp	r2,0
@@ -35606,7 +33295,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-48]
-!   Prepare Argument: offset=12  value=_temp_556  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_327  sizeInBytes=4
 	load	[r14+-56],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35618,15 +33307,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	294,r13		! source line 294
+	mov	231,r13		! source line 231
 	mov	"\0\0SE",r10
-!   _temp_559 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_330 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-44]
-!   _temp_560 = &_Global_gamers
+!   _temp_331 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-40]
-!   Move address of _temp_560 [6 ] into _temp_561
+!   Move address of _temp_331 [6 ] into _temp_332
 !     make sure index expr is >= 0
 	mov	6,r2
 	cmp	r2,0
@@ -35645,7 +33334,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-36]
-!   Prepare Argument: offset=12  value=_temp_559  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_330  sizeInBytes=4
 	load	[r14+-44],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=1  sizeInBytes=4
@@ -35660,15 +33349,15 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	296,r13		! source line 296
+	mov	233,r13		! source line 233
 	mov	"\0\0SE",r10
-!   _temp_562 = _StringConst_46
-	set	_StringConst_46,r1
+!   _temp_333 = _StringConst_25
+	set	_StringConst_25,r1
 	store	r1,[r14+-32]
-!   _temp_563 = &_Global_gamers
+!   _temp_334 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-28]
-!   Move address of _temp_563 [7 ] into _temp_564
+!   Move address of _temp_334 [7 ] into _temp_335
 !     make sure index expr is >= 0
 	mov	7,r2
 	cmp	r2,0
@@ -35687,7 +33376,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-24]
-!   Prepare Argument: offset=12  value=_temp_562  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_333  sizeInBytes=4
 	load	[r14+-32],r1
 	store	r1,[r15+4]
 !   Send message Init
@@ -35699,15 +33388,15 @@ _Label_654:
 	add	r2,4,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	297,r13		! source line 297
+	mov	234,r13		! source line 234
 	mov	"\0\0SE",r10
-!   _temp_565 = _function_47_Play
-	set	_function_47_Play,r1
+!   _temp_336 = _function_29_Play
+	set	_function_29_Play,r1
 	store	r1,[r14+-20]
-!   _temp_566 = &_Global_gamers
+!   _temp_337 = &_Global_gamers
 	set	_Global_gamers,r1
 	store	r1,[r14+-16]
-!   Move address of _temp_566 [7 ] into _temp_567
+!   Move address of _temp_337 [7 ] into _temp_338
 !     make sure index expr is >= 0
 	mov	7,r2
 	cmp	r2,0
@@ -35726,7 +33415,7 @@ _Label_654:
 	add	r2,4,r2
 	add	r2,r1,r2
 	store	r2,[r14+-12]
-!   Prepare Argument: offset=12  value=_temp_565  sizeInBytes=4
+!   Prepare Argument: offset=12  value=_temp_336  sizeInBytes=4
 	load	[r14+-20],r1
 	store	r1,[r15+4]
 !   Prepare Argument: offset=16  value=1  sizeInBytes=4
@@ -35741,7 +33430,7 @@ _Label_654:
 	add	r2,8,r2
 	call	r2
 ! RETURN STATEMENT...
-	mov	297,r13		! source line 297
+	mov	234,r13		! source line 234
 	mov	"\0\0RE",r10
 	add	r15,212,r15
 	pop	r13
@@ -35750,405 +33439,405 @@ _Label_654:
 ! 
 ! Routine Descriptor
 ! 
-_RoutineDescriptor__function_48_GamingParlor:
+_RoutineDescriptor__function_30_GamingParlor:
 	.word	_sourceFileName
-	.word	_Label_568
+	.word	_Label_339
 	.word	0		! total size of parameters
 	.word	208		! frame size = 208
-	.word	_Label_569
+	.word	_Label_340
 	.word	-12
 	.word	4
-	.word	_Label_570
+	.word	_Label_341
 	.word	-16
 	.word	4
-	.word	_Label_571
+	.word	_Label_342
 	.word	-20
 	.word	4
-	.word	_Label_572
+	.word	_Label_343
 	.word	-24
 	.word	4
-	.word	_Label_573
+	.word	_Label_344
 	.word	-28
 	.word	4
-	.word	_Label_574
+	.word	_Label_345
 	.word	-32
 	.word	4
-	.word	_Label_575
+	.word	_Label_346
 	.word	-36
 	.word	4
-	.word	_Label_576
+	.word	_Label_347
 	.word	-40
 	.word	4
-	.word	_Label_577
+	.word	_Label_348
 	.word	-44
 	.word	4
-	.word	_Label_578
+	.word	_Label_349
 	.word	-48
 	.word	4
-	.word	_Label_579
+	.word	_Label_350
 	.word	-52
 	.word	4
-	.word	_Label_580
+	.word	_Label_351
 	.word	-56
 	.word	4
-	.word	_Label_581
+	.word	_Label_352
 	.word	-60
 	.word	4
-	.word	_Label_582
+	.word	_Label_353
 	.word	-64
 	.word	4
-	.word	_Label_583
+	.word	_Label_354
 	.word	-68
 	.word	4
-	.word	_Label_584
+	.word	_Label_355
 	.word	-72
 	.word	4
-	.word	_Label_585
+	.word	_Label_356
 	.word	-76
 	.word	4
-	.word	_Label_586
+	.word	_Label_357
 	.word	-80
 	.word	4
-	.word	_Label_587
+	.word	_Label_358
 	.word	-84
 	.word	4
-	.word	_Label_588
+	.word	_Label_359
 	.word	-88
 	.word	4
-	.word	_Label_589
+	.word	_Label_360
 	.word	-92
 	.word	4
-	.word	_Label_590
+	.word	_Label_361
 	.word	-96
 	.word	4
-	.word	_Label_591
+	.word	_Label_362
 	.word	-100
 	.word	4
-	.word	_Label_592
+	.word	_Label_363
 	.word	-104
 	.word	4
-	.word	_Label_593
+	.word	_Label_364
 	.word	-108
 	.word	4
-	.word	_Label_594
+	.word	_Label_365
 	.word	-112
 	.word	4
-	.word	_Label_595
+	.word	_Label_366
 	.word	-116
 	.word	4
-	.word	_Label_596
+	.word	_Label_367
 	.word	-120
 	.word	4
-	.word	_Label_597
+	.word	_Label_368
 	.word	-124
 	.word	4
-	.word	_Label_598
+	.word	_Label_369
 	.word	-128
 	.word	4
-	.word	_Label_599
+	.word	_Label_370
 	.word	-132
 	.word	4
-	.word	_Label_600
+	.word	_Label_371
 	.word	-136
 	.word	4
-	.word	_Label_601
+	.word	_Label_372
 	.word	-140
 	.word	4
-	.word	_Label_602
+	.word	_Label_373
 	.word	-144
 	.word	4
-	.word	_Label_603
+	.word	_Label_374
 	.word	-148
 	.word	4
-	.word	_Label_604
+	.word	_Label_375
 	.word	-152
 	.word	4
-	.word	_Label_605
+	.word	_Label_376
 	.word	-156
 	.word	4
-	.word	_Label_606
+	.word	_Label_377
 	.word	-160
 	.word	4
-	.word	_Label_607
+	.word	_Label_378
 	.word	-164
 	.word	4
-	.word	_Label_608
+	.word	_Label_379
 	.word	-168
 	.word	4
-	.word	_Label_609
+	.word	_Label_380
 	.word	-172
 	.word	4
-	.word	_Label_610
+	.word	_Label_381
 	.word	-176
 	.word	4
-	.word	_Label_611
+	.word	_Label_382
 	.word	-180
 	.word	4
-	.word	_Label_612
+	.word	_Label_383
 	.word	-184
 	.word	4
-	.word	_Label_613
+	.word	_Label_384
 	.word	-188
 	.word	4
-	.word	_Label_614
+	.word	_Label_385
 	.word	-192
 	.word	4
-	.word	_Label_615
+	.word	_Label_386
 	.word	-196
 	.word	4
-	.word	_Label_616
+	.word	_Label_387
 	.word	-200
 	.word	4
-	.word	_Label_617
+	.word	_Label_388
 	.word	-204
 	.word	4
 	.word	0
-_Label_568:
+_Label_339:
 	.ascii	"GamingParlor\0"
 	.align
-_Label_569:
+_Label_340:
 	.byte	'?'
-	.ascii	"_temp_567\0"
+	.ascii	"_temp_338\0"
 	.align
-_Label_570:
+_Label_341:
 	.byte	'?'
-	.ascii	"_temp_566\0"
+	.ascii	"_temp_337\0"
 	.align
-_Label_571:
+_Label_342:
 	.byte	'?'
-	.ascii	"_temp_565\0"
+	.ascii	"_temp_336\0"
 	.align
-_Label_572:
+_Label_343:
 	.byte	'?'
-	.ascii	"_temp_564\0"
+	.ascii	"_temp_335\0"
 	.align
-_Label_573:
+_Label_344:
 	.byte	'?'
-	.ascii	"_temp_563\0"
+	.ascii	"_temp_334\0"
 	.align
-_Label_574:
+_Label_345:
 	.byte	'?'
-	.ascii	"_temp_562\0"
+	.ascii	"_temp_333\0"
 	.align
-_Label_575:
+_Label_346:
 	.byte	'?'
-	.ascii	"_temp_561\0"
+	.ascii	"_temp_332\0"
 	.align
-_Label_576:
+_Label_347:
 	.byte	'?'
-	.ascii	"_temp_560\0"
+	.ascii	"_temp_331\0"
 	.align
-_Label_577:
+_Label_348:
 	.byte	'?'
-	.ascii	"_temp_559\0"
+	.ascii	"_temp_330\0"
 	.align
-_Label_578:
+_Label_349:
 	.byte	'?'
-	.ascii	"_temp_558\0"
+	.ascii	"_temp_329\0"
 	.align
-_Label_579:
+_Label_350:
 	.byte	'?'
-	.ascii	"_temp_557\0"
+	.ascii	"_temp_328\0"
 	.align
-_Label_580:
+_Label_351:
 	.byte	'?'
-	.ascii	"_temp_556\0"
+	.ascii	"_temp_327\0"
 	.align
-_Label_581:
+_Label_352:
 	.byte	'?'
-	.ascii	"_temp_555\0"
+	.ascii	"_temp_326\0"
 	.align
-_Label_582:
+_Label_353:
 	.byte	'?'
-	.ascii	"_temp_554\0"
+	.ascii	"_temp_325\0"
 	.align
-_Label_583:
+_Label_354:
 	.byte	'?'
-	.ascii	"_temp_553\0"
+	.ascii	"_temp_324\0"
 	.align
-_Label_584:
+_Label_355:
 	.byte	'?'
-	.ascii	"_temp_552\0"
+	.ascii	"_temp_323\0"
 	.align
-_Label_585:
+_Label_356:
 	.byte	'?'
-	.ascii	"_temp_551\0"
+	.ascii	"_temp_322\0"
 	.align
-_Label_586:
+_Label_357:
 	.byte	'?'
-	.ascii	"_temp_550\0"
+	.ascii	"_temp_321\0"
 	.align
-_Label_587:
+_Label_358:
 	.byte	'?'
-	.ascii	"_temp_549\0"
+	.ascii	"_temp_320\0"
 	.align
-_Label_588:
+_Label_359:
 	.byte	'?'
-	.ascii	"_temp_548\0"
+	.ascii	"_temp_319\0"
 	.align
-_Label_589:
+_Label_360:
 	.byte	'?'
-	.ascii	"_temp_547\0"
+	.ascii	"_temp_318\0"
 	.align
-_Label_590:
+_Label_361:
 	.byte	'?'
-	.ascii	"_temp_546\0"
+	.ascii	"_temp_317\0"
 	.align
-_Label_591:
+_Label_362:
 	.byte	'?'
-	.ascii	"_temp_545\0"
+	.ascii	"_temp_316\0"
 	.align
-_Label_592:
+_Label_363:
 	.byte	'?'
-	.ascii	"_temp_544\0"
+	.ascii	"_temp_315\0"
 	.align
-_Label_593:
+_Label_364:
 	.byte	'?'
-	.ascii	"_temp_543\0"
+	.ascii	"_temp_314\0"
 	.align
-_Label_594:
+_Label_365:
 	.byte	'?'
-	.ascii	"_temp_542\0"
+	.ascii	"_temp_313\0"
 	.align
-_Label_595:
+_Label_366:
 	.byte	'?'
-	.ascii	"_temp_541\0"
+	.ascii	"_temp_312\0"
 	.align
-_Label_596:
+_Label_367:
 	.byte	'?'
-	.ascii	"_temp_540\0"
+	.ascii	"_temp_311\0"
 	.align
-_Label_597:
+_Label_368:
 	.byte	'?'
-	.ascii	"_temp_539\0"
+	.ascii	"_temp_310\0"
 	.align
-_Label_598:
+_Label_369:
 	.byte	'?'
-	.ascii	"_temp_538\0"
+	.ascii	"_temp_309\0"
 	.align
-_Label_599:
+_Label_370:
 	.byte	'?'
-	.ascii	"_temp_537\0"
+	.ascii	"_temp_308\0"
 	.align
-_Label_600:
+_Label_371:
 	.byte	'?'
-	.ascii	"_temp_536\0"
+	.ascii	"_temp_307\0"
 	.align
-_Label_601:
+_Label_372:
 	.byte	'?'
-	.ascii	"_temp_535\0"
+	.ascii	"_temp_306\0"
 	.align
-_Label_602:
+_Label_373:
 	.byte	'?'
-	.ascii	"_temp_534\0"
+	.ascii	"_temp_305\0"
 	.align
-_Label_603:
+_Label_374:
 	.byte	'?'
-	.ascii	"_temp_533\0"
+	.ascii	"_temp_304\0"
 	.align
-_Label_604:
+_Label_375:
 	.byte	'?'
-	.ascii	"_temp_532\0"
+	.ascii	"_temp_303\0"
 	.align
-_Label_605:
+_Label_376:
 	.byte	'?'
-	.ascii	"_temp_531\0"
+	.ascii	"_temp_302\0"
 	.align
-_Label_606:
+_Label_377:
 	.byte	'?'
-	.ascii	"_temp_530\0"
+	.ascii	"_temp_301\0"
 	.align
-_Label_607:
+_Label_378:
 	.byte	'?'
-	.ascii	"_temp_529\0"
+	.ascii	"_temp_300\0"
 	.align
-_Label_608:
+_Label_379:
 	.byte	'?'
-	.ascii	"_temp_528\0"
+	.ascii	"_temp_299\0"
 	.align
-_Label_609:
+_Label_380:
 	.byte	'?'
-	.ascii	"_temp_527\0"
+	.ascii	"_temp_298\0"
 	.align
-_Label_610:
+_Label_381:
 	.byte	'?'
-	.ascii	"_temp_526\0"
+	.ascii	"_temp_297\0"
 	.align
-_Label_611:
+_Label_382:
 	.byte	'?'
-	.ascii	"_temp_525\0"
+	.ascii	"_temp_296\0"
 	.align
-_Label_612:
+_Label_383:
 	.byte	'?'
-	.ascii	"_temp_524\0"
+	.ascii	"_temp_295\0"
 	.align
-_Label_613:
+_Label_384:
 	.byte	'?'
-	.ascii	"_temp_523\0"
+	.ascii	"_temp_294\0"
 	.align
-_Label_614:
+_Label_385:
 	.byte	'?'
-	.ascii	"_temp_522\0"
+	.ascii	"_temp_293\0"
 	.align
-_Label_615:
+_Label_386:
 	.byte	'?'
-	.ascii	"_temp_521\0"
+	.ascii	"_temp_292\0"
 	.align
-_Label_616:
+_Label_387:
 	.byte	'?'
-	.ascii	"_temp_520\0"
+	.ascii	"_temp_291\0"
 	.align
-_Label_617:
+_Label_388:
 	.byte	'?'
-	.ascii	"_temp_519\0"
+	.ascii	"_temp_290\0"
 	.align
 ! 
 ! ===============  FUNCTION Play  ===============
 ! 
-_function_47_Play:
+_function_29_Play:
 	push	r14
 	mov	r15,r14
 	push	r13
-	set	_RoutineDescriptor__function_47_Play,r1
+	set	_RoutineDescriptor__function_29_Play,r1
 	push	r1
 	mov	7,r1
-_Label_655:
+_Label_438:
 	push	r0
 	sub	r1,1,r1
-	bne	_Label_655
-	mov	302,r13		! source line 302
+	bne	_Label_438
+	mov	239,r13		! source line 239
 	mov	"\0\0FU",r10
 ! VARIABLE INITIALIZATION...
 ! FOR STATEMENT...
-	mov	305,r13		! source line 305
+	mov	242,r13		! source line 242
 	mov	"\0\0FO",r10
 !   Calculate and save the FOR-LOOP starting value
-!   _temp_622 = 0		(4 bytes)
+!   _temp_393 = 0		(4 bytes)
 	mov	0,r1
 	store	r1,[r14+-24]
 !   Calculate and save the FOR-LOOP ending value
-!   _temp_623 = 5		(4 bytes)
+!   _temp_394 = 5		(4 bytes)
 	mov	5,r1
 	store	r1,[r14+-20]
 !   Initialize FOR-LOOP index variable
-!   Data Move: i = _temp_622  (sizeInBytes=4)
+!   Data Move: i = _temp_393  (sizeInBytes=4)
 	load	[r14+-24],r1
 	store	r1,[r14+-28]
-_Label_618:
+_Label_389:
 !   Perform the FOR-LOOP termination test
-!   if i > _temp_623 then goto _Label_621		
+!   if i > _temp_394 then goto _Label_392		
 	load	[r14+-28],r1
 	load	[r14+-20],r2
 	cmp	r1,r2
 	bvs	_runtimeErrorOverflow
-	bg	_Label_621
-_Label_619:
-	mov	305,r13		! source line 305
+	bg	_Label_392
+_Label_390:
+	mov	242,r13		! source line 242
 	mov	"\0\0FB",r10
 ! SEND STATEMENT...
-	mov	306,r13		! source line 306
+	mov	243,r13		! source line 243
 	mov	"\0\0SE",r10
-!   _temp_624 = &_Global_frontDesk
+!   _temp_395 = &_Global_frontDesk
 	set	_Global_frontDesk,r1
 	store	r1,[r14+-16]
 !   Prepare Argument: offset=12  value=p  sizeInBytes=4
@@ -36163,9 +33852,9 @@ _Label_619:
 	add	r2,8,r2
 	call	r2
 ! SEND STATEMENT...
-	mov	307,r13		! source line 307
+	mov	244,r13		! source line 244
 	mov	"\0\0SE",r10
-!   _temp_625 = &_Global_frontDesk
+!   _temp_396 = &_Global_frontDesk
 	set	_Global_frontDesk,r1
 	store	r1,[r14+-12]
 !   Prepare Argument: offset=12  value=p  sizeInBytes=4
@@ -36180,17 +33869,17 @@ _Label_619:
 	add	r2,12,r2
 	call	r2
 !   Increment the FOR-LOOP index variable and jump back
-_Label_620:
+_Label_391:
 !   i = i + 1
 	load	[r14+-28],r1
 	add	r1,1,r1
 	bvs	_runtimeErrorOverflow
 	store	r1,[r14+-28]
-	jmp	_Label_618
+	jmp	_Label_389
 ! END FOR
-_Label_621:
+_Label_392:
 ! RETURN STATEMENT...
-	mov	305,r13		! source line 305
+	mov	242,r13		! source line 242
 	mov	"\0\0RE",r10
 	add	r15,32,r15
 	pop	r13
@@ -36199,54 +33888,54 @@ _Label_621:
 ! 
 ! Routine Descriptor
 ! 
-_RoutineDescriptor__function_47_Play:
+_RoutineDescriptor__function_29_Play:
 	.word	_sourceFileName
-	.word	_Label_626
+	.word	_Label_397
 	.word	4		! total size of parameters
 	.word	28		! frame size = 28
-	.word	_Label_627
+	.word	_Label_398
 	.word	8
 	.word	4
-	.word	_Label_628
+	.word	_Label_399
 	.word	-12
 	.word	4
-	.word	_Label_629
+	.word	_Label_400
 	.word	-16
 	.word	4
-	.word	_Label_630
+	.word	_Label_401
 	.word	-20
 	.word	4
-	.word	_Label_631
+	.word	_Label_402
 	.word	-24
 	.word	4
-	.word	_Label_632
+	.word	_Label_403
 	.word	-28
 	.word	4
 	.word	0
-_Label_626:
+_Label_397:
 	.ascii	"Play\0"
 	.align
-_Label_627:
+_Label_398:
 	.byte	'I'
 	.ascii	"p\0"
 	.align
-_Label_628:
+_Label_399:
 	.byte	'?'
-	.ascii	"_temp_625\0"
+	.ascii	"_temp_396\0"
 	.align
-_Label_629:
+_Label_400:
 	.byte	'?'
-	.ascii	"_temp_624\0"
+	.ascii	"_temp_395\0"
 	.align
-_Label_630:
+_Label_401:
 	.byte	'?'
-	.ascii	"_temp_623\0"
+	.ascii	"_temp_394\0"
 	.align
-_Label_631:
+_Label_402:
 	.byte	'?'
-	.ascii	"_temp_622\0"
+	.ascii	"_temp_393\0"
 	.align
-_Label_632:
+_Label_403:
 	.byte	'I'
 	.ascii	"i\0"
 	.align
@@ -36256,7 +33945,7 @@ _Label_632:
 ! Dispatch Table:
 ! 
 _P_Main_Monitor:
-	.word	_Label_633
+	.word	_Label_404
 	jmp	_Method_P_Main_Monitor_1	! 4:	Init
 	jmp	_Method_P_Main_Monitor_2	! 8:	Request
 	jmp	_Method_P_Main_Monitor_3	! 12:	Return
@@ -36265,16 +33954,16 @@ _P_Main_Monitor:
 ! 
 ! Class descriptor:
 ! 
-_Label_633:
+_Label_404:
 	.word	1129070931		! Magic number 0x434c4153 == 'CLAS'
-	.word	_Label_634
+	.word	_Label_405
 	.word	_sourceFileName
-	.word	311		! line number
-	.word	176		! size of instances, in bytes
+	.word	248		! line number
+	.word	180		! size of instances, in bytes
 	.word	_P_Main_Monitor
 	.word	_P_System_Object
 	.word	0
-_Label_634:
+_Label_405:
 	.ascii	"Monitor\0"
 	.align
 ! 
@@ -36286,11 +33975,11 @@ _Method_P_Main_Monitor_1:
 	push	r13
 	set	_RoutineDescriptor__Method_P_Main_Monitor_1,r1
 	push	r1
-	mov	328,r13		! source line 328
+	mov	266,r13		! source line 266
 	mov	"\0\0ME",r10
 ! VARIABLE INITIALIZATION...
 ! RETURN STATEMENT...
-	mov	328,r13		! source line 328
+	mov	266,r13		! source line 266
 	mov	"\0\0RE",r10
 	add	r15,4,r15
 	pop	r13
@@ -36301,19 +33990,19 @@ _Method_P_Main_Monitor_1:
 ! 
 _RoutineDescriptor__Method_P_Main_Monitor_1:
 	.word	_sourceFileName
-	.word	_Label_635
+	.word	_Label_406
 	.word	4		! total size of parameters
 	.word	0		! frame size = 0
-	.word	_Label_636
+	.word	_Label_407
 	.word	4		! size of self
 	.word	8		! offset of self
 	.word	0
-_Label_635:
+_Label_406:
 	.ascii	"Monitor"
 	.ascii	"::"
 	.ascii	"Init\0"
 	.align
-_Label_636:
+_Label_407:
 	.ascii	"Pself\0"
 	.align
 ! 
@@ -36325,11 +34014,11 @@ _Method_P_Main_Monitor_2:
 	push	r13
 	set	_RoutineDescriptor__Method_P_Main_Monitor_2,r1
 	push	r1
-	mov	331,r13		! source line 331
+	mov	269,r13		! source line 269
 	mov	"\0\0ME",r10
 ! VARIABLE INITIALIZATION...
 ! RETURN STATEMENT...
-	mov	331,r13		! source line 331
+	mov	269,r13		! source line 269
 	mov	"\0\0RE",r10
 	add	r15,4,r15
 	pop	r13
@@ -36340,25 +34029,25 @@ _Method_P_Main_Monitor_2:
 ! 
 _RoutineDescriptor__Method_P_Main_Monitor_2:
 	.word	_sourceFileName
-	.word	_Label_637
+	.word	_Label_408
 	.word	8		! total size of parameters
 	.word	0		! frame size = 0
-	.word	_Label_638
+	.word	_Label_409
 	.word	4		! size of self
 	.word	8		! offset of self
-	.word	_Label_639
+	.word	_Label_410
 	.word	12
 	.word	4
 	.word	0
-_Label_637:
+_Label_408:
 	.ascii	"Monitor"
 	.ascii	"::"
 	.ascii	"Request\0"
 	.align
-_Label_638:
+_Label_409:
 	.ascii	"Pself\0"
 	.align
-_Label_639:
+_Label_410:
 	.byte	'I'
 	.ascii	"p\0"
 	.align
@@ -36371,11 +34060,11 @@ _Method_P_Main_Monitor_3:
 	push	r13
 	set	_RoutineDescriptor__Method_P_Main_Monitor_3,r1
 	push	r1
-	mov	334,r13		! source line 334
+	mov	272,r13		! source line 272
 	mov	"\0\0ME",r10
 ! VARIABLE INITIALIZATION...
 ! RETURN STATEMENT...
-	mov	334,r13		! source line 334
+	mov	272,r13		! source line 272
 	mov	"\0\0RE",r10
 	add	r15,4,r15
 	pop	r13
@@ -36386,25 +34075,25 @@ _Method_P_Main_Monitor_3:
 ! 
 _RoutineDescriptor__Method_P_Main_Monitor_3:
 	.word	_sourceFileName
-	.word	_Label_640
+	.word	_Label_411
 	.word	8		! total size of parameters
 	.word	0		! frame size = 0
-	.word	_Label_641
+	.word	_Label_412
 	.word	4		! size of self
 	.word	8		! offset of self
-	.word	_Label_642
+	.word	_Label_413
 	.word	12
 	.word	4
 	.word	0
-_Label_640:
+_Label_411:
 	.ascii	"Monitor"
 	.ascii	"::"
 	.ascii	"Return\0"
 	.align
-_Label_641:
+_Label_412:
 	.ascii	"Pself\0"
 	.align
-_Label_642:
+_Label_413:
 	.byte	'I'
 	.ascii	"p\0"
 	.align
@@ -36417,13 +34106,108 @@ _Method_P_Main_Monitor_4:
 	push	r13
 	set	_RoutineDescriptor__Method_P_Main_Monitor_4,r1
 	push	r1
-	mov	340,r13		! source line 340
+	mov	6,r1
+_Label_439:
+	push	r0
+	sub	r1,1,r1
+	bne	_Label_439
+	mov	278,r13		! source line 278
 	mov	"\0\0ME",r10
 ! VARIABLE INITIALIZATION...
+! CALL STATEMENT...
+!   if intIsZero (_P_Thread_currentThread) then goto _runtimeErrorNullPointer
+	set	_P_Thread_currentThread,r1
+	load	[r1],r1
+	cmp	r1,r0
+	be	_runtimeErrorNullPointer
+!   _temp_415 = _P_Thread_currentThread + 72
+	set	_P_Thread_currentThread,r1
+	load	[r1],r1
+	add	r1,72,r1
+	store	r1,[r14+-24]
+!   Data Move: _temp_414 = *_temp_415  (sizeInBytes=4)
+	load	[r14+-24],r1
+	load	[r1],r1
+	store	r1,[r14+-28]
+!   Prepare Argument: offset=8  value=_temp_414  sizeInBytes=4
+	load	[r14+-28],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	283,r13		! source line 283
+	mov	"\0\0CE",r10
+	call	print
+! CALL STATEMENT...
+!   _temp_416 = _StringConst_26
+	set	_StringConst_26,r1
+	store	r1,[r14+-20]
+!   Prepare Argument: offset=8  value=_temp_416  sizeInBytes=4
+	load	[r14+-20],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	284,r13		! source line 284
+	mov	"\0\0CE",r10
+	call	print
+! CALL STATEMENT...
+!   Prepare Argument: offset=8  value=str  sizeInBytes=4
+	load	[r14+12],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	285,r13		! source line 285
+	mov	"\0\0CE",r10
+	call	print
+! CALL STATEMENT...
+!   _temp_417 = _StringConst_27
+	set	_StringConst_27,r1
+	store	r1,[r14+-16]
+!   Prepare Argument: offset=8  value=_temp_417  sizeInBytes=4
+	load	[r14+-16],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	286,r13		! source line 286
+	mov	"\0\0CE",r10
+	call	print
+! CALL STATEMENT...
+!   Prepare Argument: offset=8  value=count  sizeInBytes=4
+	load	[r14+16],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	287,r13		! source line 287
+	mov	"\0\0CE",r10
+	call	printInt
+! CALL STATEMENT...
+!   Call the function
+	mov	288,r13		! source line 288
+	mov	"\0\0CA",r10
+	call	_P_System_nl
+! CALL STATEMENT...
+!   _temp_418 = _StringConst_28
+	set	_StringConst_28,r1
+	store	r1,[r14+-12]
+!   Prepare Argument: offset=8  value=_temp_418  sizeInBytes=4
+	load	[r14+-12],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	289,r13		! source line 289
+	mov	"\0\0CE",r10
+	call	print
+! CALL STATEMENT...
+!   Prepare Argument: offset=8  value=numberDiceAvail  sizeInBytes=4
+	load	[r14+8],r1
+	load	[r1+24],r1
+	store	r1,[r15+0]
+!   Call the function
+	mov	290,r13		! source line 290
+	mov	"\0\0CE",r10
+	call	printInt
+! CALL STATEMENT...
+!   Call the function
+	mov	291,r13		! source line 291
+	mov	"\0\0CA",r10
+	call	_P_System_nl
 ! RETURN STATEMENT...
-	mov	340,r13		! source line 340
+	mov	291,r13		! source line 291
 	mov	"\0\0RE",r10
-	add	r15,4,r15
+	add	r15,28,r15
 	pop	r13
 	pop	r14
 	ret
@@ -36432,18 +34216,67 @@ _Method_P_Main_Monitor_4:
 ! 
 _RoutineDescriptor__Method_P_Main_Monitor_4:
 	.word	_sourceFileName
-	.word	_Label_643
-	.word	4		! total size of parameters
-	.word	0		! frame size = 0
-	.word	_Label_644
+	.word	_Label_419
+	.word	12		! total size of parameters
+	.word	24		! frame size = 24
+	.word	_Label_420
 	.word	4		! size of self
 	.word	8		! offset of self
+	.word	_Label_421
+	.word	12
+	.word	4
+	.word	_Label_422
+	.word	16
+	.word	4
+	.word	_Label_423
+	.word	-12
+	.word	4
+	.word	_Label_424
+	.word	-16
+	.word	4
+	.word	_Label_425
+	.word	-20
+	.word	4
+	.word	_Label_426
+	.word	-24
+	.word	4
+	.word	_Label_427
+	.word	-28
+	.word	4
 	.word	0
-_Label_643:
+_Label_419:
 	.ascii	"Monitor"
 	.ascii	"::"
 	.ascii	"Print\0"
 	.align
-_Label_644:
+_Label_420:
 	.ascii	"Pself\0"
+	.align
+_Label_421:
+	.byte	'P'
+	.ascii	"str\0"
+	.align
+_Label_422:
+	.byte	'I'
+	.ascii	"count\0"
+	.align
+_Label_423:
+	.byte	'?'
+	.ascii	"_temp_418\0"
+	.align
+_Label_424:
+	.byte	'?'
+	.ascii	"_temp_417\0"
+	.align
+_Label_425:
+	.byte	'?'
+	.ascii	"_temp_416\0"
+	.align
+_Label_426:
+	.byte	'?'
+	.ascii	"_temp_415\0"
+	.align
+_Label_427:
+	.byte	'?'
+	.ascii	"_temp_414\0"
 	.align

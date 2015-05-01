@@ -31,12 +31,12 @@ var
    waiting: int
    status: array[21] of int = new array of int {21 of DEFAULT}
 function SleepingBarber ()
--- var
-    --i: int
-    -- Initialize all variables
---    for i = 0 to 20
---        threads[i].Init ("T" + i)
---      endFor
+var
+    i: int
+     --Initialize all variables
+    for i = 0 to 20
+        threads[i].Init ("T" + i)
+      endFor
     customers.Init(0)
     barber.Init(0)
     lock.Init()
@@ -44,82 +44,10 @@ function SleepingBarber ()
      print("   chairs    B 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20\n")
      print("_________________________________________________________________\n")
      print("____________|_|_|_|_|_|_|_|_|_|_|__|__|__|__|__|__|__|__|__|__|__\n")
---    threads[0].Fork(SetUpShop, 0)                    -- Fork the barber to open the barber shop
-  --     for i = 1 to 20
---           threads[i].Fork ( MultipleCuts, i )  -- Fork each customer thread to get their haircuts
---       endFor
-
-     threads[0].Init("Barber")
-     threads[0].Fork(SetUpShop, 0)
-
-     threads[1].Init("C1")
-     threads[1].Fork(MultipleCuts, 1)
-
-     threads[2].Init("C2")
-     threads[2].Fork(MultipleCuts, 2)
-
-     threads[3].Init("C3")
-     threads[3].Fork(MultipleCuts, 3)
-
-
-     threads[4].Init("C4")
-     threads[4].Fork(MultipleCuts, 4)
-
-     threads[5].Init("C5")
-     threads[5].Fork(MultipleCuts, 5)
-
-     threads[6].Init("C6")
-     threads[6].Fork(MultipleCuts, 6)
-
-     threads[7].Init("C7")
-     threads[7].Fork(MultipleCuts, 7)
-
-     threads[8].Init("C8")
-     threads[8].Fork(MultipleCuts, 8)
-
-     threads[9].Init("C9")
-     threads[9].Fork(MultipleCuts, 9)
-
-     threads[10].Init("C10")
-     threads[10].Fork(MultipleCuts, 10)
-
-     threads[11].Init("C11")
-     threads[11].Fork(MultipleCuts, 11)
-
-
-     threads[12].Init("C12")
-     threads[12].Fork(MultipleCuts, 12)
-
-     threads[13].Init("C13")
-     threads[13].Fork(MultipleCuts, 13)
-
-     threads[14].Init("C14")
-     threads[14].Fork(MultipleCuts, 14)
-
-     threads[15].Init("C15")
-     threads[15].Fork(MultipleCuts, 15)
-
-
-     threads[16].Init("C16")
-     threads[16].Fork(MultipleCuts, 16)
-
-     threads[17].Init("C17")
-     threads[17].Fork(MultipleCuts, 17)
-
-
-     threads[17].Init("C17")
-     threads[17].Fork(MultipleCuts, 17)
-
-     threads[18].Init("C18")
-     threads[18].Fork(MultipleCuts, 18)
-
-     threads[19].Init("C19")
-     threads[19].Fork(MultipleCuts, 19)
-
-     threads[20].Init("C20")
-     threads[20].Fork(MultipleCuts, 20)
-
-
+    threads[0].Fork(SetUpShop, 0)                    -- Fork the barber to open the barber shop
+       for i = 1 to 20
+           threads[i].Fork ( MultipleCuts, i )  -- Fork each customer thread to get their haircuts
+       endFor
   endFunction
 
 function MultipleCuts (id: int)
@@ -189,12 +117,21 @@ function GetHaircut (id: int)
     status[id] = BEGIN
     Print (id)
     lock.Unlock ()
-    for i = 0 to 99
+    for i = 0 to 74
         currentThread.Yield ()
       endFor
     lock.Lock ()
     status[id] = FINISH
     Print (id)
+    lock.Unlock ()
+
+    for i = 0 to 50
+        currentThread.Yield ()
+      endFor
+
+    lock.Lock ()
+      status[id] = LEAVE
+      Print (id)
     lock.Unlock ()
   endFunction
 
@@ -312,6 +249,7 @@ function PrintChairs()
     superclass Object
     fields
       dice: Semaphore
+      numberDiceAvail: int
       monLock: Mutex                       -- Single mutex lock 
       monCons: array [8] of Condition      -- Condition Variable for each group of gamers
     methods

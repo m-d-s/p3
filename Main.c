@@ -77,7 +77,7 @@ function CutHair (id: int)
     status[id] = START                   
     Print (id)                        -- Print haircut start message
     lock.Unlock ()
-    for i = 0 to 99
+    for i = 0 to 50
         currentThread.Yield ()        -- Simulate haircut by looping but also allow other threads to operate by yielding
       endFor
     lock.Lock ()
@@ -89,7 +89,7 @@ function CutHair (id: int)
 function GoIntoTheShop (id: int)
     var
       i: int
-    for i = 0 to id * id * 1000
+    for i = 0 to id *id * 1000       -- Wait to keep all threads from running at the same time
        endFor
     lock.Lock () 
     status[id] = ENTER                  
@@ -114,47 +114,47 @@ function GetHaircut (id: int)
     var
       i: int
     lock.Lock ()
-    status[id] = BEGIN
+    status[id] = BEGIN               -- Begin the haircut 
     Print (id)
     lock.Unlock ()
     for i = 0 to 74
-        currentThread.Yield ()
+        currentThread.Yield ()       -- simulate getting the haircut and let other threads run
       endFor
     lock.Lock ()
-    status[id] = FINISH
+    status[id] = FINISH              -- Finish the haircut
     Print (id)
     lock.Unlock ()
 
     for i = 0 to 50
-        currentThread.Yield ()
+        currentThread.Yield ()       -- simulate paying for the haircut
       endFor
 
     lock.Lock ()
-      status[id] = LEAVE
+      status[id] = LEAVE             -- Leave the shop
       Print (id)
     lock.Unlock ()
   endFunction
 
-function Print (id: int)
+function Print (id: int)             -- Print the chair and customer status
     var
       i: int
       buff: int
     PrintChairs()
     buff = (id*2)
 
-    if id > 9
-        if id > 19
+    if id > 9                        -- Calculating the spacing offset for each thread
+        if id > 19                          
             buff = buff + 10
         else
             buff = buff + (id % 10)
         endIf
     endIf
 
-    for i = 0 to buff 
+    for i = 0 to buff                -- Print the spacing offset
         print(" ")
     endFor
 
-    switch status[id]
+    switch status[id]                -- Print the threads current status
         case ENTER:
             print("E")
           break
@@ -182,7 +182,7 @@ function Print (id: int)
 
   endFunction
 
-function PrintChairs()
+function PrintChairs()               -- Print the number of waiting customers
     var
       i: int
 

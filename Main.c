@@ -30,10 +30,12 @@ var
    lock: Mutex = new Mutex
    waiting: int
    status: array[21] of int = new array of int {21 of DEFAULT}
+
 function SleepingBarber ()
 var
     i: int
-     --Initialize all variables
+   
+    --Initialize all variables
     for i = 0 to 20
         threads[i].Init ("T" + i)
       endFor
@@ -41,21 +43,25 @@ var
     barber.Init(0)
     lock.Init()
     waiting = 0    
-     print("   chairs    B 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20\n")
-     print("_________________________________________________________________\n")
-     print("____________|_|_|_|_|_|_|_|_|_|_|__|__|__|__|__|__|__|__|__|__|__\n")
+
+    print("   chairs    B 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20\n")
+    print("_________________________________________________________________\n")
     threads[0].Fork(SetUpShop, 0)                    -- Fork the barber to open the barber shop
        for i = 1 to 20
-           threads[i].Fork ( MultipleCuts, i )  -- Fork each customer thread to get their haircuts
+           threads[i].Fork ( MultipleCuts, i )       -- Fork each customer thread to get their haircuts
        endFor
   endFunction
 
 function MultipleCuts (id: int)
     var 
        i: int
-
+       j: int
     for i = 0 to 9
+        for j = 0 to id *id * 1000       -- Wait to keep all threads from running at the same time
+          endFor     
         GoIntoTheShop (id)            -- Each customer gets ten haircuts
+        for j = 0 to id *id * 1000       -- Wait to keep all threads from running at the same time
+          endFor    
       endFor
   endFunction
 
@@ -77,7 +83,7 @@ function CutHair (id: int)
     status[id] = START                   
     Print (id)                        -- Print haircut start message
     lock.Unlock ()
-    for i = 0 to 50
+    for i = 0 to 99
         currentThread.Yield ()        -- Simulate haircut by looping but also allow other threads to operate by yielding
       endFor
     lock.Lock ()
@@ -87,10 +93,6 @@ function CutHair (id: int)
   endFunction
 
 function GoIntoTheShop (id: int)
-    var
-      i: int
-    for i = 0 to id *id * 1000       -- Wait to keep all threads from running at the same time
-       endFor
     lock.Lock () 
     status[id] = ENTER                  
     Print (id)
@@ -125,7 +127,7 @@ function GetHaircut (id: int)
     Print (id)
     lock.Unlock ()
 
-    for i = 0 to 50
+    for i = 0 to 49
         currentThread.Yield ()       -- simulate paying for the haircut
       endFor
 

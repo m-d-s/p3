@@ -12,8 +12,8 @@ code Main
       print ("More Classic Synchronization Problems\n")
       InitializeScheduler ()
 
-      SleepingBarber ()
-
+      --SleepingBarber ()
+      GamingParlor ()
       ThreadFinish ()
     endFunction
 
@@ -241,43 +241,79 @@ function PrintChairs()               -- Print the number of waiting customers
   function Play (p: int)
       var
         i: int
+        j: int
       for i = 0 to 5
-          frontDesk.Request(p)
-          frontDesk.Return(p)
+          frontDesk.Request(p)              -- Aquire the dice 
+          for j = 0 to 100
+              currentThread.Yield()         -- Simulate gameplay
+            endFor
+          frontDesk.Return(p)               -- Return the dice
       endFor
     endFunction
 
   class Monitor
     superclass Object
     fields
-      dice: Semaphore
-      numberDiceAvail: int
-      monLock: Mutex                       -- Single mutex lock 
-      monCons: array [8] of Condition      -- Condition Variable for each group of gamers
+      numDiceAvail: int
+      lineForDice: int
+      monLock: Mutex                      
+      monCons: array [2] of Condition      
     methods
       Init ()
       Request (p: int)
       Return (p: int)
       Print (str: String, count: int)
-      --Test (p: int)                         -- Test to see if the 'p'th philosopher can eat
       
   endClass
 
   behavior Monitor
 
     method Init ()
-      endMethod
+       var
+         i: int
+       numDiceAvail = 8                     -- To begin there are eight dice available
+       lineForDice = 0                      -- and there is no one in line for the dice
+       
+       monLock = new Mutex
+       monLock.Init()                       -- Initialize all other monitor variables
+       monCons = new array[2] of Condition {2 of new Condition}
+       for i = 0 to 1
+         monCons[i].Init()
+       endFor 
+     endMethod
+
+    -- A group tries to reqest dice for their game
+    method Request (p: int)                 
+        monLock.Lock()                      -- Lock mutex to avoid race conditions
+        self.Print("Requests", p)           -- Print a status that shows the group is requesting p dice
  
-    method Request (p: int)
-      endMethod
+       if lineForDice > 0                   -- Check to see if anyone else is waiting in line
+          monCons[0].Wait(&monLock)        -- This condition ensures fairness in dice dispersal
+       endIf                               
+       
+       lineForDice = (lineForDice + 1)        
+    
+       while numDiceAvail < p               -- Must loop here while waiting for dice due to Mesa semantics
+          monCons[1].Wait(&monLock)
+       endWhile
+       
+       numDiceAvail = (numDiceAvail - p)    -- Now there are enough dice, aquire the dice for your game 
+       self.Print("Aquires", p)             -- Print a status that shows your group got their dice
+       lineForDice = (lineForDice - 1)
+       monCons[0].Signal(&monLock)          -- Signal next group in line prior to leaving critical section
+       monLock.Unlock()                     -- Release the mutex and go play
+     endMethod
 
+    -- A group is finished playing an needs to return their dice
     method Return (p: int)
-      endMethod
+       monLock.Lock()                        -- Lock mutex to avoid race conditions
+       self.Print("Releases", p)             -- Display message to show you are returning dice
+       numDiceAvail = (numDiceAvail + p)     -- Add the dice back to the pool
+       monCons[1].Signal(&monLock)
+       monLock.Unlock()                         
+     endMethod
 
-   -- method Test (p: int) 
-    --  endMethod
-
-    method Print (str: String, count: int)
+       method Print (str: String, count: int)
         --
         -- This method prints the current thread's name and the arguments.
         -- It also prints the current number of dice available.
@@ -289,7 +325,7 @@ function PrintChairs()               -- Print the number of waiting customers
         printInt (count)
         nl ()
         print ("------------------------------Number of dice now avail = ")
-        printInt (numberDiceAvail)
+        printInt (numDiceAvail)
         nl ()
       endMethod
   endBehavior

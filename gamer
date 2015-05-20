@@ -1,0 +1,313 @@
+Script started on May  5, 2015 10:15:25 PM PDT
+sh-3.2$ make
+kpl Main -unsafe
+asm Main.s
+lddd System.o List.o Thread.o Switch.o Synch.o Main.o Runtime.o -o os
+sh-3.2$ blitz os -g
+Beginning execution...
+====================  KPL PROGRAM STARTING  ====================
+          CS333 Project 3
+More Classic Synchronization Problems
+Initializing Thread Scheduler...
+A Requests 4
+------------------------------Number of dice now avail = 8
+A Aquires 4
+------------------------------Number of dice now avail = 4
+B Requests 4
+------------------------------Number of dice now avail = 4
+B Aquires 4
+------------------------------Number of dice now avail = 0
+C Requests 5
+------------------------------Number of dice now avail = 0
+D Requests 5
+------------------------------Number of dice now avail = 0
+E Requests 2
+------------------------------Number of dice now avail = 0
+F Requests 2
+------------------------------Number of dice now avail = 0
+G Requests 1
+------------------------------Number of dice now avail = 0
+H Requests 1
+------------------------------Number of dice now avail = 0
+B Releases 4
+------------------------------Number of dice now avail = 0
+B Requests 4
+------------------------------Number of dice now avail = 4
+A Releases 4
+------------------------------Number of dice now avail = 4
+A Requests 4
+------------------------------Number of dice now avail = 8
+C Aquires 5
+------------------------------Number of dice now avail = 3
+C Releases 5
+------------------------------Number of dice now avail = 3
+C Requests 5
+------------------------------Number of dice now avail = 8
+D Aquires 5
+------------------------------Number of dice now avail = 3
+E Aquires 2
+------------------------------Number of dice now avail = 1
+D Releases 5
+------------------------------Number of dice now avail = 1
+F Aquires 2
+------------------------------Number of dice now avail = 4
+D Requests 5
+------------------------------Number of dice now avail = 4
+G Aquires 1
+------------------------------Number of dice now avail = 3
+H Aquires 1
+------------------------------Number of dice now avail = 2
+E Releases 2
+------------------------------Number of dice now avail = 2
+E Requests 2
+------------------------------Number of dice now avail = 4
+F Releases 2
+------------------------------Number of dice now avail = 4
+B Aquires 4
+------------------------------Number of dice now avail = 2
+F Requests 2
+------------------------------Number of dice now avail = 2
+G Releases 1
+------------------------------Number of dice now avail = 2
+G Requests 1
+------------------------------Number of dice now avail = 3
+H Releases 1
+------------------------------Number of dice now avail = 3
+H Requests 1
+------------------------------Number of dice now avail = 4
+A Aquires 4
+------------------------------Number of dice now avail = 0
+B Releases 4
+------------------------------Number of dice now avail = 0
+B Requests 4
+------------------------------Number of dice now avail = 4
+A Releases 4
+------------------------------Number of dice now avail = 4
+C Aquires 5
+------------------------------Number of dice now avail = 3
+A Requests 4
+------------------------------Number of dice now avail = 3
+E Aquires 2
+------------------------------Number of dice now avail = 1
+C Releases 5
+------------------------------Number of dice now avail = 1
+C Requests 5
+------------------------------Number of dice now avail = 6
+D Aquires 5
+------------------------------Number of dice now avail = 1
+G Aquires 1
+------------------------------Number of dice now avail = 0
+E Releases 2
+------------------------------Number of dice now avail = 0
+E Requests 2
+------------------------------Number of dice now avail = 2
+F Aquires 2
+------------------------------Number of dice now avail = 0
+G Releases 1
+------------------------------Number of dice now avail = 0
+G Requests 1
+------------------------------Number of dice now avail = 1
+H Aquires 1
+------------------------------Number of dice now avail = 0
+D Releases 5
+------------------------------Number of dice now avail = 0
+A Aquires 4
+------------------------------Number of dice now avail = 1
+D Requests 5
+------------------------------Number of dice now avail = 1
+F Releases 2
+------------------------------Number of dice now avail = 1
+F Requests 2
+------------------------------Number of dice now avail = 3
+A Releases 4
+------------------------------Number of dice now avail = 3
+A Requests 4
+------------------------------Number of dice now avail = 7
+C Aquires 5
+------------------------------Number of dice now avail = 2
+E Aquires 2
+------------------------------Number of dice now avail = 0
+H Releases 1
+------------------------------Number of dice now avail = 0
+H Requests 1
+------------------------------Number of dice now avail = 1
+C Releases 5
+------------------------------Number of dice now avail = 1
+C Requests 5
+------------------------------Number of dice now avail = 6
+G Aquires 1
+------------------------------Number of dice now avail = 5
+D Aquires 5
+------------------------------Number of dice now avail = 0
+E Releases 2
+------------------------------Number of dice now avail = 0
+E Requests 2
+------------------------------Number of dice now avail = 2
+G Releases 1
+------------------------------Number of dice now avail = 2
+G Requests 1
+------------------------------Number of dice now avail = 3
+F Aquires 2
+------------------------------Number of dice now avail = 1
+D Releases 5
+------------------------------Number of dice now avail = 1
+D Requests 5
+------------------------------Number of dice now avail = 6
+B Aquires 4
+------------------------------Number of dice now avail = 2
+H Aquires 1
+------------------------------Number of dice now avail = 1
+F Releases 2
+------------------------------Number of dice now avail = 1
+F Requests 2
+------------------------------Number of dice now avail = 3
+B Releases 4
+------------------------------Number of dice now avail = 3
+B Requests 4
+------------------------------Number of dice now avail = 7
+C Aquires 5
+------------------------------Number of dice now avail = 2
+E Aquires 2
+------------------------------Number of dice now avail = 0
+H Releases 1
+------------------------------Number of dice now avail = 0
+H Requests 1
+------------------------------Number of dice now avail = 1
+C Releases 5
+------------------------------Number of dice now avail = 1
+C Requests 5
+------------------------------Number of dice now avail = 6
+G Aquires 1
+------------------------------Number of dice now avail = 5
+D Aquires 5
+------------------------------Number of dice now avail = 0
+E Releases 2
+------------------------------Number of dice now avail = 0
+E Requests 2
+------------------------------Number of dice now avail = 2
+G Releases 1
+------------------------------Number of dice now avail = 2
+G Requests 1
+------------------------------Number of dice now avail = 3
+F Aquires 2
+------------------------------Number of dice now avail = 1
+D Releases 5
+------------------------------Number of dice now avail = 1
+D Requests 5
+------------------------------Number of dice now avail = 6
+A Aquires 4
+------------------------------Number of dice now avail = 2
+H Aquires 1
+------------------------------Number of dice now avail = 1
+F Releases 2
+------------------------------Number of dice now avail = 1
+F Requests 2
+------------------------------Number of dice now avail = 3
+A Releases 4
+------------------------------Number of dice now avail = 3
+A Requests 4
+------------------------------Number of dice now avail = 7
+C Aquires 5
+------------------------------Number of dice now avail = 2
+E Aquires 2
+------------------------------Number of dice now avail = 0
+H Releases 1
+------------------------------Number of dice now avail = 0
+H Requests 1
+------------------------------Number of dice now avail = 1
+C Releases 5
+------------------------------Number of dice now avail = 1
+C Requests 5
+------------------------------Number of dice now avail = 6
+G Aquires 1
+------------------------------Number of dice now avail = 5
+D Aquires 5
+------------------------------Number of dice now avail = 0
+E Releases 2
+------------------------------Number of dice now avail = 0
+E Requests 2
+------------------------------Number of dice now avail = 2
+G Releases 1
+------------------------------Number of dice now avail = 2
+G Requests 1
+------------------------------Number of dice now avail = 3
+F Aquires 2
+------------------------------Number of dice now avail = 1
+D Releases 5
+------------------------------Number of dice now avail = 1
+D Requests 5
+------------------------------Number of dice now avail = 6
+B Aquires 4
+------------------------------Number of dice now avail = 2
+H Aquires 1
+------------------------------Number of dice now avail = 1
+F Releases 2
+------------------------------Number of dice now avail = 1
+F Requests 2
+------------------------------Number of dice now avail = 3
+B Releases 4
+------------------------------Number of dice now avail = 3
+B Requests 4
+------------------------------Number of dice now avail = 7
+C Aquires 5
+------------------------------Number of dice now avail = 2
+E Aquires 2
+------------------------------Number of dice now avail = 0
+H Releases 1
+------------------------------Number of dice now avail = 0
+H Requests 1
+------------------------------Number of dice now avail = 1
+C Releases 5
+------------------------------Number of dice now avail = 1
+G Aquires 1
+------------------------------Number of dice now avail = 5
+D Aquires 5
+------------------------------Number of dice now avail = 0
+E Releases 2
+------------------------------Number of dice now avail = 0
+G Releases 1
+------------------------------Number of dice now avail = 2
+F Aquires 2
+------------------------------Number of dice now avail = 1
+D Releases 5
+------------------------------Number of dice now avail = 1
+A Aquires 4
+------------------------------Number of dice now avail = 2
+H Aquires 1
+------------------------------Number of dice now avail = 1
+F Releases 2
+------------------------------Number of dice now avail = 1
+A Releases 4
+------------------------------Number of dice now avail = 3
+A Requests 4
+------------------------------Number of dice now avail = 7
+B Aquires 4
+------------------------------Number of dice now avail = 3
+H Releases 1
+------------------------------Number of dice now avail = 3
+A Aquires 4
+------------------------------Number of dice now avail = 0
+B Releases 4
+------------------------------Number of dice now avail = 0
+B Requests 4
+------------------------------Number of dice now avail = 4
+B Aquires 4
+------------------------------Number of dice now avail = 0
+A Releases 4
+------------------------------Number of dice now avail = 0
+B Releases 4
+------------------------------Number of dice now avail = 4
+
+*****  A 'wait' instruction was executed and no more interrupts are scheduled... halting emulation!  *****
+
+Done!  The next instruction to execute will be:
+000EC8: 09000000       ret     
+Number of Disk Reads    = 0
+Number of Disk Writes   = 0
+Instructions Executed   = 6866421
+Time Spent Sleeping     = 0
+    Total Elapsed Time  = 6866421
+sh-3.2$ exit
+exit
+
+script done on May  5, 2015 10:15:56 PM PDT

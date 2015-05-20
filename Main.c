@@ -12,8 +12,8 @@ code Main
       print ("More Classic Synchronization Problems\n")
       InitializeScheduler ()
 
-      --SleepingBarber ()
-      GamingParlor ()
+      SleepingBarber ()
+      --GamingParlor ()
       ThreadFinish ()
     endFunction
 
@@ -57,11 +57,9 @@ function MultipleCuts (id: int)
        i: int
        j: int
     for i = 0 to 9
-        for j = 0 to id *id * 1000       -- Wait to keep all threads from running at the same time
+        for j = 0 to id *id * 1000    -- Wait to keep all threads from running at the same time
           endFor     
         GoIntoTheShop (id)            -- Each customer gets ten haircuts
-        for j = 0 to id *id * 1000       -- Wait to keep all threads from running at the same time
-          endFor    
       endFor
   endFunction
 
@@ -99,14 +97,14 @@ function GoIntoTheShop (id: int)
     if waiting < CHAIRS              -- See if there is space available to wait
         waiting = waiting + 1        -- Increment waiting to let barber know you are there
         status[id] = SIT
-        Print (id)
+        Print (id)                   -- Print sitting message
         customers.Up ()              -- Wake the barber
         lock.Unlock ()             
         barber.Down ()               -- Sleep if there is no free barber
         GetHaircut (id)              -- Get your hair did
     else
-        status[id] = LEAVE
-        Print (id)                   
+        status[id] = LEAVE           -- No available seats, customer must leave
+        Print (id)                   -- Print leaving message
         lock.Unlock ()               -- If there were no seats available, go home
     endIf
 
@@ -117,14 +115,14 @@ function GetHaircut (id: int)
       i: int
     lock.Lock ()
     status[id] = BEGIN               -- Begin the haircut 
-    Print (id)
+    Print (id)                       -- Print begin message
     lock.Unlock ()
     for i = 0 to 74
         currentThread.Yield ()       -- simulate getting the haircut and let other threads run
       endFor
     lock.Lock ()
     status[id] = FINISH              -- Finish the haircut
-    Print (id)
+    Print (id)                       -- Print finish message
     lock.Unlock ()
 
     for i = 0 to 49
@@ -132,8 +130,8 @@ function GetHaircut (id: int)
       endFor
 
     lock.Lock ()
-      status[id] = LEAVE             -- Leave the shop
-      Print (id)
+    status[id] = LEAVE               -- Leave the shop
+    Print (id)                       -- Print leave message
     lock.Unlock ()
   endFunction
 
@@ -142,9 +140,9 @@ function Print (id: int)             -- Print the chair and customer status
       i: int
       buff: int
     PrintChairs()
-    buff = (id*2)
+    buff = (id*2)                    -- Spacing buffer to generate column style output
 
-    if id > 9                        -- Calculating the spacing offset for each thread
+    if id > 9                        -- Calculating spacing offsets for threads w/ 2 digit id
         if id > 19                          
             buff = buff + 10
         else
@@ -167,10 +165,10 @@ function Print (id: int)             -- Print the chair and customer status
             print("L")
           break
         case START:
-            print("I")
+            print("I")              -- Only used by barber "Init"
           break
-        case END:
-            print("C")
+        case END: 
+            print("C")              -- Only used by barber "Complete"
           break
         case BEGIN:
             print("B")
@@ -250,21 +248,6 @@ function PrintChairs()               -- Print the number of waiting customers
           frontDesk.Return(p)               -- Return the dice
       endFor
     endFunction
-
-  class Monitor
-    superclass Object
-    fields
-      numDiceAvail: int
-      lineForDice: int
-      monLock: Mutex                      
-      monCons: array [2] of Condition      
-    methods
-      Init ()
-      Request (p: int)
-      Return (p: int)
-      Print (str: String, count: int)
-      
-  endClass
 
   behavior Monitor
 

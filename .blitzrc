@@ -19,7 +19,7 @@ KEYBOARD_WAIT_TIME_VARIATION         100
 TERM_OUT_DELAY                       100
 TERM_OUT_DELAY_VARIATION              10
 
-TIME_SLICE                          5000
+TIME_SLICE                          2500
 TIME_SLICE_VARIATION                  30
 
 DISK_SEEK_TIME                     10000
